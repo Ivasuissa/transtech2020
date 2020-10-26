@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+$font-1: "Libre Baskerville", serif;
+$font-2: "Raleway", sans-serif;
+$font-3: "Dancing Script", cursive;
+$font-4: "Roboto", sans-serif;
+$font-5:'Roboto', sans-serif;
+
+$color-1: #2d487a;
+$color-2: #0D2372;
+$color-3: rgb(221, 224, 240);
+$color-4: #807f7e;
+$color-5: #ece8e4;
+$color-6: rgb(96, 141, 207);
+$color-7: rgb(48, 133, 179);
+$color-8: rgb(28, 49, 125);
+$white: rgb(243, 241, 240);
+$black: rgb(20, 19, 17);
+
+
+
+$borderRadius: 25px;
+$shadow: 0 1px 3px #333;
+$minHeight: 95vh;
+
+@mixin verticalCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 1rem auto;
+  max-width: 1200px;
+  font-family: $font-1;
+  color: $black;
+}
+button {
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: $black;
+  cursor: pointer;
+}
+a:visited {
+  color: $black;
+}
+.home,
+.knowledges,
+.portfolio,
+.contact {
+  display: flex;
+
+  @media screen and (max-width: 850px) {
+    display: block !important;
+  }
+}
+.homeContent,
+.knowledgesContent,
+.portfolioContent,
+.contactContent {
+  margin-left: 0.4rem;
+
+  @media screen and (max-width: 850px) {
+    margin-left: 0 !important;
+  }
+}

@@ -1,0 +1,100 @@
+.inscription{
+  // background-color: $color-3;
+}
+.inscriptionContent{
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  // margin-top:2rem;
+  // background-image: url(../../media/digital.jpeg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-color: $color-3;
+
+  img{
+    width:20rem;
+    height:32rem;
+  }
+}
+.formulaireContent{
+    border:0.1rem $white solid;
+    padding:2rem  ;
+    font-family: $font-5;
+    text-align: center;
+h2{ 
+  padding-bottom: 1rem;
+    font-weight: bold;
+    color: $color-2;
+    font-family: $font-2;
+    font-size:2rem;
+  
+}
+h5{
+    padding-bottom: 2rem;
+    font-size:0.8rem;
+    margin-bottom: 1rem;;
+    font-weight: bold;
+    color: $color-1;
+   
+}
+}.inscriptionFormulaire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // background-image: url(../../media/digital.jpeg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  background-color:rgb(231, 232, 248);
+  color: $color-1;
+
+
+  
+  
+  input {
+    display: flex;
+    direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    margin-top: 1rem;
+
+  }
+  .checkbox {
+    display: flex;
+    margin-top: 1rem;
+    input {
+      margin-top: 0.2rem;
+      padding-right: 1rem;
+      width: 2rem;
+    }
+
+    .titleParticipation {
+      margin-right: 1rem;
+    }
+  }
+  .participants {
+    margin-top: 1rem;
+    display: flex;
+    input {
+      margin: 0 1rem 0 1rem;
+      width: 2rem;
+      label{
+        color: $color-1;
+        font-weight:bold;
+    }
+    }
+  }
+  button {
+    background-color: $color-1;
+    margin-top:2rem;
+    margin-left:3rem;
+    color: white;
+    
+  }
+  label{
+    color: $color-1;
+      font-weight:bold;
+  }
+ 
+}
