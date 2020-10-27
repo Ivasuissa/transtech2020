@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 
-
 const About = () => {
   return (
     <div className="about">
@@ -18,21 +17,21 @@ const About = () => {
       </div>
       <div className="aboutContent">
         <p>
-          <b>TransTech </b>- une conférence internationale sur le transfert de
-          technologies et la coopération technologique qui réunit chaque année
-          des chefs d’entreprises français et israéliens, des universitaires de
-          haut rang, des entrepreneurs internationaux et des fondateurs de
-          start-ups innovantes.
+          <b>TransTech2020 </b>- est une conférence internationale sur le
+          transfert de technologies et la coopération technologique qui réunit
+          chaque année des sociétés, des start-ups, des experts et des
+          spécialistes de l’innovation
         </p>
         <p>
-          Nos intervenant viennent décrire leur parcours, exposer leurs visions
-          et leurs plans pour l’avenir de leurs entreprises à travers leur
-          analyse du monde économique, technologique et commercial actuel.
+          Cet événement est l’occasion privilégiée de mieux comprendre le
+          transfert de technologie en Israël, d’évaluer le potentiel des
+          technologies financières et de rencontrer de nombreux leaders
+          économiques israéliens et européens.
         </p>
         <p>
-          TransTech offre aux acteurs économiques un accès à une plateforme
-          d’informations et d’interactions favorable au développement des
-          relations économiques France-Israël.
+          Nous offrons aux acteurs économiques la possibilité de s’informer,
+          d’interagir, de développer leurs relations et de renforcer les
+          alliances économiques entre la France et Israël.
         </p>
       </div>
     </div>

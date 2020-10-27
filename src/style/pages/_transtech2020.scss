@@ -1,0 +1,111 @@
+.TransTech2020 {
+  padding: 2rem 7rem 2rem 7rem;
+  color: $color-1;
+  font-family: $font-2;
+  font-weight:800;
+  h4 {
+    font-size: 1.1rem;
+  }
+  li h5 {
+    font-size: 1rem;
+  }
+  .TransTech2020Title {
+    text-align: center;
+  }
+  .TransTech2020Content {
+   
+    .presentation {
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem;
+
+      li {
+        padding-left:3rem;
+        h5{
+        font-weight: bold;
+        }
+      }
+    }
+    .details {
+      display: flex;
+     h5{
+      font-size:0.8rem;
+     }
+        .place {
+            display: flex;
+            img{
+                margin-left:1rem;
+                width:2.8rem;
+                height:1.8rem;
+            }
+        }
+      .bloc1,
+      .bloc2 {
+        width: 50%;
+        justify-content: center;
+        border:2px $color-2 solid;
+        margin: 2rem;
+        padding: 2rem 2rem 2rem 2rem;
+       
+        h3 {
+          padding-bottom: 1.2rem;
+          padding-left:4rem;
+          font-weight: bold;
+          
+        }
+        h4 {
+          font-size: 1rem;
+        }
+      }
+      .bloc1 {
+        padding-left: 1rem;
+      }
+      .bloc2 {
+        padding-left: 1rem;
+       
+      }
+      
+       
+        h4{
+            padding-top:0.1rem;
+        }
+      
+        .where{
+          h4, h5{
+            margin-bottom: 0;
+          }
+        }
+
+        .time,
+        .presentateur,
+        .where{
+          display:flex;
+
+          i{
+            margin-right:1rem;
+            color: $color-2;
+          }
+          .fr{
+            margin-top:4rem;
+          }
+        }
+        .bloc1{
+          .presentateur{
+           margin-top:1rem;
+          }
+          .where{
+            margin-top:1rem;
+          }
+        }
+       .bloc2{
+         .presentateur{
+          margin-top:1.2rem;
+         }
+         .where{
+           margin-top:2rem;
+         }
+       }
+      
+    }
+  }
+}

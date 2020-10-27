@@ -12,7 +12,7 @@ const Home = () => {
         <div className="homeTitle">
           <h1>11ème édition de TransTech</h1>
           <h2>Special Start-Ups France-Israel </h2>
-          <h4>le 25 Novembre à Tel-Aviv</h4>
+          <h4>le 25 Novembre à Paris & Tel-Aviv</h4>
 
           <img src={img1}></img>
         </div>

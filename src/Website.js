@@ -6,10 +6,11 @@ import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import Intervenants from "./pages/Intervenants";
+import TransTech2020 from "./pages/TransTech2020";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Marquee from "./components/Marquee";
+import Intervenants from "./components/Intervenants";
 
 function Website() {
   return (
@@ -17,6 +18,7 @@ function Website() {
       <Navigation />
       <Home />
       <About />
+      <TransTech2020/>
       <Intervenants />
       <Marquee />
       <Contact />
