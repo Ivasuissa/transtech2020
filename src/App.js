@@ -17,7 +17,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/Home" component={Website} />
+        <Route path="/" component={Website} />
         <Route path="/About" component={About} />
         <Route path="/Programme" component={Programme} />
         <Route path="/Intervenants" component={Intervenants} />
