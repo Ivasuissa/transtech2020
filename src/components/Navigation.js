@@ -19,19 +19,20 @@ const Navigation = () => {
             </li>
             <li>
               <NavLink exact to="/About" activeClassName="navActive">
-                <span>À Propos</span>
+                <span>About</span>
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/TransTech2020" activeClassName="navActive">
-                <span>Intervenants</span>
+              <NavLink exact to="/Programme" activeClassName="navActive">
+                <span>Programme</span>
               </NavLink>
             </li>
             <li>
-              <NavLink exact to="/Inscription" activeClassName="navActive">
-                <span>Programmes</span>
+              <NavLink exact to="/Intervenants" activeClassName="navActive">
+                  <a href="" target="_blank">Inscription</a>
               </NavLink>
             </li>
+       
             <li>
               <NavLink exact to="/Contact" activeClassName="navActive">
                 <span>Contact</span>
@@ -39,38 +40,6 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-
-        {/* <div className="socialNetwork">
-          <ul>
-            <li>
-              <a
-                href="https://www.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-instagram"></i>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.google.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fab fa-facebook"></i>
-              </a>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </div>
   );

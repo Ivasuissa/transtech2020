@@ -33,7 +33,7 @@ const Contact = () => {
                   className="clickInput"
                   onClick={() => alert("email copié")}
                 >
-                  cciif2013@gmail.com
+                  transtech.israel2020@gmail.com
                 </span>
               </CopyToClipboard>
             </li>

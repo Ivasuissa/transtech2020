@@ -7,7 +7,11 @@ import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Website from "./Website";
-import Inscription from "./pages/Inscription";
+import Programme from "./pages/Programme";
+import Intervenants from "./pages/Intervenants";
+import Navigation from "./components/Navigation";
+import Marquee from "./components/Marquee";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,11 +19,22 @@ function App() {
       <Switch>
         <Route path="/Home" component={Website} />
         <Route path="/About" component={About} />
-        <Route path="/Inscription" component={Inscription} />
+        <Route path="/Programme" component={Programme} />
+        <Route path="/Intervenants" component={Intervenants} />
         <Route path="/Contact" component={Contact} />
-        <Route component={NotFound} />
+        {/* <Route component={NotFound} /> */}
       </Switch>
     </BrowserRouter>
+    //   <div className="main">
+    //   <Navigation />
+    //   <Home />
+    //   <About />
+    //   <Programme/>
+    //   <Intervenants />
+    //   <Marquee />
+    //   <Contact />
+    //   <Footer />
+    // </div>
   );
 }
 

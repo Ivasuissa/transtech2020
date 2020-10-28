@@ -1,8 +1,8 @@
 .home {
   display: block;
+  font-weight: bold;
   .homeContent {
     color: $color-1;
-    min-height: 500px;
     overflow: hidden;
     font-family: $font-2;
     margin: 1rem;
@@ -21,7 +21,7 @@
         font-weight: bold;
       }
       img {
-        margin-top: 1rem;
+        margin-top: 1.5rem;
         height: 70%;
       }
       h2 {
@@ -29,8 +29,9 @@
         font-weight: bold;
         margin-bottom:0.7rem;
       }
-      h5{
-        font-size: 1rem;
+      h4{
+        font-size: 1.3rem;
+        font-weight: bold;
 
       }
     }

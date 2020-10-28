@@ -9,11 +9,10 @@ const Inscription = () => {
   return (
     <div className="inscription">
       <div className="inscriptionContent">
-        <img src={rob}></img>
-        <div className="inscriptionFormulaire">
-          <Formulaire />
-        </div>
-        <img src={hum}></img>
+        <button>
+          {" "}
+          <a href="" target="_blank"></a> Inscription{" "}
+        </button>
       </div>
     </div>
   );

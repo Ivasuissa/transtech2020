@@ -1,10 +1,12 @@
 .about {
   display: block;
-  color: $color-2;
+  color: $color-9;
   font-family: $font-2;
+  font-weight: bold;
   .title {
     text-align: center;
     padding-top: 2rem;
+    
   }
   .title i {
     color: $color-6;

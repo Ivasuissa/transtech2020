@@ -17,21 +17,23 @@ const About = () => {
       </div>
       <div className="aboutContent">
         <p>
-          <b>TransTech2020 </b>- est une conférence internationale sur le
-          transfert de technologies et la coopération technologique qui réunit
-          chaque année des sociétés, des start-ups, des experts et des
-          spécialistes de l’innovation
+          <b>TransTech2020 </b>- TransTech est une conférence internationale sur
+          le transfert de Technologie et la coopération technologique qui réunit
+          chaque année des sociétés, start-ups, experts et spécialistes de
+          l’innovation.
         </p>
         <p>
-          Cet événement est l’occasion privilégiée de mieux comprendre le
-          transfert de technologie en Israël, d’évaluer le potentiel des
-          technologies financières et de rencontrer de nombreux leaders
-          économiques israéliens et européens.
+          La diffusion et le transfert de nouvelles technologies est un pilier
+          majeur qui soutient la raison d'être de l'écosystème israélien.
+          TransTech offre aux acteurs économiques la possibilité non seulement
+          de s’informer, mais aussi d’interagir et de développer des relations
+          dans ce domaine.
         </p>
         <p>
-          Nous offrons aux acteurs économiques la possibilité de s’informer,
-          d’interagir, de développer leurs relations et de renforcer les
-          alliances économiques entre la France et Israël.
+          Un des objectifs est de renforcer les alliances économiques entre la
+          France et Israël.Cet événement est l’occasion privilégiée de
+          rencontrer et échanger avec de nombreux leaders économiques israéliens
+          et européens, du secteur privé et gouvernemental. .
         </p>
       </div>
     </div>

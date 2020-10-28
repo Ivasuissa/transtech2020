@@ -1,13 +1,15 @@
 .TransTech2020 {
   padding: 2rem 7rem 2rem 7rem;
-  color: $color-1;
+  color: $color-9;
   font-family: $font-2;
-  font-weight:800;
+  font-weight: bold;
   h4 {
     font-size: 1.1rem;
+    font-weight: bold;
   }
   li h5 {
     font-size: 1rem;
+    font-weight: bold;
   }
   .TransTech2020Title {
     text-align: center;
@@ -18,6 +20,7 @@
       display: flex;
       flex-direction: column;
       padding-top: 2rem;
+      font-weight: bold;
 
       li {
         padding-left:3rem;

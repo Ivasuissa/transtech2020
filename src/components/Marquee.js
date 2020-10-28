@@ -16,6 +16,7 @@ import Weizmann from "../media/sponsors/Weizmann.png";
 import orange from "../media/sponsors/orange.png";
 import edf from "../media/sponsors/edf.png";
 import renault from "../media/sponsors/renault.png";
+import elnet from "../media/sponsors/elnet.jpeg";
 
 const Marquee = () => {
   return (
@@ -33,6 +34,7 @@ const Marquee = () => {
         <img className="tooBig" src={orange}></img>
         <img className="small" src={edf}></img>
         <img className="small" src={renault}></img>
+        <img className="small" src={elnet}></img>
       </marquee>
     </div>
   );

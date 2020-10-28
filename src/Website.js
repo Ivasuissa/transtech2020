@@ -1,16 +1,17 @@
-import React from "react";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import React, { Component } from "react";
+import { BrowserRouter, Route, Switch, HashRouter, NavLink } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
 import Home from "./pages/Home";
 import NotFound from "./pages/NotFound";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
-import TransTech2020 from "./pages/TransTech2020";
+import Programme from "./pages/Programme";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Marquee from "./components/Marquee";
 import Intervenants from "./components/Intervenants";
+import Inscription from "./components/Inscription";
 
 function Website() {
   return (
@@ -18,7 +19,7 @@ function Website() {
       <Navigation />
       <Home />
       <About />
-      <TransTech2020/>
+      <Programme/>
       <Intervenants />
       <Marquee />
       <Contact />

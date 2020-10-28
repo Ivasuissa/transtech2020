@@ -1,38 +1,38 @@
 .intervenants {
+  font-family: $font-2;
+  h3 {
+    font-size: 1rem;
+    font-weight: 1000;
+    color: $color-1;
+    padding-top: 1rem;
+  }
+  h5 {
+    font-size: 0.7rem;
+    color: $color-9;
     font-family: $font-2;
-    h3{
-        font-size: 1rem;
-        font-weight: 1000;
-        color: $color-1;
-        padding-top:1rem;
-    }
-    h5{
-        font-size: 0.7rem;
-        color: $color-8;
-        font-family: $font-2;
-        
-        
-    }
-    .intervenantsTitle {
-       display: flex;
-       justify-content: center;
-       color: $color-2;
-       font-family: $font-1;
-    }
-       
+    font-weight: 600;
+  }
+  .intervenantsTitle {
+    display: flex;
+    justify-content: center;
+    color: $color-2;
+    font-family: $font-1;
+  }
 
   .intervenantsDisplay {
-    padding:4rem 4rem 4rem 5rem;
+    padding: 4rem 4rem 4rem 5rem;
     margin-left: 9rem;
     width: 90%;
     display: grid;
     min-height: $minHeight;
-    grid-template-columns: 22% 22% 22% 22% ;
+    grid-template-columns: 22% 22% 22% 22%;
   }
-  li{
-      margin-top:3rem;
+  li {
+    margin-top: 3rem;
   }
-  img{
-      height:8rem;
+  img {
+    border-radius: 9rem;
+    width: 9rem;
+    height: 9rem;
   }
 }
