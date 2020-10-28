@@ -28,7 +28,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <p>
+        <p className="footertext">
           {" "}
           © Copyright 2020 | Chambre de Commerce et d'Industrie Israël - France{" "}
         </p>

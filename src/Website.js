@@ -1,12 +1,18 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Switch, HashRouter, NavLink } from "react-router-dom";
+import {
+  BrowserRouter,
+  Route,
+  Switch,
+  HashRouter,
+  NavLink
+} from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./pages/Home";
+import Home from "./components/Home";
 import NotFound from "./pages/NotFound";
-import Contact from "./pages/Contact";
-import About from "./pages/About";
-import Programme from "./pages/Programme";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import Programme from "./components/Programme";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Marquee from "./components/Marquee";
@@ -15,11 +21,11 @@ import Inscription from "./components/Inscription";
 
 function Website() {
   return (
-    <div>
+    <div className="container">
       <Navigation />
       <Home />
       <About />
-      <Programme/>
+      <Programme />
       <Intervenants />
       <Marquee />
       <Contact />

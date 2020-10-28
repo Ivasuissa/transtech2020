@@ -1,41 +1,43 @@
 .about {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: $color-9;
   font-family: $font-2;
   font-weight: bold;
+
   .title {
     text-align: center;
     padding-top: 2rem;
-    
   }
   .title i {
     color: $color-6;
-    padding: 2rem 0 2rem 0;
+    padding: 2rem 0 1rem 0;
     font-size: 2rem;
   }
   .aboutContent {
-    padding: 2.3rem 14rem 3rem 14rem;
+    text-align: center;
+    padding: 1.3rem 2% 2rem 2%;
 
     p {
       margin-top: 2rem;
     }
   }
-  .aboutMarquee{
-    padding:3rem 0rem;
-    h1{
-    text-align: center;
-    padding-bottom: 3rem;
+  .aboutMarquee {
+    padding: 1rem 0rem;
+    h1 {
+      text-align: center;
+      padding-bottom: 0.5rem;
     }
   }
-    .small {
-      width: 13rem;
-      margin-right: 2rem;
-    }
-    .tooBig {
-      width: 9rem;
-      margin-right: 2rem;
-    }
-  
+  .small {
+    width: 13rem;
+    margin-right: 2rem;
+  }
+  .tooBig {
+    width: 9rem;
+    margin-right: 2rem;
+  }
 }
 @media screen and (max-width: 950px) {
   .knowledgesContent {

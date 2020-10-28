@@ -42,16 +42,22 @@ export const IntervenantsData = [
     photo: andre
   },
   {
-    id: 5,
-    name: "Youval Rouach",
-    position: "Co-Foundateur, CEO - Bit Of gold",
-    photo: youval
+    id: 9,
+    name: " Eric Danon TBC",
+    position: " S.E. L' Ambassadeur de France en Israël",
+    photo: danon
   },
   {
     id: 6,
     name: "Amir Elichai",
     position: "Directeur General - Carbyne ",
     photo: amir
+  },
+  {
+    id: 5,
+    name: "Youval Rouach",
+    position: "Co-Foundateur, CEO - Bit Of gold",
+    photo: youval
   },
   {
     id: 7,
@@ -71,13 +77,6 @@ export const IntervenantsData = [
     name: "Dan Catarinas TBC",
     position: "Directeur des Relations internationales du Patronat israélien",
     photo: dan
-  },
-
-  {
-    id: 9,
-    name: "S.E. TBC",
-    position: "Ambassadeur de France en Israël",
-    photo: danon
   },
 
   {
