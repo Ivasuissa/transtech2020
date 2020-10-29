@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-around;
 
-  h1{
+  h1 {
     font-family: $font-1;
   }
 
@@ -43,5 +43,13 @@
     border-radius: 9rem;
     width: 75%;
     height: 60%;
+  }
+
+  @media screen and (max-width: 850px) {
+    img {
+      width: 50%;
+      height: 20%;
+    }
+   
   }
 }

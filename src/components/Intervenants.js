@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { IntervenantsData } from "../data/IntervenantsData";
-import { lol } from "../media/intervenants/intervenant1.png";
 
 export default class Intervenant extends Component {
   state = {
@@ -25,7 +24,7 @@ export default class Intervenant extends Component {
             );
           })}
         </ul>
-        <img src={lol}></img>
+    
       </div>
     );
   }

@@ -57,7 +57,7 @@ const Navigation = () => {
           </ul>
         </div>
       </div>{" "}
-      *
+      
     </div>
   );
 };
