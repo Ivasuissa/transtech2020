@@ -17,31 +17,10 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-    <Navigation/>
-    <MainFrench/>
+      <Navigation />
+      <MainFrench />
+      <Footer />
     </div>
-    // <BrowserRouter>
-    //     <Navigation />
-    //   <Switch>
-    
-    //     <Route path="/About" component={About} />
-    //     <Route path="/Programme" component={Programme} />
-    //     <Route path="/Intervenants" component={Intervenants} />
-    //     <Route path="/Contact" component={Contact} />
-    //     <Route path="/" component={MainFrench}></Route>
-    //     <Footer />
-    //   </Switch>
-    // </BrowserRouter>
-    //   <div className="main">
-    //   <Navigation />
-    //   <Home />
-    //   <About />
-    //   <Programme/>
-    //   <Intervenants />
-    //   <Marquee />
-    //   <Contact />
-    //   <Footer />
-    // </div>
   );
 }
 
