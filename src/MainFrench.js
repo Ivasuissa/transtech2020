@@ -25,16 +25,13 @@ import FR from "./media/FR.png";
 function Website() {
   return (
     <div className="container">
-     <div>
-      <Navigation/>
+      <div>
         <Home />
-     
         <About />
         <Programme />
-        <Intervenants/>
-        <Marquee/>
+        <Intervenants />
+        <Marquee />
         <Contact />
-        <Footer/>
       </div>
     </div>
   );

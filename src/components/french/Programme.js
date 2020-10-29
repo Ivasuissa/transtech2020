@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "../Footer";
 import israel from "../../media/israel.jpeg";
-import france from "../../media/france.png"
+import france from "../../media/france.png";
 
-const About = () => {
+const Programme = () => {
   return (
-    <div id="compProgramme" className="TransTech2020">
+    <div id="programme" className="TransTech2020">
       <div className="TransTech2020Title">
         <h1>Programme</h1>
       </div>
@@ -53,9 +53,9 @@ const About = () => {
             <div className="presentateur">
               <i class="fas fa-microphone"></i>
               <h4>
-                Animée par <b>Monsieur Daniel Rouach</b>, Président de la
-                Chambre de Commerce Israël-France (CCIIF) et{" "}
-                <b>Monsieur Shiran Katz</b>, Board member de la CCIIF).
+                Animée par <b>Dr. Daniel Rouach</b>, Président de la Chambre de
+                Commerce Israël-France (CCIIF) et <b>Mr. Shiran Katz</b>, Board
+                member de la CCIIF).
               </h4>
             </div>
             <div className="where">
@@ -93,7 +93,7 @@ const About = () => {
               <i class="fas fa-microphone"></i>
               <h4>
                 {" "}
-                <b>Animée par Monsieur André Dan</b>, Conférencier & Coach,{" "}
+                <b>Animée par Mr. André Dan</b>, Conférencier & Coach,{" "}
                 Co-fondateur de Challengy.
               </h4>
             </div>
@@ -114,4 +114,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default Programme;

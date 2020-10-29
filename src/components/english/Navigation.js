@@ -51,7 +51,7 @@ const Navigation = () => {
             <li>
               <NavLink exact to="/Intervenants" activeClassName="navActive">
                 <Link exact to="Intervenants">
-                  Buy Tickets
+                  Get Tickets
                 </Link>
               </NavLink>
             </li>

@@ -1,17 +1,17 @@
-.aboutMarquee{
-    padding:1rem 0rem;
-    h1{
+.aboutMarquee {
+  padding: 1rem 0rem;
+  h1 {
     text-align: center;
     padding-bottom: 1rem;
     color: $color-2;
-    }
+    font-weight: bold;
   }
-    .small {
-      width: 13rem;
-      margin-right: 2rem;
-    }
-    .tooBig {
-      width: 9rem;
-      margin-right: 2rem;
-    }
-  
+}
+.small {
+  width: 13rem;
+  margin-right: 2rem;
+}
+.tooBig {
+  width: 9rem;
+  margin-right: 2rem;
+}

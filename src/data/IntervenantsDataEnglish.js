@@ -33,7 +33,8 @@ export const IntervenantsData = [
   {
     id: 2,
     name: "François Petit",
-    position: "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
+    position:
+      "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
     photo: petit
   },
   {
@@ -45,7 +46,7 @@ export const IntervenantsData = [
   {
     id: 9,
     name: " Eric Danon TBC",
-    position: " S.E. The French Ambassador",
+    position: " S.E. The French Ambassador of Israel",
     photo: danon
   },
   {
@@ -76,7 +77,8 @@ export const IntervenantsData = [
   {
     id: 8,
     name: "Dan Catarivas TBC",
-    position: "Director General -Foreign Trade at Manufacturers' Association of Israel",
+    position:
+      "Director General -Foreign Trade at Manufacturers' Association of Israel",
     photo: dan
   },
 

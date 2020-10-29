@@ -6,7 +6,7 @@ import Inscription from "../Inscription"
 
 const Home = () => {
   return (
-    <div className="home">
+    <div id="home">
       <div className="homeContent">
         <div className="homeTitle">
           <h1>11ème édition de TransTech</h1>

@@ -4,23 +4,23 @@ import bits from "../media/bit.png";
 import technion from "../media/technion.png";
 import escp from "../media/escp.png";
 import leumi from "../media/leumi.png";
-import israelvalley from "../media/israelvalley.png";
-import cciif from "../media/cciiflogo.png";
-import AFI from "../media/sponsors/AFI.png";
-import bersay from "../media/sponsors/bersay.png";
-import herez1 from "../media/sponsors/herez1.png";
-import onepoint from "../media/sponsors/onepoint.png";
-import Weizmann from "../media/sponsors/Weizmann.png";
-import orange from "../media/sponsors/orange.png";
-import edf from "../media/sponsors/edf.png";
-import renault from "../media/sponsors/renault.png";
-import elnet from "../media/sponsors/elnet.jpeg";
-import Inscription from "./Inscription";
+import israelvalley from "../../media/israelvalley.png"
+import cciif from "../../media/sponsors/cciif.png"
+import AFI from "../../media/sponsors/AFI.png";
+import bersay from "../../media/sponsors/bersay.png";
+import herez1 from "../../media/sponsors/herez1.png";
+import onepoint from "../../media/sponsors/onepoint.png";
+import Weizmann from "../../media/sponsors/Weizmann.png";
+import orange from "../../media/sponsors/orange.png";
+import edf from "../../media/sponsors/edf.png";
+import renault from "../../media/sponsors/renault.png";
+import elnet from "../../media/sponsors/elnet.jpeg";
+
 
 const Marquee = () => {
   return (
     <div className="aboutMarquee">
-      <h1>Nos Partenaires</h1>
+      <h1>Sponsors & Partners</h1>
       <marquee className="marquee">
         <img className="small" src={cciif}></img>
         <img className="small" src={israelvalley}></img>

@@ -2,19 +2,20 @@ import React from "react";
 import Navigation from "../components/french/Navigation";
 import Footer from "../components/Footer";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import CCIIF from '../media/sponsors/cciif.png'
-import Inscription from "./Inscription"
+import CCIIF from "../media/sponsors/cciif.png";
+import Inscription from "./Inscription";
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="contactContent">
-        
-      <h1>Contact us</h1>
+        <h1>Contact</h1>
         <div className="contactBox">
-      
           <ul>
-            <li> <img src={CCIIF}></img></li>
+            <li>
+              {" "}
+              <img src={CCIIF}></img>
+            </li>
             <li>
               <i className="fa fa-map-marker-alt"></i>
               <span>HaMered Street 29, Tel-Aviv</span>
@@ -41,7 +42,6 @@ const Contact = () => {
                 </span>
               </CopyToClipboard>
             </li>
-           
           </ul>
         </div>
       </div>

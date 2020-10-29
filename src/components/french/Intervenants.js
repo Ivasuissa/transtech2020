@@ -9,7 +9,7 @@ export default class Intervenant extends Component {
     let { intervenants } = this.state;
 
     return (
-      <div className="intervenants">
+      <div id="intervenants" > 
         <div className="intervenantsTitle">
           <h1>Intervenants</h1>
         </div>

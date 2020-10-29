@@ -1,14 +1,14 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import MainFrench from "../../MainFrench"
+import MainFrench from "../../MainFrench";
 import About from "./About";
 import Programme from "./Programme";
 import Intervenants from "./Intervenants";
 import Home from "./Home";
 import Contact from "../Contact";
 import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
-import EN from "../../media/EN.png"
+import EN from "../../media/EN.png";
 import FR from "../../media/FR.png";
 
 const Navigation = () => {
@@ -20,70 +20,29 @@ const Navigation = () => {
       <div className="navbar">
         <div className="navigation">
           <ul>
-            <li className="normalLi">
-              <NavLink exact to="/Home" activeClassName="navActive">
-                <Link exact to="MainFrench">
-                  Accueil
-                </Link>
-              </NavLink>
+            <li>
+              <a href="#home">Accueil</a>
             </li>
-            <li className="normalLi">
-              <NavLink exact to="/About" activeClassName="navActive">
-                <Link exact to="About">
-                  About
-                </Link>
-              </NavLink>
+            <li>
+              <a href="#about">About</a>
             </li>
-            <li className="normalLi">
-              <NavLink exact to="/Programme" activeClassName="navActive">
-                <Link exact to="Programme">
-                  Programme
-                </Link>
-              </NavLink>
-            </li>
-            <li className="normalLi">
-              <NavLink exact to="/Intervenants" activeClassName="navActive">
-                <Link exact to="Intervenants">
-                 Intervenants
-                </Link>
-              </NavLink>
-            </li>
-            <li className="normalLi">
-              <NavLink exact to="/Contact" activeClassName="navActive">
-                <Link exact to="Contact">
-                  Billets
-                </Link>
-              </NavLink>
-            </li >
 
-            <li className="normalLi">
-              <NavLink exact to="/Contact" activeClassName="navActive">
-                <Link exact to="Contact">
-                  Contact
-                </Link>
-              </NavLink>
-            </li >
-            {/* <li className="imgLi">
-              <NavLink exact to="/MainEnglish" activeClassName="navActive">
-                <Link exact to="/MainEnglish">
-                  <img src={EN}></img>
-                </Link>
-              </NavLink>
+            <li>
+              <a href="#programme">Programme</a>
             </li>
-            <li className="imgLi">
-              <NavLink exact to="/MainFrench" activeClassName="navActive">
-                <Link exact to="/MainFrench">
-                <img src={FR}></img>
-                </Link>
-              </NavLink>
-            </li> */}
+
+            <li>
+              <a href="#intervenants">Intervenants</a>
+            </li>
+            <li>
+              <a href="#intervenants">Tickets</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
-         
-     
-       
-      </div>{" "}
-  
-    </div>
+        </div>{" "}
+      </div>
     </div>
   );
 };

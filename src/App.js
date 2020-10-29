@@ -16,16 +16,22 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" component={MainFrench} ></Route>
-        <Route path="/About" component={About} />
-        <Route path="/Programme" component={Programme} />
-        <Route path="/Intervenants" component={Intervenants} />
-        <Route path="/Contact" component={Contact} />
-        
-      </Switch>
-    </BrowserRouter>
+    <div>
+    <Navigation/>
+    <MainFrench/>
+    </div>
+    // <BrowserRouter>
+    //     <Navigation />
+    //   <Switch>
+    
+    //     <Route path="/About" component={About} />
+    //     <Route path="/Programme" component={Programme} />
+    //     <Route path="/Intervenants" component={Intervenants} />
+    //     <Route path="/Contact" component={Contact} />
+    //     <Route path="/" component={MainFrench}></Route>
+    //     <Footer />
+    //   </Switch>
+    // </BrowserRouter>
     //   <div className="main">
     //   <Navigation />
     //   <Home />
