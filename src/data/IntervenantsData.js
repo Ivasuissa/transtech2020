@@ -21,6 +21,7 @@ import dassault from "../media/intervenants/intervenant21.jpeg";
 import smadja from "../media/intervenants/intervenant22.jpeg";
 import sami from "../media/intervenants/intervenant23.png";
 import yossi from "../media/intervenants/intervenant24.jpeg";
+import zarka from "../media/intervenants/intervenant.23.jpeg";
 
 export const IntervenantsData = [
   {
@@ -32,7 +33,7 @@ export const IntervenantsData = [
   {
     id: 2,
     name: "François Petit",
-    position: "Chef de Service Economique - Ambassade de France en Israël",
+    position: "Chef du Service Economique de l'Ambassade de France en Israël",
     photo: petit
   },
   {
@@ -44,7 +45,7 @@ export const IntervenantsData = [
   {
     id: 9,
     name: " Eric Danon TBC",
-    position: " S.E. L' Ambassadeur de France en Israël",
+    position: " S.E. L'Ambassadeur de France en Israël",
     photo: danon
   },
   {
@@ -56,7 +57,7 @@ export const IntervenantsData = [
   {
     id: 5,
     name: "Youval Rouach",
-    position: "Co-Foundateur, CEO - Bit Of gold",
+    position: "Co-Foundateur & CEO - Bit Of gold",
     photo: youval
   },
   {
@@ -69,7 +70,7 @@ export const IntervenantsData = [
     id: 19,
     name: "Yossi Dan",
     position:
-      "Cofounder & CEO at TrekFounders | Cofounder & Chief Innovation Lab at Challengy | Speaker & Panelist | Board Member at ISCI | French Tech TLV Ambassador",
+      "Cofounder & CEO at TrekFounders | Cofounder & Chief Innovation Lab at Challengy",
     photo: yossi
   },
   {
@@ -121,7 +122,7 @@ export const IntervenantsData = [
   {
     id: 16,
     name: "Roy Bachar  TBC",
-    position: "Vice-Président & General Manager - Upstream Security",
+    position: "Vice-Président & Géneral Manager - Upstream Security",
     photo: roy
   },
   {
@@ -154,19 +155,25 @@ export const IntervenantsData = [
   {
     id: 23,
     name: "Sami Perez",
-    position: "Expert en Sécurité |  Consultant",
+    position: "Consultant | Expert (Sécurité) ",
     photo: sami
   },
   {
     id: 24,
     name: "Anne Baer TBC",
-    position: "CEO at iKare Innovation |  Experte en Innovation",
+    position: "CEO at iKare Innovation |  Experte (Innovation)",
     photo: baer
   },
   {
     id: 25,
     name: "Yoan Smadja TBC",
-    position: "CEO Maison Kayser ",
+    position: "CEO Maison Kayser (Tel-Aviv) ",
     photo: smadja
+  },
+  {
+    id: 25,
+    name: "Valérie Zarka TBC",
+    position: "CEO at MORE THAN DIGITAL ",
+    photo: zarka
   }
 ];
