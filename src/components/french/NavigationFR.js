@@ -11,11 +11,20 @@ import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 import EN from "../../media/EN.png";
 import FR from "../../media/FR.png";
 import Button from "../Language";
+import { Navbar, Nav } from "react-bootstrap";
 
 const NavigationFR = props => {
   const handleChange = props.handleChange;
   console.log(props);
 
+  function myFunction() {
+    let x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
   return (
     <div>
       <div className="header">
@@ -25,7 +34,27 @@ const NavigationFR = props => {
         <div className="logo">
           <h1> TRANSTECH 2020</h1>
         </div>
-        <div className="navbar">
+        <div className="App">
+        <div class="topnav" id="myTopnav">
+      <a href="#home" class="active">Home</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+</div>
+
+<div style="padding-left:16px">
+  <h2>Responsive Topnav Example</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+
+
+
+
+
+          {/* <div className="navbar">
           <div className="navigation">
             <ul>
               <li>
@@ -52,6 +81,7 @@ const NavigationFR = props => {
               </li>
             </ul>
           </div>{" "}
+        </div> */}
         </div>
       </div>
     </div>

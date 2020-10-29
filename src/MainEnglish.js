@@ -20,20 +20,20 @@ import Marquee from "./components/english/Marquee";
 import IntervenantsENG from "./components/english/IntervenantsENG";
 import Inscription from "./components/Inscription";
 
-
 function MainEnglish() {
   return (
     <div id="MainEnglish">
-    <div className="container">
-      <div>
-         <HomeENG />
-        <AboutENG/>
-        <ProgrammeENG />
-        <IntervenantsENG  />
-        <Marquee />
-        <Contact />
+      <div className="container">
+        <div>
+          <HomeENG />
+          <AboutENG />
+          <ProgrammeENG />
+          <IntervenantsENG />
+          <Marquee />
+          <Contact />
+          <Footer />
+        </div>
       </div>
-    </div>
     </div>
   );
 }
