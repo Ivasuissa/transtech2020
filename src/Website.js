@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import {
   BrowserRouter,
   Route,
+  Router,
   Switch,
   HashRouter,
   NavLink
@@ -22,14 +23,14 @@ import Inscription from "./components/Inscription";
 function Website() {
   return (
     <div className="container">
-      <Navigation />
-      <Home />
-      <About />
+      <Navigation id="compNavigation" />
+      <Home id="compHome" />
+      <About id="compAbout" />
       <Programme />
-      <Intervenants />
-      <Marquee />
-      <Contact />
-      <Footer />
+      <Intervenants id="compIntervenants" />
+      <Marquee id="compMarquee" />
+      <Contact id="compContact" />
+      <Footer id="compFooter" />
     </div>
   );
 }

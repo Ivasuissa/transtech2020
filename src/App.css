@@ -1,6 +1,16 @@
 .App {
   text-align: center;
 }
+body {
+  background-image: radial-gradient(
+    circle,
+    #ffffff,
+    #e4e8fc,
+    #bcd4fa,
+    #85c3f5,
+    #12b4eb
+  );
+}
 
 .container {
   display: flex;

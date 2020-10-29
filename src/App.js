@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Website from "./Website";
 import Programme from "./pages/Programme";
-import Intervenants from "./components/Intervenants";
+import Intervenants from "./pages/Intervenants";
 import Navigation from "./components/Navigation";
 import Marquee from "./components/Marquee";
 import Footer from "./components/Footer";
@@ -25,7 +25,16 @@ function App() {
         {/* <Route component={NotFound} /> */}
       </Switch>
     </BrowserRouter>
-  
+    //   <div className="main">
+    //   <Navigation />
+    //   <Home />
+    //   <About />
+    //   <Programme/>
+    //   <Intervenants />
+    //   <Marquee />
+    //   <Contact />
+    //   <Footer />
+    // </div>
   );
 }
 

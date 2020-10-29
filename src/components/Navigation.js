@@ -1,6 +1,11 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Website from "../Website";
+import About from "./About";
+import Programme from "./Programme";
+import Intervenants from "./Intervenants";
+import Contact from "./Contact";
 
 const Navigation = () => {
   return (
@@ -14,28 +19,38 @@ const Navigation = () => {
           <ul>
             <li>
               <NavLink exact to="/Home" activeClassName="navActive">
-                <span>Accueil</span>
+                <Link exact to="Website">
+                  Accueil
+                </Link>
               </NavLink>
             </li>
             <li>
               <NavLink exact to="/About" activeClassName="navActive">
-                <span>About</span>
+                <Link exact to="About">
+                  About
+                </Link>
               </NavLink>
             </li>
             <li>
               <NavLink exact to="/Programme" activeClassName="navActive">
-                <span>Programme</span>
+                <Link exact to="Programme">
+                  Programme
+                </Link>
               </NavLink>
             </li>
             <li>
               <NavLink exact to="/Intervenants" activeClassName="navActive">
-                  <a href="" target="_blank">Inscription</a>
+                <Link exact to="Intervenants">
+                  Inscription
+                </Link>
               </NavLink>
             </li>
-       
+
             <li>
               <NavLink exact to="/Contact" activeClassName="navActive">
-                <span>Contact</span>
+                <Link exact to="Contact">
+                  Contact
+                </Link>
               </NavLink>
             </li>
           </ul>

@@ -8,7 +8,7 @@ import france from "../media/france.png";
 
 const About = () => {
   return (
-    <div className="TransTech2020">
+    <div id="compProgramme" className="TransTech2020">
       <div className="TransTech2020Title">
         <h1>TransTech 2020</h1>
       </div>
