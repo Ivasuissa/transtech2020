@@ -4,11 +4,11 @@
 body {
   background-image: radial-gradient(
     circle,
-    #ffffff,
+    #e0f1f7,
     #a6c8fa,
-    #bfc7d3,
-    #c9e2f7,
-    #cedcf7
+    #d5e3f7,
+    #dbeaf5,
+    #cad5ef
   );
 }
 

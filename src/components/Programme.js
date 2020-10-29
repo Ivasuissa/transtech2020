@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div id="compProgramme" className="TransTech2020">
       <div className="TransTech2020Title">
-        <h1>TransTech 2020</h1>
+        <h1>Programme</h1>
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">

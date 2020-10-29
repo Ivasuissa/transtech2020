@@ -22,7 +22,7 @@ function App() {
         <Route path="/Programme" component={Programme} />
         <Route path="/Intervenants" component={Intervenants} />
         <Route path="/Contact" component={Contact} />
-        {/* <Route component={NotFound} /> */}
+      
       </Switch>
     </BrowserRouter>
     //   <div className="main">

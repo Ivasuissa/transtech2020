@@ -1,15 +1,17 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import cciif from "../media/cciiflogo.png";
 
 const Footer = () => {
   return (
     <div className="footer">
+      {/* <img src={cciif}></img> */}
       <div className="socialNetwork">
         <ul>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.facebook.com/CCIIF"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -18,7 +20,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.instagram.com/israelvalleynews/"
               target="_blank"
               rel="noopener noreferrer"
             >

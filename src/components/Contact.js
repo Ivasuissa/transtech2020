@@ -7,9 +7,10 @@ const Contact = () => {
   return (
     <div className="contact">
       <div className="contactContent">
-        <div className="header"></div>
+        
+      <h1>Contact us</h1>
         <div className="contactBox">
-          <h1>Contact us</h1>
+      
           <ul>
             <li>
               <i className="fa fa-map-marker-alt"></i>

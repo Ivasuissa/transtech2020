@@ -5,7 +5,9 @@ import Website from "../Website";
 import About from "./About";
 import Programme from "./Programme";
 import Intervenants from "./Intervenants";
+import Home from "./Home";
 import Contact from "./Contact";
+import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 
 const Navigation = () => {
   return (
@@ -13,7 +15,6 @@ const Navigation = () => {
       <div className="logo">
         <h1> TRANSTECH 2020</h1>
       </div>
-
       <div className="navbar">
         <div className="navigation">
           <ul>
@@ -55,7 +56,8 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div>{" "}
+      *
     </div>
   );
 };
