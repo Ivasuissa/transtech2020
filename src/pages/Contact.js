@@ -5,7 +5,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact">
       <div className="contactContent">
         <div className="header"></div>
         <div className="contactBox">

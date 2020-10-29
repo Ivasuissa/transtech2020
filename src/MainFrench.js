@@ -32,6 +32,7 @@ function Website() {
         <Intervenants />
         <Marquee />
         <Contact />
+        <Footer />
       </div>
     </div>
   );

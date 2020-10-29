@@ -5,7 +5,7 @@ import cciif from "../media/cciiflogo.png";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div id="footer">
       {/* <img src={cciif}></img> */}
       <div className="socialNetwork">
         <ul>

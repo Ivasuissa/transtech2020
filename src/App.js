@@ -14,12 +14,13 @@ import Navigation from "./components/french/Navigation";
 import Marquee from "./components/Marquee";
 import Footer from "./components/Footer";
 
+
 function App() {
   return (
     <div>
       <Navigation />
       <MainFrench />
-      <Footer />
+    
     </div>
   );
 }

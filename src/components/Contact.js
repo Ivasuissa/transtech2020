@@ -7,7 +7,7 @@ import Inscription from "./Inscription";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact">
       <div className="contactContent">
         <h1>Contact</h1>
         <div className="contactBox">
