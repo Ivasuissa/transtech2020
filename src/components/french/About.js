@@ -1,8 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
+import Footer from "../Footer"
 
 const About = () => {
   return (
@@ -17,7 +16,7 @@ const About = () => {
       </div>
       <div className="aboutContent">
         <p>
-          <b>TransTech2020 </b>- TransTech est une conférence internationale sur
+          <b>TransTech2020 </b>- est une conférence internationale sur
           le transfert de Technologie et la coopération technologique qui réunit
           chaque année des sociétés, start-ups, experts et spécialistes de
           l’innovation.

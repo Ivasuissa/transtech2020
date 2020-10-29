@@ -1,42 +1,40 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
-import israel from "../media/israel.jpeg";
-import france from "../media/france.png";
+import Footer from "../Footer";
+import israel from "../../media/israel.jpeg";
+import france from "../../media/france.png"
 
 const About = () => {
   return (
-    <div className="TransTech2020">
+    <div id="compProgramme" className="TransTech2020">
       <div className="TransTech2020Title">
-        <h1>TransTech 2020</h1>
+        <h1>Programme</h1>
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">
-          <h4>4 thèmes pour sa 11ème Edition du 25 Novembre 2020:</h4>
+          <h4>4 themes for its 11th Edition of November 25, 2020:</h4>
           <ul>
             <li>
-              <h5>• La Cybersecurité, </h5>
+              <h5>• Cybersecurity </h5>
             </li>
             <li>
-              <h5>• Le Bitcoin et la Cryptomonnaie, </h5>
+              <h5>• Bitcoin and Cryptocurrency </h5>
             </li>
             <li>
-              <h5>• La Health Tech, </h5>
+              <h5>•  Health Tech, </h5>
             </li>
             <li>
-              <h5>• Les relations entre France / Israël </h5>
+              <h5>• The relationship between France / Israël </h5>
             </li>
           </ul>
         </div>
         <div>
           <h4>
-            La conférence sera tiendra en français et en anglais,{" "}
-            <b>à Tel-Aviv</b>, , dans la salle de réunion du 13ème étage de la
-            Chambre de Commerce Israël – France <b>et à Paris</b>,dans un
-            amphithéâtre de l’ESCP Europe.
-            <br></br> L'ensemble sera également diffusée via Zoom.
+            The conference will be held in French and English, in Tel Aviv
+            in the meeting room on the 13th floor of the Chamber of Commerce
+            Israel - France and Paris, in an ESCP Europe amphitheater.
+            <br></br> Will also be broadcast via Zoom.
           </h4>
         </div>
         <div className="details">
@@ -47,29 +45,24 @@ const About = () => {
             </div>
             <div className="time">
               <i class="fas fa-clock"></i>
-              <div className="text">
-                <h4>
-                  <b>De 15h à 18h</b>,heure israélienne{" "}
-                </h4>
-                <h4> (14h à 17h heure française)</h4>
-              </div>
+              <h4>
+              From 14:00 to 18:00  Israeli hour ( 15:00 to 17:00  French hour)
+              </h4>
             </div>
             <div className="presentateur">
               <i class="fas fa-microphone"></i>
               <h4>
-                Animée par <b>Monsieur Daniel Rouach</b>, Président de la
-                Chambre de Commerce Israël-France (CCIF) et{" "}
-                <b>Monsieur Shiran Katz</b>, Board member de la CCIF).
+              Animated by <b>M. Daniel Rouach</b>, President of the France Israel Chamber of Commerce (CCIIF)
+               and  <b>M. Shiran Katz</b>, CCIIF Board member.     
               </h4>
             </div>
             <div className="where">
               <i class="fas fa-map-marker-alt"></i>
               <div>
-                <h4>
-                  <b>Chambre de Commerce Israël – France,</b>
-                </h4>
-                <h4>29, Hamered Street – 61500 Tel-Aviv </h4>
-                <h4>Salle de réunion du 13ème étage </h4>
+                <h4> <b> CHAMBER OF COMMERCE ISRAEL FRANCE,</b> </h4>
+                <h4>29, Hamered Street – </h4>
+                <h4>61500 Tel-Aviv </h4>
+                <h4>13rd floor - Meeting Room </h4>
               </div>
             </div>
           </div>
@@ -89,16 +82,14 @@ const About = () => {
               <i class="fas fa-clock"></i>
               <h4>
                 {" "}
-                <b>De 19h à 20h30 </b>,heure française israélienne (18h à 19h30
-                heure française)
+                From 19: 00 to  20:30 Israeli hour (18 to 19:30  French hour)
               </h4>
             </div>
             <div className="presentateur">
               <i class="fas fa-microphone"></i>
               <h4>
                 {" "}
-                <b>Animée par Monsieur André Dan</b>, Conférencier & Coach,{" "}
-                Co-fondateur de Challengy.
+                Animated by <b>M. Andre Dan</b>, Co-founder Challengy, Speaker & Coach.
               </h4>
             </div>
             <div className="where">
@@ -106,10 +97,11 @@ const About = () => {
               <div>
                 <h4>
                   {" "}
-                  <b>Ecole ESCP Europe,</b>{" "}
+                  <b> ESCP EUROPE SCHOOL,</b>{" "}
                 </h4>
-                <h4>79 Avenue de la République, Paris 75011 </h4>
-                <h4>Amphithéâtre Gélis</h4>
+                <h4>79 Avenue de la République </h4> 
+                  <h4>Paris 75011 </h4>
+                <h4>Amphitheater Gelis</h4>
               </div>
             </div>
           </div>

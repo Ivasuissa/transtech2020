@@ -26,14 +26,15 @@ function Website() {
   return (
     <div className="container">
      <div>
-      <Navigation id="compNavigation" />
-      <Home id="compHome" />
-      <About id="compAbout" />
-      <Programme />
-      <Intervenants id="compIntervenants" />
-      <Marquee id="compMarquee" />
-      <Contact id="compContact" />
-      <Footer id="compFooter" />
+      <Navigation/>
+        <Home />
+     
+        <About />
+        <Programme />
+        <Intervenants/>
+        <Marquee/>
+        <Contact />
+        <Footer/>
       </div>
     </div>
   );

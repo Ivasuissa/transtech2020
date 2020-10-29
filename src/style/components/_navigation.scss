@@ -24,6 +24,11 @@
   margin: 1px auto 3px auto;
   align-items: center;
 
+    img{
+      max-width: 20%;
+      height: auto;
+    }
+   
   ul {
     display: flex;
     flex-direction: row;
@@ -61,7 +66,7 @@
   }
   .navigation {
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     padding: 0.5rem;
     ul {

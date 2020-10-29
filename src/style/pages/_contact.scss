@@ -5,6 +5,9 @@
 
   padding-top: 1.7rem;
 
+  img{
+    width:55%;
+  }
   h1 {
     color: $color-2;
     font-size: 2, 5rem;
@@ -23,6 +26,10 @@
   .contactBox {
     li {
       margin-bottom: 1rem;
+      align-items: center;
+      display: flex;
+      justify-content:center;
+
       span {
         margin-left: 1rem;
         color: $color-2;

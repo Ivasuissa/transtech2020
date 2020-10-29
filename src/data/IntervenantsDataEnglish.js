@@ -27,90 +27,90 @@ export const IntervenantsData = [
   {
     id: 1,
     name: "Daniel Rouach",
-    position: "Président de la Chambre de Commerce France Israel",
+    position: "President of the France Israel Chamber of Commerce",
     photo: daniel
   },
   {
     id: 2,
     name: "François Petit",
-    position: "Chef du Service Economique de l'Ambassade de France en Israël",
+    position: "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
     photo: petit
   },
   {
     id: 4,
     name: "André Dan",
-    position: "Speakers & Coach | Co-fondateur Challengy",
+    position: "Speakers & Coach | Co-founder Challengy",
     photo: andre
   },
   {
     id: 9,
     name: " Eric Danon TBC",
-    position: " S.E. L'Ambassadeur de France en Israël",
+    position: " S.E. The French Ambassador",
     photo: danon
   },
   {
     id: 6,
     name: "Amir Elichai",
-    position: "Fondateur, Président & CEO - Carbyne ",
+    position: "Founder, Chairman & CEO - Carbyne",
     photo: amir
   },
   {
     id: 5,
     name: "Youval Rouach",
-    position: "Co-Foundateur & CEO - Bit Of gold",
+    position: "Co-Founder & CEO - Bit Of gold",
     photo: youval
   },
   {
     id: 7,
     name: "Guy Mizrachi",
-    position: "Directeur Cyber - Raizone",
+    position: "Chief Cyber Officer - Raizone",
     photo: guy
   },
   {
     id: 19,
     name: "Yossi Dan",
     position:
-      "Co-Fondateur & CEO - TrekFounders | Co-Fondateur & Chief Innovation Lab - Challengy",
+      "Cofounder & CEO at TrekFounders | Cofounder & Chief Innovation Lab at Challengy",
     photo: yossi
   },
   {
     id: 8,
     name: "Dan Catarivas TBC",
-    position: "Directeur des Relations internationales du Patronat israélien",
+    position: "Director General -Foreign Trade at Manufacturers' Association of Israel",
     photo: dan
   },
 
   {
     id: 10,
     name: "Shiran Katz",
-    position: "Vice Président Rotshild & Co (Zurich)",
+    position: "Vice President Rotshild & Co (Zurich)",
     photo: shiran
   },
   {
     id: 11,
     name: "Daniel Sayag TBC",
-    position: "Directeur des ventes Israël d'Airbus Defence & Space",
+    position: "Head of Sales ISRAEL / Airbus Defence & Space",
     photo: sayag
   },
 
   {
     id: 12,
     name: "Jeremie Kletzkine TBC",
-    position: "Vice Président de Start-up nation",
+    position: "VP of Business Development at Startup Nation Central",
     photo: jeremie
   },
   {
     id: 13,
     name: "Raphael Ouzan TBC",
     position:
-      "Fondateur et CEO de A.Team | Fondateur et Investisseur de BlockNation |  Co Fondateur Israël Tech Challenge",
+      "Founder & CEO - A.Team | Founder and Investor - BlockNation |  CoFounderIsraël Tech Challenge",
     photo: ouzan
   },
   {
     id: 14,
     name: "Muriel Touaty TBC",
     position:
-      "Ex Directrice générale du Technion France | Partenaire Education & innovation - Onepoint",
+      "Partner Education & Innovation chez Onepoint | Past CEO of Technion France, Israel Institute of Technology",
     photo: muriel
   },
   {
@@ -122,27 +122,27 @@ export const IntervenantsData = [
   {
     id: 16,
     name: "Roy Bachar  TBC",
-    position: "Vice-Président & Géneral Manager - Upstream Security",
+    position: "Vice-President & General Manager - Upstream Security",
     photo: roy
   },
   {
     id: 17,
     name: "Nadine Baudot-Trajtenbeg  TBC",
     position:
-      "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie à IDC Herzliya |",
+      "Assistant Professor, Tiomkin School of Economics, IDC Herzliya, Outgoing Deputy Governor, Bank of Israel | Doctor | Professeur d’Economie à IDC Herzliya |",
     photo: nadine
   },
   {
     id: 18,
     name: "Alon Leibovich TBC",
-    position: "Co-Fondateur & CEO - BrandTotal",
+    position: "CoFounder & CEO - BrandTotal",
     photo: alon
   },
 
   {
     id: 20,
     name: "Laurent Dassault TBC",
-    position: "Directeur Général Délégué Dassault",
+    position: "General Manage Dassault",
     photo: dassault
   },
   {
@@ -155,13 +155,13 @@ export const IntervenantsData = [
   {
     id: 23,
     name: "Sami Perez",
-    position: "Consultant | Expert (Sécurité) ",
+    position: "Consultant | Expert (Sécurity) ",
     photo: sami
   },
   {
     id: 24,
     name: "Anne Baer TBC",
-    position: "CEO at iKare Innovation |  Experte (Innovation)",
+    position: "CEO at iKare Innovation |  Expert (Innovation)",
     photo: baer
   },
   {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { IntervenantsData } from "../data/IntervenantsData";
+import { IntervenantsData } from "../../data/IntervenantsData";
 
 export default class Intervenant extends Component {
   state = {

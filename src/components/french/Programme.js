@@ -1,10 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Navigation from "../components/Navigation";
-import Footer from "../components/Footer";
-import israel from "../media/israel.jpeg";
-import france from "../media/france.png";
+import Footer from "../Footer";
+import israel from "../../media/israel.jpeg";
+import france from "../../media/france.png"
 
 const About = () => {
   return (
@@ -55,8 +54,8 @@ const About = () => {
               <i class="fas fa-microphone"></i>
               <h4>
                 Animée par <b>Monsieur Daniel Rouach</b>, Président de la
-                Chambre de Commerce Israël-France (CCIF) et{" "}
-                <b>Monsieur Shiran Katz</b>, Board member de la CCIF).
+                Chambre de Commerce Israël-France (CCIIF) et{" "}
+                <b>Monsieur Shiran Katz</b>, Board member de la CCIIF).
               </h4>
             </div>
             <div className="where">
