@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-around;
   font-weight: bold;
+  // background: $white;
 
   .homeContent {
     color: $color-1;
@@ -41,7 +42,7 @@
     }
 
     .slogan {
-      font-family: $font-3;
+      font-family: $font-4;
       display: flex;
       justify-content: center;
       align-items: center;

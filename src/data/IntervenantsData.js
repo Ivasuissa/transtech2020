@@ -1,12 +1,12 @@
-import dan from "../media/intervenants/intervenant1.png";
+import dan from "../media/intervenants/intervenant1.jpeg";
 import daniel from "../media/intervenants/intervenant2.png";
-import andre from "../media/intervenants/intervenant3.png";
+import andre from "../media/intervenants/intervenant3.jpeg";
 import baer from "../media/intervenants/intervenant4.png";
-import petit from "../media/intervenants/intervenant5.png";
+import petit from "../media/intervenants/intervenant5.jpeg";
 import shiran from "../media/intervenants/intervenant6.png";
 import sayag from "../media/intervenants/intervenant7.png";
 import youval from "../media/intervenants/intervenant8.jpeg";
-import jeremie from "../media/intervenants/intervenant9.png";
+import jeremie from "../media/intervenants/intervenant9.jpeg";
 import ouzan from "../media/intervenants/intervenant10.png";
 import muriel from "../media/intervenants/intervenant11.png";
 import amir from "../media/intervenants/intervenant13.jpeg";
@@ -74,7 +74,7 @@ export const IntervenantsData = [
   },
   {
     id: 8,
-    name: "Dan Catarinas TBC",
+    name: "Dan Catarivas TBC",
     position: "Directeur des Relations internationales du Patronat israélien",
     photo: dan
   },
@@ -128,7 +128,7 @@ export const IntervenantsData = [
     id: 17,
     name: "Nadine Baudot-Trajtenbeg  TBC",
     position:
-      "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | rofesseur d’Economie à IDC Herzliya |",
+      "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie à IDC Herzliya |",
     photo: nadine
   },
   {

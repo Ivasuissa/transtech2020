@@ -46,10 +46,12 @@ const About = () => {
             </div>
             <div className="time">
               <i class="fas fa-clock"></i>
-              <h4>
-                <b>De 15h à 18h</b>,heure israélienne (14h à 17h heure
-                française)
-              </h4>
+              <div className="text">
+                <h4>
+                  <b>De 15h à 18h</b>,heure israélienne{" "}
+                </h4>
+                <h4> (14h à 17h heure française)</h4>
+              </div>
             </div>
             <div className="presentateur">
               <i class="fas fa-microphone"></i>

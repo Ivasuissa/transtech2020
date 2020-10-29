@@ -1,5 +1,5 @@
 .intervenants {
-  font-family: $font-2;
+  font-family: $font-4;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -15,6 +15,7 @@
     color: $color-9;
     font-family: $font-2;
     font-weight: 600;
+    padding-right: 0.5rem;
   }
   .intervenantsTitle {
     display: flex;
@@ -37,5 +38,6 @@
   img {
     border-radius: 9rem;
     width: 75%;
+    height: 60%;
   }
 }

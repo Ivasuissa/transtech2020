@@ -1,10 +1,14 @@
 .TransTech2020 {
   padding: 1rem 2% 1rem 2%;
   color: $color-9;
-  font-family: $font-2;
+  font-family: $font-4;
   font-weight: bold;
+  h1{
+    font-weight: bold;
+    color: $color-1;
+  }
   h4 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: bold;
   }
   li h5 {
@@ -51,13 +55,14 @@
         border: 2px $color-2 solid;
         margin: 1rem 5% 1rem 5%;
         padding: 2rem 2rem 2rem 2rem;
+       
 
         h3 {
           padding-bottom: 1.2rem;
           font-weight: bold;
         }
         h4 {
-          font-size: 1rem;
+          font-size: 0.9rem;
         }
       }
       .bloc1 {
@@ -82,7 +87,10 @@
       .presentateur,
       .where {
         display: flex;
-
+        .text {
+          display: flex;
+          flex-direction: column;
+        }
         i {
           margin-right: 1rem;
           color: $color-2;
