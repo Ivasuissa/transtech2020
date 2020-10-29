@@ -5,7 +5,7 @@ import About from "../pages/About";
 import Marquee from "../components/Marquee";
 import img1 from "../media/img1.jpg";
 
-const Home = () => {
+const HomeFR = () => {
   return (
     <div className="home">
       <div className="homeContent">
@@ -20,4 +20,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default HomeFR;

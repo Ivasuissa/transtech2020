@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Footer from "../Footer";
 
-const About = () => {
+const AboutENG = () => {
   return (
-    <div className="about">
+    <div id="about">
       <div className="title">
         <i class="fas fa-quote-left"></i>
         <h1>
@@ -35,4 +35,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default AboutENG;

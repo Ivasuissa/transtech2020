@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 import israel from "../media/israel.jpeg";
 import france from "../media/france.png";
 
-const About = () => {
+const ProgrammeFR = () => {
   return (
     <div className="TransTech2020">
       <div className="TransTech2020Title">
@@ -118,4 +118,4 @@ const About = () => {
     </div>
   );
 };
-export default About;
+export default ProgrammeFR;

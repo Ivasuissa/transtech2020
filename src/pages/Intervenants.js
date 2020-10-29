@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { IntervenantsData } from "../data/IntervenantsData";
 
-export default class Intervenant extends Component {
+export default class IntervenantsFR extends Component {
   state = {
     intervenants: IntervenantsData
   };

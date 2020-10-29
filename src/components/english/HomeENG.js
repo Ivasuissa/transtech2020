@@ -1,11 +1,9 @@
 import React from "react";
-import Footer from "../Footer"
-import Marquee from "../Marquee";
 import img1 from "../media/img1.jpg";
 
-const Home = () => {
+const HomeENG = () => {
   return (
-    <div className="home">
+    <div id="home">
       <div className="homeContent">
         <div className="homeTitle">
           <h1>11th Edition of TransTech</h1>
@@ -18,4 +16,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default HomeENG;

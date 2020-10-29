@@ -1,10 +1,8 @@
 import React from "react";
-import Footer from "../Footer";
-import Marquee from "../Marquee";
 import img1 from "../media/img1.jpg";
-import Inscription from "../Inscription"
 
-const Home = () => {
+
+const HomeFR = () => {
   return (
     <div id="home">
       <div className="homeContent">
@@ -19,4 +17,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default HomeFR;

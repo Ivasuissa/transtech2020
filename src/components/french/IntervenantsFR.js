@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { IntervenantsData } from "../../data/IntervenantsDataEnglish";
+import { IntervenantsData } from "../../data/IntervenantsData";
 
-export default class Intervenant extends Component {
+export default class IntervenantsFR extends Component {
   state = {
     intervenants: IntervenantsData
   };
@@ -9,9 +9,9 @@ export default class Intervenant extends Component {
     let { intervenants } = this.state;
 
     return (
-      <div className="intervenants">
+      <div id="intervenants" > 
         <div className="intervenantsTitle">
-          <h1>Speakers</h1>
+          <h1>Intervenants</h1>
         </div>
         <ul className="intervenantsDisplay">
           {intervenants.map(intervenant => {

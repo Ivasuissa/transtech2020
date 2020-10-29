@@ -9,33 +9,34 @@ import {
 } from "react-router-dom";
 import logo from "./logo.svg";
 import "./App.css";
-import Home from "./components/french/Home";
+import HomeFR from "./components/french/HomeFR";
 import NotFound from "./pages/NotFound";
 import Contact from "./components/Contact";
-import About from "./components/french/About";
-import Programme from "./components/french/Programme";
-import Navigation from "./components/french/Navigation";
+import AboutFR from "./components/french/AboutFR";
+import ProgrammeFR from "./components/french/ProgrammeFR";
+import NavigationFR from "./components/french/NavigationFR";
 import Footer from "./components/Footer";
 import Marquee from "./components/Marquee";
-import Intervenants from "./components/french/Intervenants";
+import IntervenantsFR from "./components/french/IntervenantsFR";
 import Inscription from "./components/Inscription";
 import EN from "./media/EN.png";
 import FR from "./media/FR.png";
 
-function Website() {
+function MainFrench() {
   return (
-    <div className="container">
-      <div>
-        <Home />
-        <About />
-        <Programme />
-        <Intervenants />
-        <Marquee />
-        <Contact />
-        <Footer />
+    <div id="#MainFrench">
+      <div className="container">
+        <div>
+          <HomeFR />
+          <AboutFR />
+          <ProgrammeFR />
+          <IntervenantsFR />
+          <Marquee />
+          <Contact />
+        </div>
       </div>
     </div>
   );
 }
 
-export default Website;
+export default MainFrench;
