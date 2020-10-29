@@ -41,9 +41,7 @@ const Contact = () => {
                 </span>
               </CopyToClipboard>
             </li>
-            <li>
-              <Inscription/>
-            </li>
+           
           </ul>
         </div>
       </div>

@@ -17,6 +17,7 @@ import orange from "../media/sponsors/orange.png";
 import edf from "../media/sponsors/edf.png";
 import renault from "../media/sponsors/renault.png";
 import elnet from "../media/sponsors/elnet.jpeg";
+import Inscription from "./Inscription";
 
 const Marquee = () => {
   return (
