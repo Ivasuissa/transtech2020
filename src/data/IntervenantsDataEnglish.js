@@ -24,6 +24,7 @@ import zarka from "../media/intervenants/intervenant.23.jpeg";
 import toubia from "../media/intervenants/toubia.jpeg";
 import inbal from "../media/intervenants/inbal.jpeg";
 import roy from "../media/intervenants/roy.jpeg";
+import edouard from "../media/intervenants/edouard.jpeg";
 
 export const IntervenantsData = [
   {
@@ -70,8 +71,8 @@ export const IntervenantsData = [
     name: "Muriel Touaty TBC",
     position:
       "Partner Education & Innovation chez Onepoint | Past CEO of Technion France, Israel Institute of Technology",
-      photo: muriel
-    },
+    photo: muriel
+  },
   {
     id: 6,
     name: "Amir Elichai",
@@ -92,6 +93,12 @@ export const IntervenantsData = [
     photo: yossi
   },
   {
+    id: 33,
+    name: "Edouard Cukierman",
+    position: "Founder and Managing Partner of Catalyst Funds",
+    photo: edouard
+  },
+  {
     id: 7,
     name: "Guy Mizrachi",
     position: "Chief Cyber Officer - Raizone",
@@ -106,7 +113,6 @@ export const IntervenantsData = [
     photo: nadine
   },
 
- 
   {
     id: 11,
     name: "Daniel Sayag TBC",
@@ -129,7 +135,7 @@ export const IntervenantsData = [
   },
   {
     id: 27,
-    name: "	Inbal Arieli Chutzpah TBC",
+    name: "	Inbal Arieli TBC",
     position: "Author of Chutzpah, Global Speaker, Foundatrice - Synthesis.",
     photo: inbal
   },
@@ -159,7 +165,6 @@ export const IntervenantsData = [
     photo: alon
   },
 
-
   {
     id: 23,
     name: "Sami Perez",
@@ -172,7 +177,6 @@ export const IntervenantsData = [
     position: "Consultant & Expert",
     photo: ron
   },
-
 
   {
     id: 24,
@@ -197,5 +201,5 @@ export const IntervenantsData = [
     name: "Didié Toubia  TBC",
     position: "Co-Founder & CEO - Aleph Farms",
     photo: toubia
-  },
+  }
 ];

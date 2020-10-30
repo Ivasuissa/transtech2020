@@ -24,6 +24,7 @@ import zarka from "../media/intervenants/intervenant.23.jpeg";
 import toubia from "../media/intervenants/toubia.jpeg";
 import inbal from "../media/intervenants/inbal.jpeg";
 import dassault from "../media/intervenants/intervenant20.jpeg";
+import edouard from "../media/intervenants/edouard.jpeg";
 
 export const IntervenantsData = [
   {
@@ -91,6 +92,12 @@ export const IntervenantsData = [
     photo: yossi
   },
   {
+    id: 33,
+    name: "Edouard Cukierman",
+    position: "Fondatateur and Partenaire Manager - Catalyst Funds",
+    photo: edouard
+  },
+  {
     id: 17,
     name: "Nadine Baudot-Trajtenbeg  TBC",
     position:
@@ -126,7 +133,7 @@ export const IntervenantsData = [
   },
   {
     id: 27,
-    name: "	Inbal Arieli Chutzpah TBC",
+    name: "	Inbal Arieli TBC",
     position:
       "Author du livre Chutzpah, Global Speaker, Foundatrice - Synthesis.",
     photo: inbal
