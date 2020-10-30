@@ -52,31 +52,6 @@ export const IntervenantsData = [
     photo: danon
   },
   {
-    id: 6,
-    name: "Amir Elichai",
-    position: "Founder, Chairman & CEO - Carbyne",
-    photo: amir
-  },
-  {
-    id: 5,
-    name: "Youval Rouach",
-    position: "Co-Founder & CEO - Bit Of gold",
-    photo: youval
-  },
-  {
-    id: 7,
-    name: "Guy Mizrachi",
-    position: "Chief Cyber Officer - Raizone",
-    photo: guy
-  },
-  {
-    id: 19,
-    name: "Yossi Dan",
-    position:
-      "Cofounder & CEO at TrekFounders | Cofounder & Chief Innovation Lab at Challengy",
-    photo: yossi
-  },
-  {
     id: 8,
     name: "Dan Catarivas TBC",
     position:
@@ -90,6 +65,48 @@ export const IntervenantsData = [
     position: "Vice President Rotshild & Co (Zurich)",
     photo: shiran
   },
+  {
+    id: 14,
+    name: "Muriel Touaty TBC",
+    position:
+      "Partner Education & Innovation chez Onepoint | Past CEO of Technion France, Israel Institute of Technology",
+      photo: muriel
+    },
+  {
+    id: 6,
+    name: "Amir Elichai",
+    position: "Founder, Chairman & CEO - Carbyne",
+    photo: amir
+  },
+  {
+    id: 5,
+    name: "Youval Rouach",
+    position: "Co-Founder & CEO - Bit Of gold",
+    photo: youval
+  },
+  {
+    id: 19,
+    name: "Yossi Dan",
+    position:
+      "Cofounder & CEO at TrekFounders | Cofounder & Chief Innovation Lab at Challengy",
+    photo: yossi
+  },
+  {
+    id: 7,
+    name: "Guy Mizrachi",
+    position: "Chief Cyber Officer - Raizone",
+    photo: guy
+  },
+
+  {
+    id: 17,
+    name: "Nadine Baudot-Trajtenbeg  TBC",
+    position:
+      "Assistant Professor, Tiomkin School of Economics, IDC Herzliya, Outgoing Deputy Governor, Bank of Israel | Doctor | Professeur d’Economie à IDC Herzliya |",
+    photo: nadine
+  },
+
+ 
   {
     id: 11,
     name: "Daniel Sayag TBC",
@@ -111,11 +128,16 @@ export const IntervenantsData = [
     photo: ouzan
   },
   {
-    id: 14,
-    name: "Muriel Touaty TBC",
-    position:
-      "Partner Education & Innovation chez Onepoint | Past CEO of Technion France, Israel Institute of Technology",
-    photo: muriel
+    id: 27,
+    name: "	Inbal Arieli Chutzpah TBC",
+    position: "Author of Chutzpah, Global Speaker, Foundatrice - Synthesis.",
+    photo: inbal
+  },
+  {
+    id: 20,
+    name: "Laurent Dassault TBC",
+    position: "General Manage Dassault",
+    photo: dassault
   },
   {
     id: 15,
@@ -129,13 +151,7 @@ export const IntervenantsData = [
     position: "Vice-President & General Manager - Upstream Security",
     photo: roy
   },
-  {
-    id: 17,
-    name: "Nadine Baudot-Trajtenbeg  TBC",
-    position:
-      "Assistant Professor, Tiomkin School of Economics, IDC Herzliya, Outgoing Deputy Governor, Bank of Israel | Doctor | Professeur d’Economie à IDC Herzliya |",
-    photo: nadine
-  },
+
   {
     id: 18,
     name: "Alon Leibovich TBC",
@@ -143,18 +159,6 @@ export const IntervenantsData = [
     photo: alon
   },
 
-  {
-    id: 20,
-    name: "Laurent Dassault TBC",
-    position: "General Manage Dassault",
-    photo: dassault
-  },
-  {
-    id: 21,
-    name: "Ron Waldman TBC",
-    position: "Consultant & Expert",
-    photo: ron
-  },
 
   {
     id: 23,
@@ -163,17 +167,13 @@ export const IntervenantsData = [
     photo: sami
   },
   {
-    id: 26,
-    name: "Didié Toubia  TBC",
-    position: "Co-Founder & CEO - Aleph Farms",
-    photo: toubia
+    id: 21,
+    name: "Ron Waldman TBC",
+    position: "Consultant & Expert",
+    photo: ron
   },
-  {
-    id: 27,
-    name: "	Inbal Arieli Chutzpah TBC",
-    position: "Author of Chutzpah, Global Speaker, Foundatrice - Synthesis.",
-    photo: inbal
-  },
+
+
   {
     id: 24,
     name: "Anne Baer TBC",
@@ -191,5 +191,11 @@ export const IntervenantsData = [
     name: "Valérie Zarka TBC",
     position: "CEO at MORE THAN DIGITAL ",
     photo: zarka
-  }
+  },
+  {
+    id: 26,
+    name: "Didié Toubia  TBC",
+    position: "Co-Founder & CEO - Aleph Farms",
+    photo: toubia
+  },
 ];

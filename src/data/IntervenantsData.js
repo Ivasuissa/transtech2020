@@ -22,7 +22,8 @@ import sami from "../media/intervenants/intervenant23.png";
 import yossi from "../media/intervenants/intervenant24.jpeg";
 import zarka from "../media/intervenants/intervenant.23.jpeg";
 import toubia from "../media/intervenants/toubia.jpeg";
-import inbal from "../media/intervenants/inbal.jpeg"
+import inbal from "../media/intervenants/inbal.jpeg";
+import dassault from "../media/intervenants/intervenant20.jpeg";
 
 export const IntervenantsData = [
   {
@@ -63,6 +64,13 @@ export const IntervenantsData = [
     photo: shiran
   },
   {
+    id: 14,
+    name: "Muriel Touaty TBC",
+    position:
+      "Ex Directrice générale du Technion France | Partenaire Education & innovation - Onepoint",
+    photo: muriel
+  },
+  {
     id: 6,
     name: "Amir Elichai",
     position: "Fondateur, Président & CEO - Carbyne ",
@@ -74,12 +82,6 @@ export const IntervenantsData = [
     position: "Co-Foundateur & CEO - Bit Of gold",
     photo: youval
   },
-  {
-    id: 27,
-    name: "	Inbal Arieli Chutzpah TBC",
-    position: "Author du livre Chutzpah, Global Speaker, Foundatrice - Synthesis.",
-    photo: inbal
-  },
 
   {
     id: 19,
@@ -88,20 +90,19 @@ export const IntervenantsData = [
       "Co-Fondateur & CEO - TrekFounders | Co-Fondateur & Chief Innovation Lab - Challengy",
     photo: yossi
   },
-
+  {
+    id: 17,
+    name: "Nadine Baudot-Trajtenbeg  TBC",
+    position:
+      "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie à IDC Herzliya |",
+    photo: nadine
+  },
 
   {
     id: 11,
     name: "Daniel Sayag TBC",
     position: "Directeur des ventes Israël d'Airbus Defence & Space",
     photo: sayag
-  },
-  {
-    id: 14,
-    name: "Muriel Touaty TBC",
-    position:
-      "Ex Directrice générale du Technion France | Partenaire Education & innovation - Onepoint",
-    photo: muriel
   },
 
   {
@@ -124,26 +125,32 @@ export const IntervenantsData = [
     photo: bahloul
   },
   {
+    id: 27,
+    name: "	Inbal Arieli Chutzpah TBC",
+    position:
+      "Author du livre Chutzpah, Global Speaker, Foundatrice - Synthesis.",
+    photo: inbal
+  },
+  {
+    id: 30,
+    name: "	Laurent Dassault TBC",
+    position: "General Manager Dassault",
+    photo: dassault
+  },
+  {
     id: 7,
     name: "Guy Mizrachi",
     position: "Directeur Cyber - Raizone",
     photo: guy
   },
- 
- 
+
   {
     id: 16,
     name: "Roy Bachar  TBC",
     position: "Vice-Président & Géneral Manager - Upstream Security",
     photo: roy
   },
-  {
-    id: 17,
-    name: "Nadine Baudot-Trajtenbeg  TBC",
-    position:
-      "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie à IDC Herzliya |",
-    photo: nadine
-  },
+
   {
     id: 18,
     name: "Alon Leibovich TBC",
@@ -156,7 +163,7 @@ export const IntervenantsData = [
     position: "CEO - MORE THAN DIGITAL ",
     photo: zarka
   },
- 
+
   {
     id: 23,
     name: "Sami Perez",
@@ -181,12 +188,11 @@ export const IntervenantsData = [
     position: "CEO Maison Kayser (Tel-Aviv) ",
     photo: smadja
   },
- 
+
   {
     id: 26,
     name: "Didié Toubia  TBC",
     position: "Co-Founder & CEO - Aleph Farms",
     photo: toubia
-  },
- 
+  }
 ];
