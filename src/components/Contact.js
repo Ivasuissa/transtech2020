@@ -12,7 +12,7 @@ const Contact = () => {
         <h1>Contact</h1>
         <div className="contactBox">
           <ul>
-            <li> {/* <img src={CCIIF}></img> */}</li>
+            <li> <img src={CCIIF}></img></li>
             <li>
               <i className="fa fa-map-marker-alt"></i>
               <span>HaMered Street 29, Tel-Aviv</span>
