@@ -13,15 +13,17 @@ import amir from "../media/intervenants/intervenant13.jpeg";
 import guy from "../media/intervenants/intervenant14.jpeg";
 import danon from "../media/intervenants/intervenant15.jpeg";
 import bahloul from "../media/intervenants/intervenant16.jpeg";
-import ron from "../media/intervenants/intervenant17.jpeg";
 import nadine from "../media/intervenants/intervenant18.jpeg";
 import alon from "../media/intervenants/intervenant19.jpeg";
-import roy from "../media/intervenants/intervenant20.jpeg";
-import dassault from "../media/intervenants/intervenant21.jpeg";
+import dassault from "../media/intervenants/intervenant20.jpeg";
+import ron from "../media/intervenants/intervenant21.jpeg";
 import smadja from "../media/intervenants/intervenant22.jpeg";
 import sami from "../media/intervenants/intervenant23.png";
 import yossi from "../media/intervenants/intervenant24.jpeg";
 import zarka from "../media/intervenants/intervenant.23.jpeg";
+import toubia from "../media/intervenants/toubia.jpeg";
+import inbal from "../media/intervenants/inbal.jpeg";
+import roy from "../media/intervenants/roy.jpeg";
 
 export const IntervenantsData = [
   {
@@ -159,6 +161,18 @@ export const IntervenantsData = [
     name: "Sami Perez",
     position: "Consultant | Expert (Sécurity) ",
     photo: sami
+  },
+  {
+    id: 26,
+    name: "Didié Toubia  TBC",
+    position: "Co-Founder & CEO - Aleph Farms",
+    photo: toubia
+  },
+  {
+    id: 27,
+    name: "	Inbal Arieli Chutzpah TBC",
+    position: "Author of Chutzpah, Global Speaker, Foundatrice - Synthesis.",
+    photo: inbal
   },
   {
     id: 24,

@@ -13,15 +13,16 @@ import amir from "../media/intervenants/intervenant13.jpeg";
 import guy from "../media/intervenants/intervenant14.jpeg";
 import danon from "../media/intervenants/intervenant15.jpeg";
 import bahloul from "../media/intervenants/intervenant16.jpeg";
-import ron from "../media/intervenants/intervenant17.jpeg";
 import nadine from "../media/intervenants/intervenant18.jpeg";
 import alon from "../media/intervenants/intervenant19.jpeg";
-import roy from "../media/intervenants/intervenant20.jpeg";
-import dassault from "../media/intervenants/intervenant21.jpeg";
+import roy from "../media/intervenants/roy.jpeg";
+import ron from "../media/intervenants/intervenant21.jpeg";
 import smadja from "../media/intervenants/intervenant22.jpeg";
 import sami from "../media/intervenants/intervenant23.png";
 import yossi from "../media/intervenants/intervenant24.jpeg";
 import zarka from "../media/intervenants/intervenant.23.jpeg";
+import toubia from "../media/intervenants/toubia.jpeg";
+import inbal from "../media/intervenants/inbal.jpeg"
 
 export const IntervenantsData = [
   {
@@ -49,31 +50,6 @@ export const IntervenantsData = [
     photo: danon
   },
   {
-    id: 6,
-    name: "Amir Elichai",
-    position: "Fondateur, Président & CEO - Carbyne ",
-    photo: amir
-  },
-  {
-    id: 5,
-    name: "Youval Rouach",
-    position: "Co-Foundateur & CEO - Bit Of gold",
-    photo: youval
-  },
-  {
-    id: 7,
-    name: "Guy Mizrachi",
-    position: "Directeur Cyber - Raizone",
-    photo: guy
-  },
-  {
-    id: 19,
-    name: "Yossi Dan",
-    position:
-      "Co-Fondateur & CEO - TrekFounders | Co-Fondateur & Chief Innovation Lab - Challengy",
-    photo: yossi
-  },
-  {
     id: 8,
     name: "Dan Catarivas TBC",
     position: "Directeur des Relations internationales du Patronat israélien",
@@ -87,10 +63,45 @@ export const IntervenantsData = [
     photo: shiran
   },
   {
+    id: 6,
+    name: "Amir Elichai",
+    position: "Fondateur, Président & CEO - Carbyne ",
+    photo: amir
+  },
+  {
+    id: 5,
+    name: "Youval Rouach",
+    position: "Co-Foundateur & CEO - Bit Of gold",
+    photo: youval
+  },
+  {
+    id: 27,
+    name: "	Inbal Arieli Chutzpah TBC",
+    position: "Author du livre Chutzpah, Global Speaker, Foundatrice - Synthesis.",
+    photo: inbal
+  },
+
+  {
+    id: 19,
+    name: "Yossi Dan",
+    position:
+      "Co-Fondateur & CEO - TrekFounders | Co-Fondateur & Chief Innovation Lab - Challengy",
+    photo: yossi
+  },
+
+
+  {
     id: 11,
     name: "Daniel Sayag TBC",
     position: "Directeur des ventes Israël d'Airbus Defence & Space",
     photo: sayag
+  },
+  {
+    id: 14,
+    name: "Muriel Touaty TBC",
+    position:
+      "Ex Directrice générale du Technion France | Partenaire Education & innovation - Onepoint",
+    photo: muriel
   },
 
   {
@@ -107,18 +118,19 @@ export const IntervenantsData = [
     photo: ouzan
   },
   {
-    id: 14,
-    name: "Muriel Touaty TBC",
-    position:
-      "Ex Directrice générale du Technion France | Partenaire Education & innovation - Onepoint",
-    photo: muriel
-  },
-  {
     id: 15,
     name: "Julien Bahloul TBC",
     position: "Country Manager - OrCam",
     photo: bahloul
   },
+  {
+    id: 7,
+    name: "Guy Mizrachi",
+    position: "Directeur Cyber - Raizone",
+    photo: guy
+  },
+ 
+ 
   {
     id: 16,
     name: "Roy Bachar  TBC",
@@ -138,25 +150,24 @@ export const IntervenantsData = [
     position: "Co-Fondateur & CEO - BrandTotal",
     photo: alon
   },
-
   {
-    id: 20,
-    name: "Laurent Dassault TBC",
-    position: "Directeur Général Délégué Dassault",
-    photo: dassault
+    id: 25,
+    name: "Valérie Zarka TBC",
+    position: "CEO - MORE THAN DIGITAL ",
+    photo: zarka
   },
-  {
-    id: 21,
-    name: "Ron Waldman TBC",
-    position: "Consultant & Expert",
-    photo: ron
-  },
-
+ 
   {
     id: 23,
     name: "Sami Perez",
     position: "Consultant | Expert (Sécurité) ",
     photo: sami
+  },
+  {
+    id: 21,
+    name: "Ron Waldman TBC",
+    position: "Technology Partnerships at Haier Israel Innovation Center",
+    photo: ron
   },
   {
     id: 24,
@@ -170,10 +181,12 @@ export const IntervenantsData = [
     position: "CEO Maison Kayser (Tel-Aviv) ",
     photo: smadja
   },
+ 
   {
-    id: 25,
-    name: "Valérie Zarka TBC",
-    position: "CEO at MORE THAN DIGITAL ",
-    photo: zarka
-  }
+    id: 26,
+    name: "Didié Toubia  TBC",
+    position: "Co-Founder & CEO - Aleph Farms",
+    photo: toubia
+  },
+ 
 ];
