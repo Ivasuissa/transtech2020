@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import NavigationFR from "../src/components/french/NavigationFR";
 import NavigationENG from "./components/english/NavigationENG";
 
+
 export default class App extends Component {
   state = {
     isFrench: true

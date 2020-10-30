@@ -1,6 +1,6 @@
 import dan from "../media/intervenants/intervenant1.jpeg";
 import daniel from "../media/intervenants/intervenant2.png";
-import andre from "../media/intervenants/intervenant3.jpeg";
+import andre from "../media/intervenants/intervenant3.png";
 import baer from "../media/intervenants/intervenant4.png";
 import petit from "../media/intervenants/intervenant5.jpeg";
 import shiran from "../media/intervenants/intervenant6.png";
@@ -166,7 +166,7 @@ export const IntervenantsData = [
   },
   {
     id: 25,
-    name: "Valérie Zarka TBC",
+    name: "Valérie Zarka",
     position: "CEO - MORE THAN DIGITAL ",
     photo: zarka
   },

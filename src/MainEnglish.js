@@ -22,8 +22,8 @@ import Inscription from "./components/Inscription";
 
 function MainEnglish() {
   return (
+    <div className="container">
     <div id="MainEnglish">
-      <div className="container">
         <div>
           <HomeENG />
           <AboutENG />

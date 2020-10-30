@@ -3,15 +3,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,400;0,500;0,600;1,700&family=Merriweather+Sans:ital,wght@1,300&display=swap");
+// @import url("bootstrap/dist/css/bootstrap.min.css");
 
 $font-1: "Libre Baskerville", serif;
 $font-2: "Raleway", sans-serif;
 $font-3: "Dancing Script", cursive;
 $font-4: "Roboto", sans-serif;
-$font-5:'Roboto', sans-serif;
+$font-5: "Roboto", sans-serif;
+$font-6: "Balsamiq Sans", cursive;
+$font-7: "Exo 2", sans-serif;
+$font-8: "Merriweather Sans", sans-serif;
 
 $color-1: #2d487a;
-$color-2: #0D2372;
+$color-10: #233961;
+$color-11: #213151;
+$color-12: #45587e;
+$color-13: #515d77;
+$color-2: #0d2372;
+$color-10: #223860;
 $color-3: rgb(221, 224, 240);
 $color-4: #807f7e;
 $color-5: #ece8e4;
@@ -21,7 +32,6 @@ $color-8: rgb(28, 49, 125);
 $color-9: rgb(23, 23, 83);
 $white: rgb(243, 241, 240);
 $black: rgb(20, 19, 17);
-
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
@@ -37,8 +47,32 @@ $minHeight: 95vh;
   margin: 0;
   padding: 0;
 }
+h1 {
+  font-family: $font-7;
+  font-style: "Bold 700 italic";
+  color: $color-8;
+}
+h2 {
+  font-family: $font-7;
+  font-style: "Bold 700 italic";
+  color: $color-6;
+}
+h3 {
+  font-family: $font-7;
+  font-style: "Bold 700 italic";
+  color: $color-12;
+}
+h4, p {
+  font-family: $font-7;
+  font-style: "Bold 700 italic";
+  color: $color-12;
+}
+h5 {
+  font-family: $font-7;
+  font-style: "Bold 700 italic";
+  color: $color-13;
+}
 body {
-  margin: 1rem auto;
   max-width: 1200px;
   font-family: $font-1;
   color: $black;

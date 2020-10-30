@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import MainFrench from "../../MainFrench";
 import AboutFR from "./AboutFR";
@@ -11,53 +10,50 @@ import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 import EN from "../../media/EN.png";
 import FR from "../../media/FR.png";
 import Button from "../Language";
+import anglais from "../../media/anglais.png"
 
 const NavigationFR = props => {
   const handleChange = props.handleChange;
   console.log(props);
 
   return (
-    <div>
+    <div className="navigation">
       <div className="header">
-        <div id="button" onClick={() => handleChange()}>
-          EN
-        </div>
         <div className="logo">
           <h1> TRANSTECH 2020</h1>
         </div>
-        <div className="navbar">
-          <div className="navigation">
-            <ul>
-              <li>
-                <a href="#homeFR">Accueil</a>
+        <nav class="navbar navbar-expand-lg navbar-white bg-blue">
+         <div class="navbar-brand" id="button" onClick={() => handleChange()}>
+              ENG
+           </div>
+          <a class="navbar-brand" target="_blank" href="http://transtech2020.eventbrite.com?s=125451659" > Billets</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Accueil <span class="sr-only">(current)</span></a>
               </li>
-              <li>
-                <a href="#aboutFR">À propos</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">À Propos</a>
               </li>
-
-              <li>
-                <a href="#programmeFR">Programme</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#programme">Programme</a>
               </li>
-
-              <li>
-                <a href="#intervenantsFR">Intervenants</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#intervenants">Intervenants</a>
               </li>
-              <li>
-                <a
-                  href="http://transtech2020.eventbrite.com?s=125451659"
-                  target="_blank"
-                >
-                  Billets
-                </a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
-          </div>{" "}
-        </div>
-      </div>
-    </div>
+          </div>
+</nav>
+  </div>
+  </div>
+       
+
   );
 };
 

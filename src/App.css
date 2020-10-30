@@ -1,21 +1,23 @@
 .App {
   text-align: center;
 }
-body {
+html{
+  background-color:#bac8ea;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
   background-image: radial-gradient(
     circle,
     #e0f1f7,
     #a6c8fa,
     #d5e3f7,
     #dbeaf5,
-    #cad5ef
+    #95abdf
   );
-}
 
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 99%;
   /* justify-content: space-around; */
 }
 

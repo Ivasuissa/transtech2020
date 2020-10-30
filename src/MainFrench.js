@@ -24,16 +24,17 @@ import FR from "./media/FR.png";
 
 function MainFrench() {
   return (
+    <div className="container">
     <div id="#MainFrench">
-      <div className="container">
-        <div>
+        
           <HomeFR />
           <AboutFR />
           <ProgrammeFR />
           <IntervenantsFR />
           <Marquee />
           <Contact />
-        </div>
+          <Footer/>
+       
       </div>
     </div>
   );

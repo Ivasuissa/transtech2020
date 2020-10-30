@@ -1,25 +1,18 @@
 #intervenants {
-  font-family: $font-4;
+  font-family: $font-7;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  margin-top: 3vh;
 
-  h1 {
-    font-family: $font-1;
-    font-weight: bold;
-  }
+
 
   h3 {
     font-size: 1rem;
-    font-weight: 1000;
-    color: $color-1;
     padding-top: 1rem;
   }
   h5 {
     font-size: 0.7rem;
-    color: $color-9;
-    font-family: $font-2;
-    font-weight: 600;
     padding-right: 0.5rem;
   }
   .intervenantsTitle {
@@ -43,13 +36,15 @@
   img {
     border-radius: 9rem;
     width: 75%;
-    height: 60%;
+    height: auto;
   }
 
   @media screen and (max-width: 850px) {
-    img {
-      width: 50%;
-      height: 20%;
-    }
+   h5{
+     font-size:0.4rem;
   }
+  h3{
+    font-size:0.5rem;
+ }
+}
 }

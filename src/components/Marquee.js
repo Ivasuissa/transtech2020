@@ -8,13 +8,13 @@ import israelvalley from "../media/israelvalley.png";
 import cciif from "../media/cciiflogo.png";
 import AFI from "../media/sponsors/AFI.png";
 import bersay from "../media/sponsors/bersay.png";
-import herez1 from "../media/sponsors/herez1.png";
+import herez from "../media/sponsors/herez.png";
 import onepoint from "../media/sponsors/onepoint.png";
 import Weizmann from "../media/sponsors/Weizmann.png";
 import orange from "../media/sponsors/orange.png";
 import edf from "../media/sponsors/edf.png";
 import renault from "../media/sponsors/renault.png";
-import elnet from "../media/sponsors/elnet.jpeg";
+import elnet from "../media/sponsors/elnet.png";
 import Inscription from "./Inscription";
 
 const Marquee = () => {
@@ -27,7 +27,7 @@ const Marquee = () => {
         <img className="tooBig" src={escp}></img>
         <img className="small" src={bersay}></img>
         <img className="tooBig" src={AFI}></img>
-        <img className="tooBig" src={herez1}></img>
+        <img className="tooBig" src={herez}></img>
         <img className="tooBig" src={onepoint}></img>
         <img className="tooBig" src={Weizmann}></img>
         <img className="tooBig" src={orange}></img>
