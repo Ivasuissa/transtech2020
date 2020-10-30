@@ -31,10 +31,10 @@ const ProgrammeFR = () => {
         </div>
         <div>
           <h4>
-            La conférence sera tiendra en français et en anglais, à Tel-Aviv, ,
+            La conférence sera tiendra en français et en anglais, à Tel-Aviv,
             dans la salle de réunion du 13ème étage de la Chambre de Commerce
             Israël – France et à Paris,dans un amphithéâtre de l’ESCP Europe.
-            <br></br> L'ensemble sera également diffusée via Zoom.
+            <br></br> L'ensemble sera diffusé via Zoom.
           </h4>
         </div>
         <div className="details">
