@@ -23,11 +23,11 @@ const About = () => {
           l’innovation.
         </p>
         <p>
-          La diffusion et le transfert de nouvelles technologies est un pilier
-          majeur qui soutient la raison d'être de l'écosystème israélien.
-          TransTech offre aux acteurs économiques la possibilité non seulement
-          de s’informer, mais aussi d’interagir et de développer des relations
-          dans ce domaine.
+          La diffusion et le transfert de nouvelles technologies sont des
+          piliers majeurs qui soutiennent la raison d'être de l'écosystème
+          israélien. TransTech offre aux acteurs économiques la possibilité non
+          seulement de s’informer, mais aussi d’interagir et de développer des
+          relations dans ce domaine.
         </p>
         <p>
           Un des objectifs est de renforcer les alliances économiques entre la
