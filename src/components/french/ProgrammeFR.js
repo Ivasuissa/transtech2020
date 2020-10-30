@@ -13,7 +13,7 @@ const ProgrammeFR = () => {
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">
-          <h4>4 thèmes pour sa 11ème Edition du 25 Novembre 2020:</h4>
+          <h4>4 thèmes pour cette 11ème Edition:</h4>
           <ul>
             <li>
               <h5>• La Cybersecurité, </h5>
