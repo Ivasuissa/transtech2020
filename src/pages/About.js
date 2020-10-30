@@ -31,7 +31,7 @@ const About = () => {
         </p>
         <p>
           Un des objectifs est de renforcer les alliances économiques entre la
-          France et Israël.Cet événement est l’occasion privilégiée de
+          France et Israël. Cet évènement est l’occasion privilégiée de
           rencontrer et échanger avec de nombreux leaders économiques israéliens
           et européens, du secteur privé et gouvernemental. .
         </p>

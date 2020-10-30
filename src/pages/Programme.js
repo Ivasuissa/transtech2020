@@ -14,7 +14,7 @@ const ProgrammeFR = () => {
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">
-          <h4>4 thèmes pour sa 11ème Edition du 25 Novembre 2020:</h4>
+          <h4>4 thèmes pour cette 11ème Edition :</h4>
           <ul>
             <li>
               <h5>• La Cybersecurité, </h5>
@@ -36,7 +36,7 @@ const ProgrammeFR = () => {
             <b>à Tel-Aviv</b>, , dans la salle de réunion du 13ème étage de la
             Chambre de Commerce Israël – France <b>et à Paris</b>,dans un
             amphithéâtre de l’ESCP Europe.
-            <br></br> L'ensemble sera également diffusée via Zoom.
+            <br></br> L'ensemble sera diffusé via Zoom.
           </h4>
         </div>
         <div className="details">

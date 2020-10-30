@@ -15,14 +15,12 @@ import Footer from "./components/Footer";
 import NavigationFR from "../src/components/french/NavigationFR";
 import NavigationENG from "./components/english/NavigationENG";
 
-
 export default class App extends Component {
   state = {
     isFrench: true
   };
 
   handleChange = () => {
-
     this.setState({
       isFrench: !this.state.isFrench
     });
@@ -30,7 +28,7 @@ export default class App extends Component {
   render() {
     console.log(this.handleChange);
     return (
-      <div>
+      <div className="all">
         {this.state.isFrench ? (
           <div>
             <NavigationFR handleChange={this.handleChange} />
