@@ -136,7 +136,7 @@ export const IntervenantsData = [
   {
     id: 27,
     name: "	Inbal Arieli TBC",
-    position: "Author of Chutzpah, Global Speaker, Foundatrice - Synthesis.",
+    position: "Author of Chutzpah, Global Speaker, Founder - Synthesis.",
     photo: inbal
   },
   {

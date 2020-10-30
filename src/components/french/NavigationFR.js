@@ -43,8 +43,11 @@ const NavigationFR = props => {
                 <a href="#intervenantsFR">Intervenants</a>
               </li>
               <li>
-                <a href="http://transtech2020.eventbrite.com?s=125451659" target="_blank">
-                  Tickets
+                <a
+                  href="http://transtech2020.eventbrite.com?s=125451659"
+                  target="_blank"
+                >
+                  Billets
                 </a>
               </li>
               <li>
