@@ -25,7 +25,7 @@ const ProgrammeFR = () => {
               <h5>• La Health Tech, </h5>
             </li>
             <li>
-              <h5>• Les relations entre France / Israël </h5>
+              <h5>• Les relations France / Israël </h5>
             </li>
           </ul>
         </div>

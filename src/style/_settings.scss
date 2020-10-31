@@ -37,6 +37,10 @@ $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
 $minHeight: 95vh;
 
+#MainFrench{
+  width: 100%;
+  padding:1rem;
+}
 
 
 @mixin verticalCenter {
@@ -112,4 +116,5 @@ a:visited {
   @media screen and (max-width: 850px) {
     margin-left: 0 !important;
   }
+
 }

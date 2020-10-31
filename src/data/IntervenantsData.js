@@ -68,7 +68,7 @@ export const IntervenantsData = [
     id: 14,
     name: "Muriel Touaty TBC",
     position:
-      "Ex Directrice générale du Technion France | Partenaire Education & innovation - Onepoint",
+      "Ex Directrice générale du Technion France | Partner Education & innovation - Onepoint",
     photo: muriel
   },
   {

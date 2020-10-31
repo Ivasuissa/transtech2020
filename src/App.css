@@ -1,22 +1,25 @@
 .App {
   text-align: center;
 }
-html{
-  background-color:#bac8ea;}
+html {
+  background-color: #bac8ea;
+}
 
-.all{
-  background-color:#bac8ea;
+.all {
+  background-color: #bac8ea;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
+
   background-image: radial-gradient(
     circle,
     #e0f1f7,
@@ -54,7 +57,11 @@ html{
 /* .App-link {
   color: #61dafb;
 } */
-
+@media (min-width: 576px){
+.container {
+    max-width: 800px;
+}
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
