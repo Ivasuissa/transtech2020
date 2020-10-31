@@ -6,12 +6,20 @@ html {
 }
 
 .all {
-  background-color: #bac8ea;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0 5vw 0 10vw;
+  background-image: radial-gradient(
+    circle,
+    #e0f1f7,
+    #96bcf5,
+    #b9d3f8,
+    #a3cdff,
+    #a6bef7
+  )
 }
 
 
