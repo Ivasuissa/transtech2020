@@ -9,8 +9,6 @@ const HomeENG = () => {
           <h1>11th Edition of TransTech</h1>
           <h2>Special Start-Ups France-Israel </h2>
           <h4>The Novembre 25th, 2020 between Paris & Tel-Aviv</h4>
-
-          <img src={img1}></img>
         </div>
       </div>
     </div>

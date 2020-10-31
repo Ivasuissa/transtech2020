@@ -14,9 +14,8 @@ import FR from "../../media/FR.png";
 import Language from "../Language";
 
 const NavigationENG = props => {
-
-  console.log(props);
   const handleChange = props.handleChange;
+  
   return (
     <div className="navigation">
     <div className="header">

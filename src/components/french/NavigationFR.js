@@ -14,7 +14,7 @@ import anglais from "../../media/anglais.png"
 
 const NavigationFR = props => {
   const handleChange = props.handleChange;
-  console.log(props);
+
 
   return (
     <div className="navigation">

@@ -22,9 +22,7 @@ import Inscription from "./components/Inscription";
 
 function MainEnglish() {
   return (
-    <div className="container">
     <div id="MainEnglish">
-        <div>
           <HomeENG />
           <AboutENG />
           <ProgrammeENG />
@@ -32,9 +30,8 @@ function MainEnglish() {
           <Marquee />
           <Contact />
           <Footer />
-        </div>
       </div>
-    </div>
+
   );
 }
 

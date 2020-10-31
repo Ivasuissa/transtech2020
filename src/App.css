@@ -11,26 +11,10 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 5vw 0 10vw;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 
-  background-image: radial-gradient(
-    circle,
-    #e0f1f7,
-    #a6c8fa,
-    #d5e3f7,
-    #dbeaf5,
-    #95abdf
-  );
-
-  /* justify-content: space-around; */
-}
 
 .App-logo {
   height: 40vmin;
@@ -45,7 +29,7 @@ html {
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,10 +41,10 @@ html {
 /* .App-link {
   color: #61dafb;
 } */
-@media (min-width: 576px){
-.container {
+@media (min-width: 576px) {
+  .container {
     max-width: 800px;
-}
+  }
 }
 @keyframes App-logo-spin {
   from {

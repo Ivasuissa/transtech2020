@@ -37,11 +37,11 @@ $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
 $minHeight: 95vh;
 
-#MainFrench{
-  width: 100%;
-  padding:1rem;
+#MainFrench,
+#MainEnglish {
+  width: 95%;
+ 
 }
-
 
 @mixin verticalCenter {
   display: flex;
@@ -51,7 +51,6 @@ $minHeight: 95vh;
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 h1 {
   font-family: $font-7;
@@ -68,7 +67,8 @@ h3 {
   font-style: "Bold 700 italic";
   color: $color-12;
 }
-h4, p {
+h4,
+p {
   font-family: $font-7;
   font-style: "Bold 700 italic";
   color: $color-12;
@@ -79,7 +79,7 @@ h5 {
   color: $color-13;
 }
 body {
-  max-width: 1200px;
+ width:100%;
   font-family: $font-1;
   color: $black;
 }
@@ -116,5 +116,4 @@ a:visited {
   @media screen and (max-width: 850px) {
     margin-left: 0 !important;
   }
-
 }

@@ -35,7 +35,7 @@ export default class App extends Component {
             <MainFrench />
           </div>
         ) : (
-          <div>
+          <div >
             <NavigationENG handleChange={this.handleChange} />
             <MainEnglish />
           </div>

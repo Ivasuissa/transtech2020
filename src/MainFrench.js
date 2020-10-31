@@ -24,7 +24,7 @@ import FR from "./media/FR.png";
 
 function MainFrench() {
   return (
-    <div className="container">
+
     <div id="#MainFrench">
         
           <HomeFR />
@@ -35,7 +35,6 @@ function MainFrench() {
           <Contact />
           <Footer/>
        
-      </div>
     </div>
   );
 }
