@@ -9,7 +9,7 @@
     width: 55%;
   }
   h1 {
-    font-size: 2, 5rem;
+    font-size: 2,5rem;
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1.4rem;
@@ -25,6 +25,7 @@
   .contactBox {
     background-color: $color-6;
     color: white;
+    padding-left: 0;
     li {
       margin-bottom: 1rem;
       align-items: center;
@@ -39,9 +40,7 @@
         color: $white;
         margin-right: 1rem;
       }
-      ul {
-        padding-left: 0 !important;
-      }
+     
     }
   }
 }

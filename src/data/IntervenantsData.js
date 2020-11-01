@@ -57,13 +57,6 @@ export const IntervenantsData = [
     position: "Directeur des Relations internationales du Patronat israélien",
     photo: dan
   },
-
-  {
-    id: 10,
-    name: "Shiran Katz",
-    position: "Vice Président Rotshild & Co (Zurich)",
-    photo: shiran
-  },
   {
     id: 14,
     name: "Muriel Touaty TBC",

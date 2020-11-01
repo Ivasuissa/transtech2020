@@ -59,13 +59,6 @@ export const IntervenantsData = [
       "Director General -Foreign Trade at Manufacturers' Association of Israel",
     photo: dan
   },
-
-  {
-    id: 10,
-    name: "Shiran Katz",
-    position: "Vice President Rotshild & Co (Zurich)",
-    photo: shiran
-  },
   {
     id: 14,
     name: "Muriel Touaty TBC",
