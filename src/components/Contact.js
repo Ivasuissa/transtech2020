@@ -12,7 +12,10 @@ const Contact = () => {
         <h1>Contact</h1>
         <div className="contactBox">
           <ul>
-            <li> <img src={CCIIF}></img></li>
+            <li>
+              {" "}
+              <img src={CCIIF}></img>
+            </li>
             <li>
               <i className="fa fa-map-marker-alt"></i>
               <span>HaMered Street 29, Tel-Aviv</span>
@@ -24,7 +27,17 @@ const Contact = () => {
                   className="clickInput"
                   onClick={() => alert("Telephone copié")}
                 >
-                  +(972) 3 533 33 06
+                  +(972) 55-5001297 (ISR)
+                </span>
+              </CopyToClipboard>
+            </li>
+            <li>
+              <CopyToClipboard text="0642844454">
+                <span
+                  className="clickInput"
+                  onClick={() => alert("Telephone copié")}
+                >
+                  +(33) 7 55 54 12 75 (FR)
                 </span>
               </CopyToClipboard>
             </li>
