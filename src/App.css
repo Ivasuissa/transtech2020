@@ -6,12 +6,12 @@ html {
 }
 
 .all {
-
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 5vw 0 10vw;
+  /* padding: 0 5vw 0 10vw; */
   background-image: radial-gradient(
     circle,
     #e0f1f7,
@@ -19,10 +19,11 @@ html {
     #b9d3f8,
     #a3cdff,
     #a6bef7
-  )
+  );
 }
-
-
+.appli {
+  width: 98%;
+}
 
 .App-logo {
   height: 40vmin;
@@ -50,9 +51,6 @@ html {
   color: #61dafb;
 } */
 @media (min-width: 576px) {
-  .container {
-    max-width: 800px;
-  }
 }
 @keyframes App-logo-spin {
   from {

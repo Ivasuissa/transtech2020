@@ -30,12 +30,12 @@ export default class App extends Component {
     return (
       <div className="all">
         {this.state.isFrench ? (
-          <div>
+          <div className="appli">
             <NavigationFR handleChange={this.handleChange} />
             <MainFrench />
           </div>
         ) : (
-          <div >
+          <div className="appli">
             <NavigationENG handleChange={this.handleChange} />
             <MainEnglish />
           </div>
