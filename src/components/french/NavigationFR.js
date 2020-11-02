@@ -9,8 +9,9 @@ import Contact from "../Contact";
 import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 import EN from "../../media/EN.png";
 import FR from "../../media/FR.png";
-import Button from "../Language";
 import anglais from "../../media/anglais.png";
+import israelValley from "../../media/sponsors/israelvalley.png";
+import ccif from "../../media/sponsors/cciif.png";
 
 const NavigationFR = props => {
   const handleChange = props.handleChange;
@@ -19,7 +20,9 @@ const NavigationFR = props => {
     <div className="navigation">
       <div className="header">
         <div className="logo">
+          <img src={ccif}></img>
           <h1> TRANSTECH 2020</h1>
+          <img src={israelValley}></img>
         </div>
         <nav class="navbar navbar-expand-lg navbar-white bg-blue">
           <div class="navbar-brand" id="button" onClick={() => handleChange()}>

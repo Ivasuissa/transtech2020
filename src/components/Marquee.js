@@ -4,7 +4,7 @@ import bits from "../media/bit.png";
 import technion from "../media/technion.png";
 import escp from "../media/escp.png";
 import leumi from "../media/leumi.png";
-import israelvalley from "../media/israelvalley.png";
+import israelvalley from "../media/sponsors/israelvalley.png";
 import cciif from "../media/cciiflogo.png";
 import AFI from "../media/sponsors/AFI.png";
 import bersay from "../media/sponsors/bersay.png";

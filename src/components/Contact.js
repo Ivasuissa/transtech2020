@@ -1,9 +1,6 @@
 import React from "react";
-import Navigation from "./french/NavigationFR";
-import Footer from "../components/Footer";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import CCIIF from "../media/sponsors/cciif.png";
-import Inscription from "./Inscription";
 
 const Contact = () => {
   return (

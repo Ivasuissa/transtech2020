@@ -11,7 +11,7 @@ export const OrgaENG = [
   {
     id: 1,
     name: "Daniel Rouach",
-    position: "President of the France Israel Chamber of Commerce",
+    position: "President of the France-Israel Chamber of Commerce",
     photo: daniel
   },
   {

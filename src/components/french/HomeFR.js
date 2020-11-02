@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../media/img1.png";
+import img1 from "../../media/img1.jpg";
 
 const HomeFR = () => {
   return (
@@ -10,7 +10,7 @@ const HomeFR = () => {
           <h2>Spéciale Start-Ups France-Israël </h2>
           <h4>le 25 Novembre 2020 entre Paris & Tel-Aviv</h4>
 
-         
+          <img src={img1}></img>
         </div>
       </div>
     </div>
