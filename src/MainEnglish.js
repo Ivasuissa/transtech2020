@@ -14,11 +14,11 @@ import NotFound from "./pages/NotFound";
 import Contact from "./components/Contact";
 import AboutENG from "./components/english/AboutENG";
 import ProgrammeENG from "./components/english/ProgrammeENG";
-import NavigationENG from "./components/english/NavigationENG";
 import Footer from "./components/Footer";
 import Marquee from "./components/english/Marquee";
 import IntervenantsENG from "./components/english/IntervenantsENG";
-import Inscription from "./components/Inscription";
+import CommiteeENG from "./components/english/CommiteeENG";
+import TechniqueENG from "./components/english/TechniqueENG";
 
 function MainEnglish() {
   return (
@@ -26,7 +26,9 @@ function MainEnglish() {
           <HomeENG />
           <AboutENG />
           <ProgrammeENG />
+          <CommiteeENG/>
           <IntervenantsENG />
+          <TechniqueENG/>
           <Marquee />
           <Contact />
           <Footer />

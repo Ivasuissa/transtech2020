@@ -28,25 +28,6 @@ import edouard from "../media/intervenants/edouard.jpeg";
 
 export const IntervenantsData = [
   {
-    id: 1,
-    name: "Daniel Rouach",
-    position: "President of the France Israel Chamber of Commerce",
-    photo: daniel
-  },
-  {
-    id: 2,
-    name: "François Petit",
-    position:
-      "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
-    photo: petit
-  },
-  {
-    id: 4,
-    name: "André Dan",
-    position: "Speakers & Coach | Co-founder Challengy",
-    photo: andre
-  },
-  {
     id: 9,
     name: " Eric Danon TBC",
     position: " S.E. The French Ambassador of Israel",
@@ -54,7 +35,7 @@ export const IntervenantsData = [
   },
   {
     id: 8,
-    name: "Dan Catarivas TBC",
+    name: "Dan Catarivas",
     position:
       "Director General -Foreign Trade at Manufacturers' Association of Israel",
     photo: dan
@@ -77,13 +58,6 @@ export const IntervenantsData = [
     name: "Youval Rouach",
     position: "Co-Founder & CEO - Bit Of gold",
     photo: youval
-  },
-  {
-    id: 19,
-    name: "Yossi Dan",
-    position:
-      "Cofounder & CEO at TrekFounders | Cofounder & Chief Innovation Lab at Challengy",
-    photo: yossi
   },
   {
     id: 33,
@@ -157,26 +131,6 @@ export const IntervenantsData = [
     position: "CoFounder & CEO - BrandTotal",
     photo: alon
   },
-
-  {
-    id: 23,
-    name: "Sami Perez",
-    position: "Consultant | Expert (Sécurity) ",
-    photo: sami
-  },
-  {
-    id: 21,
-    name: "Ron Waldman TBC",
-    position: "Consultant & Expert",
-    photo: ron
-  },
-
-  {
-    id: 24,
-    name: "Anne Baer TBC",
-    position: "CEO at iKare Innovation |  Expert (Innovation)",
-    photo: baer
-  },
   {
     id: 25,
     name: "Yoan Smadja TBC",
@@ -185,13 +139,13 @@ export const IntervenantsData = [
   },
   {
     id: 25,
-    name: "Valérie Zarka TBC",
+    name: "Valérie Zarka",
     position: "CEO at MORE THAN DIGITAL ",
     photo: zarka
   },
   {
     id: 26,
-    name: "Didier Toubia  TBC",
+    name: "Didier Toubia",
     position: "Co-Founder & CEO - Aleph Farms",
     photo: toubia
   }

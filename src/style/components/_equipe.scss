@@ -23,11 +23,17 @@
 
   .techniqueDisplay {
     padding: 1%;
-    margin-left: 2%;
+    margin-left: auto;
+    margin-right:auto;
     width: 100%;
     display: grid;
     min-height: $minHeight;
-    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-columns:  25% 25%;
+    
+  }
+  ul{
+    display:flex;
+    justify-content:center;
   }
   li {
     margin-top: 3rem;
@@ -35,7 +41,7 @@
   img {
     border-radius: 9rem;
     width: 75%;
-    background-color: blue;
+    background-color: white;
   
   }
 
