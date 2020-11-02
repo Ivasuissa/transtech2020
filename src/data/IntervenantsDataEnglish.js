@@ -191,7 +191,7 @@ export const IntervenantsData = [
   },
   {
     id: 26,
-    name: "Didié Toubia  TBC",
+    name: "Didier Toubia  TBC",
     position: "Co-Founder & CEO - Aleph Farms",
     photo: toubia
   }
