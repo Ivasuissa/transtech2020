@@ -1,0 +1,49 @@
+#orga {
+  font-family: $font-7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 5vw;
+  padding: 0 3vw 0 3vw;
+
+  h3 {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+  h5 {
+    font-size: 0.7rem;
+    padding-right: 0.5rem;
+  }
+  .orgaTitle {
+    display: flex;
+    justify-content: center;
+    color: $color-2;
+    font-family: $font-1;
+  }
+
+  .orgaDisplay {
+    padding: 1%;
+    margin-left: 2%;
+    width: 100%;
+    display: grid;
+    min-height: $minHeight;
+    grid-template-columns: 24% 24% 24% 24%;
+  }
+  li {
+    margin-top: 3rem;
+  }
+  img {
+    border-radius: 9rem;
+    width: 75%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 850px) {
+    h5 {
+      font-size: 0.4rem;
+    }
+    h3 {
+      font-size: 0.5rem;
+    }
+  }
+}

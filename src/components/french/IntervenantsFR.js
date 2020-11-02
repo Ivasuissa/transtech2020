@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { IntervenantsData } from "../../data/IntervenantsData";
 
-export default class IntervenantsFR extends Component {
+export default class OrgaFR extends Component {
   state = {
     intervenants: IntervenantsData
   };
@@ -9,7 +9,7 @@ export default class IntervenantsFR extends Component {
     let { intervenants } = this.state;
 
     return (
-      <div id="intervenants" > 
+      <div id="intervenants">
         <div className="intervenantsTitle">
           <h1>Intervenants</h1>
         </div>
@@ -24,7 +24,6 @@ export default class IntervenantsFR extends Component {
             );
           })}
         </ul>
-    
       </div>
     );
   }

@@ -28,24 +28,6 @@ import edouard from "../media/intervenants/edouard.jpeg";
 
 export const IntervenantsData = [
   {
-    id: 1,
-    name: "Daniel Rouach",
-    position: "Président de la Chambre de Commerce France Israel",
-    photo: daniel
-  },
-  {
-    id: 2,
-    name: "François Petit",
-    position: "Chef du Service Economique de l'Ambassade de France en Israël",
-    photo: petit
-  },
-  {
-    id: 4,
-    name: "André Dan",
-    position: "Speakers & Coach | Co-fondateur Challengy",
-    photo: andre
-  },
-  {
     id: 9,
     name: " Eric Danon TBC",
     position: " S.E. L'Ambassadeur de France en Israël",
@@ -77,13 +59,6 @@ export const IntervenantsData = [
     photo: youval
   },
 
-  {
-    id: 19,
-    name: "Yossi Dan",
-    position:
-      "Co-Fondateur & CEO - TrekFounders | Co-Fondateur & Chief Innovation Lab - Challengy",
-    photo: yossi
-  },
   {
     id: 33,
     name: "Edouard Cukierman",
@@ -162,25 +137,6 @@ export const IntervenantsData = [
     name: "Valérie Zarka",
     position: "CEO - MORE THAN DIGITAL ",
     photo: zarka
-  },
-
-  {
-    id: 23,
-    name: "Sami Perez",
-    position: "Consultant | Expert (Sécurité) ",
-    photo: sami
-  },
-  {
-    id: 21,
-    name: "Ron Waldman TBC",
-    position: "Technology Partnerships at Haier Israel Innovation Center",
-    photo: ron
-  },
-  {
-    id: 24,
-    name: "Anne Baer TBC",
-    position: "CEO at iKare Innovation |  Experte (Innovation)",
-    photo: baer
   },
   {
     id: 25,
