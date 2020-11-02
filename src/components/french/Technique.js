@@ -11,7 +11,7 @@ export default class Technique extends Component {
     return (
       <div id="technique">
         <div className="techniqueTitle">
-          <h1>Comité d'Organisation</h1>
+          <h1>Equipe Technique</h1>
         </div>
         <ul className="techniqueDisplay">
           {equipes.map(equipe => {
