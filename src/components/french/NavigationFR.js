@@ -7,8 +7,8 @@ import IntervenantsFR from "./IntervenantsFR";
 import HomeFR from "./HomeFR";
 import Contact from "../Contact";
 import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
-import EN from "../../media/EN.png";
-import FR from "../../media/FR.png";
+import EN from "../../media/anglais.png";
+import FR from "../../media/france.png";
 import anglais from "../../media/anglais.png";
 import israelValley from "../../media/sponsors/israelvalley.png";
 import ccif from "../../media/sponsors/cciif.png";
@@ -25,9 +25,7 @@ const NavigationFR = props => {
           <img src={israelValley}></img>
         </div>
         <nav class="navbar navbar-expand-lg navbar-white bg-blue">
-          <div class="navbar-brand" id="button" onClick={() => handleChange()}>
-            ENG
-          </div>
+          <img src={EN}onClick={() => handleChange()}></img>
           <a
             class="navbar-brand"
             target="_blank"

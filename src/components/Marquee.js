@@ -15,16 +15,12 @@ import orange from "../media/sponsors/orange.png";
 import edf from "../media/sponsors/edf.png";
 import renault from "../media/sponsors/renault.png";
 import elnet from "../media/sponsors/elnet.png";
-import Inscription from "./Inscription";
 
 const Marquee = () => {
   return (
     <div className="aboutMarquee">
-      <h1>Nos Partenaires</h1>
+      <h1> Nos Sponsors (TBC*)</h1>
       <marquee className="marquee">
-        <img className="small" src={cciif}></img>
-        <img className="small" src={israelvalley}></img>
-        <img className="tooBig" src={escp}></img>
         <img className="small" src={bersay}></img>
         <img className="tooBig" src={AFI}></img>
         <img className="tooBig" src={herez}></img>

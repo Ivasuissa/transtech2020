@@ -19,7 +19,7 @@ import elnet from "../../media/sponsors/elnet.jpeg";
 const Marquee = () => {
   return (
     <div className="aboutMarquee">
-      <h1>Sponsors & Partners</h1>
+      <h1>Our Sponsors (TBC*)</h1>
       <marquee className="marquee">
         <img className="small" src={cciif}></img>
         <img className="small" src={israelvalley}></img>

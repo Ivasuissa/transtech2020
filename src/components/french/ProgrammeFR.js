@@ -10,27 +10,79 @@ const ProgrammeFR = () => {
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">
-          <h4>4 thèmes pour cette 11ème Edition:</h4>
-          <ul>
-            <li>
-              <h5>• La Cybersecurité, </h5>
-            </li>
-            <li>
-              <h5>• Le Bitcoin et la Cryptomonnaie, </h5>
-            </li>
-            <li>
-              <h5>• La Health Tech, </h5>
-            </li>
-            <li>
-              <h5>• Les relations France / Israël </h5>
-            </li>
-          </ul>
+          <h3>4 thèmes pour cette 11ème Édition:</h3>
+          <div className="blocA">
+            <div id="security">
+              <h3>I. La Cybersécurité</h3>
+              <p>
+                Israël est le deuxième pays au monde en matière d’exportation de
+                cyber-sécurité. En effet, de nombreux pays
+                collaborent aujourd’hui avec le pays pour protéger leur système.
+                 Israël investit des centaines de millions de shekels
+                chaque année sur les infrastructures visant à transformer la
+                ville du désert, Beersheva, en « plaque tournante de la
+                cyber-sécurité mondiale ». Pourquoi l’écosystème israélien de la
+                cybersécurité est-il si innovant? Quelles sont les tendances
+                technologiques dans cet écosystème?
+              </p>
+            </div>
+            <div id="BitCoin">
+              <h3>II. Bitcoin & Cryptomonnaie</h3>
+              <p>
+                Israël, un des États au monde où l’écosystème crypto est le plus
+                développé, s’apprête à prendre un véritable tournant dans ce
+                domaine. En effet depuis 2018, les crypto-monnaies sont
+                assimilées à des actifs financiers, obligeant les investisseurs
+                individuels à payer un impôt sur les plus-values de 25%. La
+                Knesset israélienne réexamine le Code des Impôts, envisageant
+                d’abandonner l’impôt sur les plus-values du Bitcoin et autres
+                Crypto – monnaies, ce qui augmentera ainsi considérablement la
+                demande et donc l’intérêt autour de cet écosystème.
+              </p>
+            </div>
+          </div>
+          <div class="blocB">
+            <div id="HealthTech">
+              <h3>III. HealthTech</h3>
+              <p>
+                Les nombreuses start-ups israéliennes dans le domaine de la
+                technologie de la santé suscitent un fort intérêt de
+                l’étranger, les géants de la médecine multinationale cherchant à
+                profiter du boom technologique actuel du pays. La technologie de
+                la santé israélienne est stimulée par une demande mondiale de
+                solutions de santé innovantes, accélérée très largement par le
+                COVID 19. Considérant que les sciences de la vie représentent à
+                elles seules près de 50% de la recherche scientifique en Israël,
+                le pays est devenu une plaque tournante de l'innovation médicale
+                et sanitaire et, par conséquent, une cible pour les
+                investisseurs.
+              </p>
+            </div>
+            <div id="relations">
+              <h3>IV. Les relations France / Israël</h3>
+              <p>
+                Les relations politiques entre la France et Israël sont solides,
+                marquées principalement par une reconnaissance de l’Etat
+                d’Israël par la France, et son droit à la sécurité. Les deux
+                pays entretiennent des liens solides en matière de défense et de
+                renseignement et ont un vif intérêt pour une coopération
+                économique croissante. L'économie française est la deuxième en
+                Europe et cherche à exploiter le savoir faire israélien en
+                matière d’innovation, tandis que les entreprises israéliennes
+                bénéficieraient d'un accès accru au marché en France. La
+                proximité géographique et les liens culturels jouent un rôle
+                important, la France abritant la plus grande communauté juive
+                d'Europe, tandis qu'Israël, l'une des plus grandes diasporas
+                françaises.
+              </p>
+            </div>
+          </div>
         </div>
         <div>
           <h4>
             La conférence sera tiendra en français et en anglais, à Tel-Aviv,
             dans la salle de réunion du 13ème étage de la Chambre de Commerce
-            Israël – France et à Paris, dans un amphithéâtre de l’ESCP Europe.
+            Israël – France et à Paris, dans un amphithéâtre de l’ESCP Business School.
             <br></br> L'ensemble sera diffusé via Zoom.
           </h4>
         </div>
@@ -99,7 +151,7 @@ const ProgrammeFR = () => {
               <div>
                 <h4>
                   {" "}
-                  <b>Ecole ESCP Europe,</b>{" "}
+                  <b>Ecole ESCP Business School,</b>{" "}
                 </h4>
                 <h4>79 Avenue de la République, Paris 75011 </h4>
                 <h4>Amphithéâtre Gélis</h4>

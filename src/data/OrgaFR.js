@@ -51,13 +51,13 @@ export const OrgaFR = [
   },
   {
     id: 21,
-    name: "Ron Waldman TBC",
+    name: "Ron Waldman ",
     position: "Technology Partnerships at Haier Israel Innovation Center",
     photo: ron
   },
   {
     id: 24,
-    name: "Anne Baer TBC",
+    name: "Anne Baer TBC*",
     position: "CEO at iKare Innovation |  Experte (Innovation)",
     photo: baer
   }

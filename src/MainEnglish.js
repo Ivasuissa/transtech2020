@@ -19,6 +19,7 @@ import Marquee from "./components/english/Marquee";
 import IntervenantsENG from "./components/english/IntervenantsENG";
 import CommiteeENG from "./components/english/CommiteeENG";
 import TechniqueENG from "./components/english/TechniqueENG";
+import Partners from "./components/english/Partners";
 
 function MainEnglish() {
   return (
@@ -29,6 +30,7 @@ function MainEnglish() {
           <CommiteeENG/>
           <IntervenantsENG />
           <TechniqueENG/>
+          <Partners/>
           <Marquee />
           <Contact />
           <Footer />

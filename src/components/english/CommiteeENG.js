@@ -11,7 +11,7 @@ export default class CommiteeENG extends Component {
     return (
       <div id="orga">
         <div className="orgaTitle">
-          <h1>Comité d'Organisation</h1>
+          <h1>Organizing Commitee</h1>
         </div>
         <ul className="orgaDisplay">
           {orgas.map(orga => {

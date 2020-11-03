@@ -13,27 +13,73 @@ const ProgrammeENG = () => {
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">
-          <h4> This 11th Edition, will include themes on:</h4>
-          <ul>
-            <li>
-              <h5>• Cybersecurity </h5>
-            </li>
-            <li>
-              <h5>• Bitcoin and Cryptocurrency </h5>
-            </li>
-            <li>
-              <h5>• Health Tech, </h5>
-            </li>
-            <li>
-              <h5>• The relationship between France / Israël </h5>
-            </li>
-          </ul>
+          <h3>4 thèmes pour cette 11ème Édition:</h3>
+          <div className="blocA">
+            <div id="security">
+              <h3>I. Cybersecurity </h3>
+              <p>
+                Israel is the second country in the world for cyber security
+                exports. Indeed, many countries are now working with Israeli
+                cyber security companies to protect their systems. Israel is
+                investing hundreds of millions of shekels each year in
+                infrastructure aimed at transforming the desert city, Beersheva,
+                into a "global cyber security hub." Why is the Israeli
+                cybersecurity ecosystem so innovative? What are the
+                technological trends in this ecosystem?
+              </p>
+            </div>
+            <div id="BitCoin">
+              <h3>II. Bitcoin & Crypto-Currencies</h3>
+              <p>
+                Israel, one of the countries in the world with the most
+                developed crypto ecosystem, is about to take a real turn in this
+                area. Indeed since 2018, crypto-currencies have been treated
+                like other financial assets, requiring individual investors to
+                pay a capital gains tax of 25%. The Israeli Knesset is
+                re-examining the Tax Code, considering dropping the capital
+                gains tax on Bitcoin and other cryptocurrencies, thereby
+                dramatically increasing demand and therefore interest in this
+                ecosystem.
+              </p>
+            </div>
+          </div>
+          <div class="blocB">
+            <div id="HealthTech">
+              <h3>III. Health Tech</h3>
+              <p>
+                Israel’s many health tech start-ups are attracting unprecedented
+                interest from abroad, with multinational medical giants looking
+                to benefit from the country’s ongoing high-tech boom. Israel’s
+                health tech is spurred on by a global demand for innovative
+                healthcare solutions, accelerated largely with the COVID 19
+                pandemic. Considering that life sciences alone represent nearly
+                50% of scientific research in Israel, the country has become a
+                hub for medical and health innovation and, consequently, a
+                target for investors.
+              </p>
+            </div>
+            <div id="relations">
+              <h3>IV. Relations between Israel and France</h3>
+              <p>
+                Political relations between France and Israel are solid, marked
+                mainly by recognition of the State of Israel by France. The two
+                countries have strong defense and intelligence ties and have a
+                keen interest in growing economic cooperation. The French
+                economy is the second in Europe and seeks to harness Israeli
+                innovation know-how, while Israeli companies would benefit from
+                increased market access in France. Geographical proximity and
+                cultural ties play an important role, with France home to the
+                largest Jewish community in Europe, while Israel has one of the
+                largest French diasporas.
+              </p>
+            </div>
+          </div>
         </div>
         <div>
           <h4>
             The conference will be held in French and English, in Tel Aviv in
             the meeting room on the 13th floor of the Chamber of Commerce Israel
-            - France and in Paris, in an ESCP Europe amphitheater.
+            - France and in Paris, in an ESCP Business School amphitheater.
             <br></br> Will also be broadcast via Zoom.
           </h4>
         </div>
@@ -71,12 +117,6 @@ const ProgrammeENG = () => {
             </div>
           </div>
 
-          {/* <div className="icons">
-            <i class="fas fa-clock"></i>
-            <i class="fas fa-microphone"></i>
-            <i class="fas fa-map-marker-alt"></i>
-          </div> */}
-
           <div className="bloc2">
             <div className="place">
               <h3>Paris</h3>
@@ -102,7 +142,7 @@ const ProgrammeENG = () => {
               <div>
                 <h4>
                   {" "}
-                  <b> ESCP EUROPE SCHOOL,</b>{" "}
+                  <b> ESCP Business School,</b>{" "}
                 </h4>
                 <h4>79 Avenue de la République </h4>
                 <h4>Paris 75011 </h4>

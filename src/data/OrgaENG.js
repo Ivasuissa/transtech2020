@@ -56,7 +56,7 @@ export const OrgaENG = [
   },
   {
     id: 24,
-    name: "Anne Baer TBC",
+    name: "Anne Baer TBC*",
     position: "CEO at iKare Innovation |  Experte (Innovation)",
     photo: baer
   }

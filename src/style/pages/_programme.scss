@@ -6,7 +6,33 @@
   color: $color-9;
   font-family: $font-7;
   width: 100%;
-
+  .presentation{
+    h3{
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  }
+.blocA,
+.blocB{
+  display:flex;
+  justify-content: space-around;
+  margin-bottom:2rem;
+  div{
+    width:45%;
+    border: 1px $color-1 solid;
+    padding:1rem;
+    box-shadow: 0px 0px 3px 5px $color-6;
+    background-color: rgb(220, 231, 250);
+    p{
+      font-size:0.7rem
+    }
+    h3{
+      font-size:1.2rem;
+      text-align:center;
+      color:$color-6;
+    }
+  }
+}
   h4 {
     font-size: 1rem;
   }
@@ -122,6 +148,17 @@
   h1 {
     font-size: 1.7rem;
   }
+  .blocA,
+  .blocB
+  {
+      flex-direction:column;
+      div{
+        width: 90% !important;
+        justify-content: space-around !important;
+        margin-top:1rem;
+      }
+    
+  }
   .TransTech2020Content {
     .details {
       flex-direction: column !important;
@@ -129,7 +166,7 @@
       .bloc2 {
         width: 90% !important;
         justify-content: space-around !important;
-        border: 2px $color-2 solid;
+        // border: 2px $color-2 solid;
         margin: 1rem 5% 1rem 5%;
         padding: 2rem 2rem 2rem 2rem;
       }

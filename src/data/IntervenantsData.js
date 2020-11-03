@@ -67,7 +67,7 @@ export const IntervenantsData = [
   },
   {
     id: 17,
-    name: "Nadine Baudot-Trajtenbeg  TBC",
+    name: "Nadine Baudot-Trajtenbeg TBC*",
     position:
       "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie à IDC Herzliya |",
     photo: nadine
@@ -75,40 +75,40 @@ export const IntervenantsData = [
 
   {
     id: 11,
-    name: "Daniel Sayag TBC",
+    name: "Daniel Sayag TBC*",
     position: "Directeur des ventes Israël d'Airbus Defence & Space",
     photo: sayag
   },
 
   {
     id: 12,
-    name: "Jeremie Kletzkine TBC",
+    name: "Jeremie Kletzkine TBC*",
     position: "Vice Président de Start-up nation",
     photo: jeremie
   },
   {
     id: 13,
-    name: "Raphael Ouzan TBC",
+    name: "Raphael Ouzan TBC*",
     position:
       "Fondateur et CEO de A.Team | Fondateur et Investisseur de BlockNation |  Co Fondateur Israël Tech Challenge",
     photo: ouzan
   },
   {
     id: 15,
-    name: "Julien Bahloul TBC",
+    name: "Julien Bahloul TBC*",
     position: "Country Manager - OrCam",
     photo: bahloul
   },
   {
     id: 27,
-    name: "	Inbal Arieli TBC",
+    name: "	Inbal Arieli TBC*",
     position:
       "Author du livre Chutzpah, Global Speaker, Foundatrice - Synthesis.",
     photo: inbal
   },
   {
     id: 30,
-    name: "	Laurent Dassault TBC",
+    name: "	Laurent Dassault TBC*",
     position: "General Manager Dassault",
     photo: dassault
   },
@@ -121,14 +121,14 @@ export const IntervenantsData = [
 
   {
     id: 16,
-    name: "Roy Bachar  TBC",
+    name: "Roy Bachar  TBC*",
     position: "Vice-Président & Géneral Manager - Upstream Security",
     photo: roy
   },
 
   {
     id: 18,
-    name: "Alon Leibovich TBC",
+    name: "Alon Leibovich TBC*",
     position: "Co-Fondateur & CEO - BrandTotal",
     photo: alon
   },
@@ -140,14 +140,14 @@ export const IntervenantsData = [
   },
   {
     id: 25,
-    name: "Yoan Smadja TBC",
+    name: "Yoan Smadja TBC*",
     position: "CEO Maison Kayser (Tel-Aviv) ",
     photo: smadja
   },
 
   {
     id: 26,
-    name: "Didier Toubia  TBC",
+    name: "Didier Toubia  TBC*",
     position: "Co-Founder & CEO - Aleph Farms",
     photo: toubia
   }
