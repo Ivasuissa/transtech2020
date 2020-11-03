@@ -35,7 +35,7 @@ $black: rgb(20, 19, 17);
 
 $borderRadius: 25px;
 $shadow: 0 1px 3px #333;
-$minHeight: 28vh;
+// $minHeight: 28vh;
 
 #MainFrench,
 #MainEnglish {
@@ -97,16 +97,17 @@ a {
 a:visited {
   color: $black;
 }
-.home,
-.knowledges,
-.portfolio,
-.contact {
-  display: flex;
+
 
   @media screen and (max-width: 850px) {
+    .home,
+    .contact {
     display: block !important;
+    }
+ 
   }
-}
+  
+
 .homeContent,
 .knowledgesContent,
 .portfolioContent,

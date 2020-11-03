@@ -5,21 +5,28 @@ import CCIIF from "../media/sponsors/cciif.png";
 const Contact = () => {
   return (
     <div id="contact">
+      <h1>Contact</h1>
       <div className="contactContent">
-        <h1>Contact</h1>
         <div className="contactBox">
-          <ul>
+          <ul className="listCo">
             <li>
               {" "}
               <img src={CCIIF}></img>
             </li>
             <li>
               <i className="fa fa-map-marker-alt"></i>
-              <span>HaMered Street 29, Tel-Aviv</span>
+              <CopyToClipboard text="HaMered Street 29, Tel-Aviv">
+                <span
+                  className="clickInput"
+                  onClick={() => alert("Telephone copié")}
+                >
+                  HaMered Street 29, Tel-Aviv
+                </span>
+              </CopyToClipboard>
             </li>
             <li>
               <i className="fa fa-mobile-alt"></i>
-              <CopyToClipboard text="0642844454">
+              <CopyToClipboard text="+(972) 55-5001297">
                 <span
                   className="clickInput"
                   onClick={() => alert("Telephone copié")}
@@ -29,7 +36,7 @@ const Contact = () => {
               </CopyToClipboard>
             </li>
             <li>
-              <CopyToClipboard text="0642844454">
+              <CopyToClipboard text="+(33) 7 55 54 12 75">
                 <span
                   className="clickInput"
                   onClick={() => alert("Telephone copié")}
@@ -52,7 +59,7 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-    
+      <p>*TBC : To be Confirmed </p>
     </div>
   );
 };

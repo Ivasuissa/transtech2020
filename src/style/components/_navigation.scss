@@ -19,13 +19,13 @@
       img {
         width: 17%;
         height: 30%;
-        cursor: progress;
       }
     }
 
-    .drapeau{
-      width:4vw;
+    .drapeau {
+      width: 4vw;
       margin-right: 3vw;
+      cursor: pointer;
     }
     h1 {
       font-family: $font-7;
