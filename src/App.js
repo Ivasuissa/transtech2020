@@ -26,7 +26,6 @@ export default class App extends Component {
     });
   };
   render() {
-    console.log(this.handleChange);
     return (
       <div className="all">
         {this.state.isFrench ? (
