@@ -10,7 +10,7 @@ const AboutFR = () => {
         <i class="fas fa-quote-left"></i>
         <h1>
           Un véritable pont économique et commercial <br></br>entre la France et
-          Israël.
+          Israël
         </h1>
         <i class="fas fa-quote-right"></i>
       </div>

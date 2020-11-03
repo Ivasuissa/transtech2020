@@ -90,7 +90,7 @@ const ProgrammeENG = () => {
             <div className="time">
               <i class="fas fa-clock"></i>
               <h4>
-                From 14:00 to 18:00 Israeli hour ( 15:00 to 17:00 French hour)
+                <b> From 14:00 to 18:00, </b>Israeli hour ( 15:00 to 17:00 French hour)
               </h4>
             </div>
             <div className="presentateur">
@@ -124,7 +124,7 @@ const ProgrammeENG = () => {
               <i class="fas fa-clock"></i>
               <h4>
                 {" "}
-                From 19: 00 to 20:30 Israeli hour (18 to 19:30 French hour)
+                <b>  From 19: 00 to 20:30, </b> Israeli hour (18 to 19:30 French hour)
               </h4>
             </div>
             <div className="presentateur">

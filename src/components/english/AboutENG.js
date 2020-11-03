@@ -6,7 +6,7 @@ const AboutENG = () => {
       <div className="title">
         <i class="fas fa-quote-left"></i>
         <h1>
-          A real economic bridge <br></br> between France and Israel.
+          A real economic bridge <br></br> between France and Israel
         </h1>
         <i class="fas fa-quote-right"></i>
       </div>

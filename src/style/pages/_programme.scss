@@ -16,7 +16,8 @@
     padding: 2% 2% 1rem 2%;
     h5{
       text-align: center;
-       color: $color-1;
+      color:$color-6;
+       font-size:1.7rem;
     }
   }
 .blocA,
@@ -33,7 +34,7 @@
     box-shadow: 0px 0px 3px 2px $color-6;
     // background-color: rgb(220, 231, 250);
     p{
-      font-size:0.7rem
+      font-size:0.9rem
     }
     h3{
       font-size:1.2rem;
@@ -43,7 +44,7 @@
   }
 }
   h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   li h5 {
     font-size: 1rem;
@@ -96,7 +97,7 @@
           color: $color-8;
         }
         h4 {
-          font-size: 0.9rem;
+          font-size: 1.1rem;
           color: white;
         }
       }
