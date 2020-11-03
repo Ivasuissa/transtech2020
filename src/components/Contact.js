@@ -31,7 +31,7 @@ const Contact = () => {
                   className="clickInput"
                   onClick={() => alert("Telephone copié")}
                 >
-                  +(972) 55-5001297 (ISR)
+                  +(972) 55-5001297
                 </span>
               </CopyToClipboard>
             </li>
@@ -41,7 +41,7 @@ const Contact = () => {
                   className="clickInput"
                   onClick={() => alert("Telephone copié")}
                 >
-                  +(33) 7 55 54 12 75 (FR)
+                  +(972) 3 533 33 06
                 </span>
               </CopyToClipboard>
             </li>
