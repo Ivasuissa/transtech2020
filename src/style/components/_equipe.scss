@@ -3,8 +3,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 5vw;
-  padding: 0 3vw 0 3vw;
+  padding: 5vh 3vw 5vh 3vw;
 
   h3 {
     font-size: 1rem;
@@ -24,25 +23,23 @@
   .techniqueDisplay {
     padding: 1%;
     margin-left: auto;
-    margin-right:auto;
+    margin-right: auto;
     width: 100%;
     display: grid;
     min-height: $minHeight;
-    grid-template-columns:  25% 25%;
-    
+    grid-template-columns: 25% 25%;
   }
-  ul{
-    display:flex;
-    justify-content:center;
+  ul {
+    display: flex;
+    justify-content: center;
   }
   li {
-    margin-top: 3rem;
+    margin-top: 5vh;
   }
   img {
     border-radius: 9rem;
     width: 75%;
     background-color: white;
-  
   }
 
   @media screen and (max-width: 850px) {

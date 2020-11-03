@@ -26,7 +26,7 @@ const NavigationENG = props => {
           <img src={israelValley}></img>
         </div>
         <nav class="navbar navbar-expand-lg navbar-white bg-blue">
-        <img src={FR}onClick={() => handleChange()}></img>
+        <img  className="drapeau" src={FR}onClick={() => handleChange()}></img>
           <a
             class="navbar-brand"
             target="_blank"
