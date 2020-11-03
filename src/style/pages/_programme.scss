@@ -1,15 +1,22 @@
 #programme{
   padding: 0 4vw 0 4vw;
 }
+
 .TransTech2020 {
-  padding: 1rem 2% 1rem 2%;
+
   color: $color-9;
   font-family: $font-7;
   width: 100%;
+  .infoconf{
+    text-align: center;
+    padding: 0 5% 0 5% ;
+    
+  }
   .presentation{
-    h3{
+    padding: 2% 2% 1rem 2%;
+    h5{
       text-align: center;
-      margin-bottom: 1rem;
+       color: $color-1;
     }
   }
 .blocA,
@@ -23,7 +30,7 @@
     width:45%;
     // border: 1px $color-1 solid;
     padding:1rem;
-    // box-shadow: 0px 0px 3px 5px $color-6;
+    box-shadow: 0px 0px 3px 2px $color-6;
     // background-color: rgb(220, 231, 250);
     p{
       font-size:0.7rem

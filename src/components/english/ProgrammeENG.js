@@ -13,7 +13,7 @@ const ProgrammeENG = () => {
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">
-          <h3>4 thèmes pour cette 11ème Édition:</h3>
+          <h5>4 themes for this 11th Edition:</h5>
           <div className="blocA">
             <div id="security">
               <h3>I. Cybersecurity </h3>
@@ -76,10 +76,8 @@ const ProgrammeENG = () => {
           </div>
         </div>
         <div>
-          <h4>
-            The conference will be held in French and English, in Tel Aviv in
-            the meeting room on the 13th floor of the Chamber of Commerce Israel
-            - France and in Paris, in an ESCP Business School amphitheater.
+          <h4 className="infoconf">
+            The conference,  held <b>in French </b> and <b>in English </b>, will be divided in two parts 
             <br></br> Will also be broadcast via Zoom.
           </h4>
         </div>

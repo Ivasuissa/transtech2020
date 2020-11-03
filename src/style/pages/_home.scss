@@ -1,17 +1,10 @@
 #home {
   display: flex;
   flex-direction: column;
-  // justify-content: center;
   text-align: center;
   align-items: center;
-  // background-image: url(../../components/media/img1.png);
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // background-image-height: 100vw;
-  // opacity: 0.5;
- img{
-   height:60vh;
- }
+ 
+ 
 
   .homeContent {
     color: $color-1;
@@ -19,7 +12,15 @@
     margin: 1rem;
     display: flex;
     width: 100vw;
-
+    flex-direction: column;
+    justify-content: center;
+    img{
+      display:flex;
+      width:65%;
+      height:60vh;
+      margin-right: auto;
+      margin-left:auto
+    }
     .homeTitle {
       display: flex;
       align-items: center;
@@ -28,45 +29,19 @@
       width: 100%;
       font-weight: bold;
       opacity: 1;
-      padding: 1rem;
+      padding: 2% 0 2% 0;
 
-      // h1 {
-      //   margin-top: 0.7rem;
-      //   font-size: 8vw;
-      //   color: white;
-      //   -webkit-text-fill-color: rgb(
-      //     2,
-      //     2,
-      //     84
-      //   ); 
-      //   -webkit-text-stroke-width: 2px;
-      //   -webkit-text-stroke-color: $color-1;
-      //   text-shadow: 3px 2px;
-      //   filter: drop-shadow(30px 10px 4px $white);
-      // }
+      h1, H4{
+        color: #2d487a;
+        font-weight: bold;
+       
+      
+      }
+      h2{
+        color: #6999f1;
+        font-weight: bold;
+      }
 
-      // h2 {
-      //   font-size: 6vw;
-      //   margin-bottom: 0.7rem;
-      //   color: $color-2;
-      //   -webkit-text-fill-color: white; 
-      //   -webkit-text-stroke-color: $color-2;
-      //   text-shadow: 3px 2px;
-      //   filter: drop-shadow(30px 10px 4px $color-1);
-      // }
-      // h4 {
-      //   font-size: 4vw;
-      //   color: white;
-      //   -webkit-text-fill-color: rgb(
-      //     0,
-      //     0,
-      //     84
-      //   ); 
-      //   -webkit-text-stroke-width: 1.5px;
-      //   -webkit-text-stroke-color: $color-2;
-      //   text-shadow: 3px 2px;
-      //   filter: drop-shadow(30px 10px 4px $white);
-      // }
     }
 
     .slogan {

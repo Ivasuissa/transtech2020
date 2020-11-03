@@ -10,20 +10,20 @@ const ProgrammeFR = () => {
       </div>
       <div className="TransTech2020Content">
         <div className="presentation">
-          <h3>4 thèmes pour cette 11ème Édition:</h3>
+          <h5>4 thèmes pour cette 11ème Édition:</h5>
           <div className="blocA">
             <div id="security">
               <h3>I. La Cybersécurité</h3>
               <p>
                 Israël est le deuxième pays au monde en matière d’exportation de
-                cyber-sécurité. En effet, de nombreux pays
-                collaborent aujourd’hui avec le pays pour protéger leur système.
-                 Israël investit des centaines de millions de shekels
-                chaque année sur les infrastructures visant à transformer la
-                ville du désert, Beersheva, en « plaque tournante de la
-                cyber-sécurité mondiale ». Pourquoi l’écosystème israélien de la
-                cybersécurité est-il si innovant? Quelles sont les tendances
-                technologiques dans cet écosystème?
+                cyber-sécurité. En effet, de nombreux pays collaborent
+                aujourd’hui avec le pays pour protéger leur système. Israël
+                investit des centaines de millions de shekels chaque année sur
+                les infrastructures visant à transformer la ville du désert,
+                Beersheva, en « plaque tournante de la cyber-sécurité mondiale
+                ». Pourquoi l’écosystème israélien de la cybersécurité est-il si
+                innovant? Quelles sont les tendances technologiques dans cet
+                écosystème?
               </p>
             </div>
             <div id="BitCoin">
@@ -46,16 +46,15 @@ const ProgrammeFR = () => {
               <h3>III. HealthTech</h3>
               <p>
                 Les nombreuses start-ups israéliennes dans le domaine de la
-                technologie de la santé suscitent un fort intérêt de
-                l’étranger, les géants de la médecine multinationale cherchant à
-                profiter du boom technologique actuel du pays. La technologie de
-                la santé israélienne est stimulée par une demande mondiale de
-                solutions de santé innovantes, accélérée très largement par le
-                COVID 19. Considérant que les sciences de la vie représentent à
-                elles seules près de 50% de la recherche scientifique en Israël,
-                le pays est devenu une plaque tournante de l'innovation médicale
-                et sanitaire et, par conséquent, une cible pour les
-                investisseurs.
+                technologie de la santé suscitent un fort intérêt de l’étranger,
+                les géants de la médecine multinationale cherchant à profiter du
+                boom technologique actuel du pays. La technologie de la santé
+                israélienne est stimulée par une demande mondiale de solutions
+                de santé innovantes, accélérée très largement par le COVID 19.
+                Considérant que les sciences de la vie représentent à elles
+                seules près de 50% de la recherche scientifique en Israël, le
+                pays est devenu une plaque tournante de l'innovation médicale et
+                sanitaire et, par conséquent, une cible pour les investisseurs.
               </p>
             </div>
             <div id="relations">
@@ -78,11 +77,9 @@ const ProgrammeFR = () => {
             </div>
           </div>
         </div>
-        <div>
-          <h4>
-            La conférence sera tiendra en français et en anglais, à Tel-Aviv,
-            dans la salle de réunion du 13ème étage de la Chambre de Commerce
-            Israël – France et à Paris, dans un amphithéâtre de l’ESCP Business School.
+        <div className="infoconf">
+          <h4 >
+            La conférence, qui sera tiendra <b>en français</b> et <b>en anglais</b>, se divisera en deux parties.
             <br></br> L'ensemble sera diffusé via Zoom.
           </h4>
         </div>
