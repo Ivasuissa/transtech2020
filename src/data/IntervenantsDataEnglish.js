@@ -17,8 +17,8 @@ import toubia from "../media/intervenants/toubia.jpeg";
 import inbal from "../media/intervenants/inbal.jpeg";
 import roy from "../media/intervenants/roy.jpeg";
 import edouard from "../media/intervenants/edouard.jpeg";
-import karen from "../media/intervenants/karen.jpeg";
-import oren from "../media/intervenants/oren.png";
+import karenn from "../media/intervenants/karen.jpeg";
+import orenn from "../media/intervenants/oren.png";
 import patricia from "../media/intervenants/patricia.jpeg";
 import galit from "../media/intervenants/galit.jpeg";
 import ziv from "../media/intervenants/ziv.jpeg";
@@ -90,13 +90,13 @@ export const IntervenantsData = [
     name: "Karen Beer Gabel",
     position:
       "Strategic Business Development Healthcare @Dell, Co-Founder & Managing Director @DHC - Digital Health Connection",
-    photo: karen
+    photo: karenn
   },
   {
     id: 11,
     name: "Oren Kaniel ",
     position: "CEO & Co-Founder @The AppsFlyer Rocketship",
-    photo: oren
+    photo: orenn
   },
   {
     id: 12,
