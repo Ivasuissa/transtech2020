@@ -187,7 +187,7 @@ export const IntervenantsData = [
   },
   {
     id: 26,
-    name: "Aurelie Guthman*",
+    name: "Aurelie Guthmann*",
     position: "Country Representative of Bpifrance in Israel",
     photo: aurelie
   }
