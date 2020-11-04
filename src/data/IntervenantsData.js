@@ -138,7 +138,7 @@ export const IntervenantsData = [
 
   {
     id: 18,
-    name: "Roy Bachar*",
+    name: "Roy Bachar",
     position: "Vice-Président & Géneral Manager @Upstream Security",
     photo: roy
   },
