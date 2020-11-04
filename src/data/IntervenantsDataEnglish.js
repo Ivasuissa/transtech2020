@@ -17,7 +17,7 @@ import toubia from "../media/intervenants/toubia.jpeg";
 import inbal from "../media/intervenants/inbal.jpeg";
 import roy from "../media/intervenants/roy.jpeg";
 import edouard from "../media/intervenants/edouard.jpeg";
-import karenn from "../media/intervenants/karen.jpeg";
+import karenn from "../media/intervenants/karen.png";
 import orenn from "../media/intervenants/oren.png";
 import patricia from "../media/intervenants/patricia.jpeg";
 import galit from "../media/intervenants/galit.jpeg";

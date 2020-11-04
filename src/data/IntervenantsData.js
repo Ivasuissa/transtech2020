@@ -21,7 +21,7 @@ import galit from "../media/intervenants/galit.jpeg";
 import ziv from "../media/intervenants/ziv.jpeg";
 import aurelie from "../media/intervenants/aurelie.jpeg";
 import julie from "../media/intervenants/julie.jpeg";
-import karenn from "../media/intervenants/karen.jpeg";
+import karenn from "../media/intervenants/karen.png";
 import orenn from "../media/intervenants/oren.png";
 import patricia from "../media/intervenants/patricia.jpeg";
 
