@@ -18,7 +18,7 @@ import inbal from "../media/intervenants/inbal.jpeg";
 import roy from "../media/intervenants/roy.jpeg";
 import edouard from "../media/intervenants/edouard.jpeg";
 import karenn from "../media/intervenants/karen.png";
-import orenn from "../media/intervenants/oren.png";
+import orenn from "../media/intervenants/oren.jpeg";
 import patricia from "../media/intervenants/patricia.jpeg";
 import galit from "../media/intervenants/galit.jpeg";
 import ziv from "../media/intervenants/ziv.jpeg";
