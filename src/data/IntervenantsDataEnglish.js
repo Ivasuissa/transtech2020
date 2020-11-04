@@ -1,9 +1,4 @@
 import dan from "../media/intervenants/intervenant1.jpeg";
-import daniel from "../media/intervenants/intervenant2.png";
-import andre from "../media/intervenants/intervenant3.png";
-import baer from "../media/intervenants/intervenant4.png";
-import petit from "../media/intervenants/intervenant5.jpeg";
-import shiran from "../media/intervenants/intervenant6.png";
 import sayag from "../media/intervenants/intervenant7.png";
 import youval from "../media/intervenants/intervenant8.jpeg";
 import jeremie from "../media/intervenants/intervenant9.jpeg";
@@ -16,39 +11,43 @@ import bahloul from "../media/intervenants/intervenant16.jpeg";
 import nadine from "../media/intervenants/intervenant18.jpeg";
 import alon from "../media/intervenants/intervenant19.jpeg";
 import dassault from "../media/intervenants/intervenant20.jpeg";
-import ron from "../media/intervenants/intervenant21.jpeg";
 import smadja from "../media/intervenants/intervenant22.jpeg";
-import sami from "../media/intervenants/intervenant23.png";
-import yossi from "../media/intervenants/intervenant24.jpeg";
 import zarka from "../media/intervenants/intervenant.23.jpeg";
 import toubia from "../media/intervenants/toubia.jpeg";
 import inbal from "../media/intervenants/inbal.jpeg";
 import roy from "../media/intervenants/roy.jpeg";
 import edouard from "../media/intervenants/edouard.jpeg";
+import karen from "../media/intervenants/oren.jpeg";
+import oren from "../media/intervenants/karen.png";
+import patricia from "../media/intervenants/patricia.jpeg";
+import galit from "../media/intervenants/galit.jpeg";
+import ziv from "../media/intervenants/ziv.jpeg";
+import aurelie from "../media/intervenants/aurelie.jpeg";
+import julie from "../media/intervenants/julie.jpeg";
 
 export const IntervenantsData = [
   {
-    id: 9,
-    name: " Eric Danon TBC",
+    id: 1,
+    name: " Eric Danon*",
     position: " S.E. The French Ambassador of Israel",
     photo: danon
   },
   {
-    id: 8,
+    id: 2,
     name: "Dan Catarivas",
     position:
       "Director General -Foreign Trade at Manufacturers' Association of Israel",
     photo: dan
   },
   {
-    id: 14,
-    name: "Muriel Touaty TBC",
+    id: 3,
+    name: "Muriel Touaty*",
     position:
       "Partner Education & Innovation chez Onepoint | Past CEO of Technion France, Israel Institute of Technology",
     photo: muriel
   },
   {
-    id: 6,
+    id: 4,
     name: "Amir Elichai",
     position: "Founder, Chairman & CEO - Carbyne",
     photo: amir
@@ -60,7 +59,7 @@ export const IntervenantsData = [
     photo: youval
   },
   {
-    id: 33,
+    id: 6,
     name: "Edouard Cukierman",
     position: "Founder and Managing Partner of Catalyst Funds",
     photo: edouard
@@ -73,80 +72,123 @@ export const IntervenantsData = [
   },
 
   {
-    id: 17,
-    name: "Nadine Baudot-Trajtenbeg  TBC",
+    id: 8,
+    name: "Nadine Baudot-Trajtenbeg*",
     position:
       "Assistant Professor, Tiomkin School of Economics, IDC Herzliya, Outgoing Deputy Governor, Bank of Israel | Doctor | Professeur d’Economie à IDC Herzliya |",
     photo: nadine
   },
 
   {
-    id: 11,
-    name: "Daniel Sayag TBC*",
+    id: 9,
+    name: "Daniel Sayag*",
     position: "Head of Sales ISRAEL / Airbus Defence & Space",
     photo: sayag
   },
-
+  {
+    id: 10,
+    name: "Karen Beer Gabel",
+    position:
+      "Strategic Business Development Healthcare @Dell, Co-Founder & Managing Director @DHC - Digital Health Connection",
+    photo: karen
+  },
+  {
+    id: 11,
+    name: "Oren Kaniel ",
+    position: "CEO & Co-Founder @The AppsFlyer Rocketship",
+    photo: oren
+  },
   {
     id: 12,
-    name: "Jeremie Kletzkine TBC*",
+    name: "Patricia Lahy ",
+    position: "Senior Director, Social R&D @Israel Innovation Authority",
+    photo: patricia
+  },
+
+  {
+    id: 13,
+    name: "Jeremie Kletzkine*",
     position: "VP of Business Development at Startup Nation Central",
     photo: jeremie
   },
   {
-    id: 13,
-    name: "Raphael Ouzan TBC*",
+    id: 14,
+    name: "Raphael Ouzan*",
     position:
       "Founder & CEO - A.Team | Founder and Investor - BlockNation |  CoFounderIsraël Tech Challenge",
     photo: ouzan
   },
   {
-    id: 27,
-    name: "	Inbal Arieli TBC*",
+    id: 15,
+    name: "	Inbal Arieli*",
     position: "Author of Chutzpah, Global Speaker, Founder - Synthesis.",
     photo: inbal
   },
   {
-    id: 20,
-    name: "Laurent Dassault TBC*",
+    id: 16,
+    name: "Laurent Dassault*",
     position: "General Manage Dassault",
     photo: dassault
   },
   {
-    id: 15,
-    name: "Julien Bahloul TBC*",
+    id: 17,
+    name: "Julien Bahloul*",
     position: "Country Manager - OrCam",
     photo: bahloul
   },
   {
-    id: 16,
-    name: "Roy Bachar  TBC*",
+    id: 18,
+    name: "Roy Bachar*",
     position: "Vice-President & General Manager - Upstream Security",
     photo: roy
   },
 
   {
-    id: 18,
-    name: "Alon Leibovich TBC*",
+    id: 19,
+    name: "Alon Leibovich*",
     position: "CoFounder & CEO - BrandTotal",
     photo: alon
   },
   {
-    id: 25,
-    name: "Yoan Smadja TBC*",
+    id: 20,
+    name: "Yoan Smadja*",
     position: "CEO Maison Kayser (Tel-Aviv) ",
     photo: smadja
   },
   {
-    id: 25,
+    id: 21,
     name: "Valérie Zarka",
     position: "CEO at MORE THAN DIGITAL ",
     photo: zarka
   },
   {
-    id: 26,
-    name: "Didier Toubia TBC*",
+    id: 22,
+    name: "Didier Toubia",
     position: "Co-Founder & CEO - Aleph Farms",
     photo: toubia
+  },
+  {
+    id: 23,
+    name: "Galit Zuckerman*",
+    position: "Founder & CEO @Medasense Biometrics Ltd",
+    photo: galit
+  },
+  {
+    id: 24,
+    name: "Ziv Turner*",
+    position: "Founder @Cannible",
+    photo: ziv
+  },
+  {
+    id: 25,
+    name: "Julie Jacob*",
+    position: "Lawyer at the Paris Bar and Israeli Bar @Jacob Avocats",
+    photo: julie
+  },
+  {
+    id: 26,
+    name: "Aurelie Guthman*",
+    position: "Country Representative of Bpifrance in Israel",
+    photo: aurelie
   }
 ];

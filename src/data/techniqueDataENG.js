@@ -3,17 +3,15 @@ import jt from "../media/intervenants/jt.png";
 
 export const TechniqueDataENG = [
   {
-    id: 9,
+    id: 1,
     name: " Jeanine Tuil",
-    position: "General Secretary - Israel-France Chamber of Commerce",
-    photo:jt
-   
+    position: "General Secretary @Israel-France Chamber of Commerce",
+    photo: jt
   },
   {
-    id: 8,
+    id: 2,
     name: "Eva Suissa",
-    position: "Project Manager - Israel-France Chamber of Commerce",
+    position: "Project Manager @Israel-France Chamber of Commerce",
     photo: eva
-  },
-
+  }
 ];

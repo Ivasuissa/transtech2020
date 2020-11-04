@@ -15,13 +15,13 @@ export const OrgaENG = [
     photo: daniel
   },
   {
-    id: 1,
+    id: 2,
     name: "Shiran Katz",
-    position: "Client Adviser - Vice President at Rothschild & Co",
+    position: "Client Adviser & Vice President @Rothschild & Co",
     photo: shiran
   },
   {
-    id: 2,
+    id: 3,
     name: "François Petit",
     position:
       "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
@@ -30,34 +30,34 @@ export const OrgaENG = [
   {
     id: 4,
     name: "André Dan",
-    position: "Speakers & Coach | Co-founder Challengy",
+    position: "Speakers & Coach, Co-Founder @Challengy",
     photo: andre
   },
 
   {
-    id: 19,
+    id: 5,
     name: "Yossi Dan",
     position:
-      "Cofounder & CEO at TrekFounders | Cofounder & Chief Innovation Lab at Challengy",
+      "Co-founder & CEO @TrekFounders, Co-founder & Chief Innovation Lab @Challengy",
     photo: yossi
   },
 
   {
-    id: 23,
+    id: 6,
     name: "Sami Perez",
-    position: "Consultant | Expert (Security) ",
+    position: "Consultant & Expert (Security) ",
     photo: sami
   },
   {
-    id: 21,
+    id: 7,
     name: "Ron Waldman",
-    position: "Technology Partnerships at Haier Israel Innovation Center",
+    position: "Technology Partnerships @Haier Israel Innovation Center",
     photo: ron
   },
   {
-    id: 24,
-    name: "Anne Baer TBC*",
-    position: "CEO at iKare Innovation |  Experte (Innovation)",
+    id: 8,
+    name: "Anne Baer*",
+    position: "CEO @iKare Innovation, Experte (Innovation)",
     photo: baer
   }
 ];

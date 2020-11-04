@@ -8,7 +8,6 @@ import ron from "../media/intervenants/intervenant21.jpeg";
 import sami from "../media/intervenants/intervenant23.png";
 import yossi from "../media/intervenants/intervenant24.jpeg";
 
-
 export const OrgaFR = [
   {
     id: 1,
@@ -17,13 +16,13 @@ export const OrgaFR = [
     photo: daniel
   },
   {
-    id: 1,
+    id: 2,
     name: "Shiran Katz",
-    position: "Client Adviser - Vice President at Rothschild & Co",
+    position: "Client Adviser & Vice President @Rothschild & Co",
     photo: shiran
   },
   {
-    id: 2,
+    id: 3,
     name: "François Petit",
     position: "Chef du Service Economique de l'Ambassade de France en Israël",
     photo: petit
@@ -31,34 +30,34 @@ export const OrgaFR = [
   {
     id: 4,
     name: "André Dan",
-    position: "Speakers & Coach | Co-fondateur Challengy",
+    position: "Speakers & Coach, Co-Fondateur @Challengy",
     photo: andre
   },
 
   {
-    id: 19,
+    id: 5,
     name: "Yossi Dan",
     position:
-      "Co-Fondateur & CEO - TrekFounders | Co-Fondateur & Chief Innovation Lab - Challengy",
+      "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
     photo: yossi
   },
 
   {
-    id: 23,
+    id: 6,
     name: "Sami Perez",
-    position: "Consultant | Expert (Sécurité) ",
+    position: "Consultant & Expert (Sécurité) ",
     photo: sami
   },
   {
-    id: 21,
+    id: 7,
     name: "Ron Waldman ",
-    position: "Technology Partnerships at Haier Israel Innovation Center",
+    position: "Technology Partnerships @Haier Israel Innovation Center",
     photo: ron
   },
   {
-    id: 24,
-    name: "Anne Baer TBC*",
-    position: "CEO at iKare Innovation |  Experte (Innovation)",
+    id: 8,
+    name: "Anne Baer*",
+    position: "CEO @iKare Innovation & Experte (Innovation)",
     photo: baer
   }
 ];
