@@ -105,14 +105,14 @@ export const IntervenantsData = [
   },
   {
     id: 13,
-    name: "Raphael Ouzan*",
+    name: "Raphael Ouzan",
     position:
       "Fondateur et CEO @A.Team, Fondateur et Investisseur @BlockNation, Co-Fondateur @Israël Tech Challenge",
     photo: ouzan
   },
   {
     id: 14,
-    name: "Julien Bahloul*",
+    name: "Julien Bahloul",
     position: "Country Manager @OrCam",
     photo: bahloul
   },

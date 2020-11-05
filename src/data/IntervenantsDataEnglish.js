@@ -113,7 +113,7 @@ export const IntervenantsData = [
   },
   {
     id: 14,
-    name: "Raphael Ouzan*",
+    name: "Raphael Ouzan",
     position:
       "Founder & CEO - A.Team | Founder and Investor - BlockNation |  CoFounderIsraël Tech Challenge",
     photo: ouzan
@@ -132,7 +132,7 @@ export const IntervenantsData = [
   },
   {
     id: 17,
-    name: "Julien Bahloul*",
+    name: "Julien Bahloul",
     position: "Country Manager - OrCam",
     photo: bahloul
   },
