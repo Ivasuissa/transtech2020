@@ -24,6 +24,7 @@ import galit from "../media/intervenants/galit.jpeg";
 import ziv from "../media/intervenants/ziv.jpeg";
 import julie from "../media/intervenants/julie.jpeg";
 import david from "../media/intervenants/david.jpeg";
+import aurelie from "../media/intervenants/aurelie.png";
 
 export const IntervenantsData = [
   {
@@ -73,7 +74,7 @@ export const IntervenantsData = [
 
   {
     id: 8,
-    name: "Nadine Baudot-Trajtenbeg*",
+    name: "Nadine Baudot-Trajtenberg*",
     position:
       "Assistant Professor, Tiomkin School of Economics, IDC Herzliya, Outgoing Deputy Governor, Bank of Israel | Doctor | Professeur d’Economie à IDC Herzliya |",
     photo: nadine
@@ -188,7 +189,7 @@ export const IntervenantsData = [
   {
     id: 28,
     name: "David Biegeleisen",
-    position: "Innovation Advisor @Swiss Embassy en Israël",
+    position: "Innovation Advisor @Swiss Ambassy en Israël",
     photo: david
   }
 ];

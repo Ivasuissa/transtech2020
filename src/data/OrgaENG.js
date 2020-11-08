@@ -61,4 +61,5 @@ export const OrgaENG = [
       "CEO @iKare Innovation, Experte (Innovation) & President of the France Foreign Trade Advisors  - Israel",
     photo: baer
   }
+  
 ];

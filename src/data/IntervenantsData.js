@@ -24,6 +24,7 @@ import karenn from "../media/intervenants/karen.jpeg";
 import orenn from "../media/intervenants/oren.jpeg";
 import patricia from "../media/intervenants/patricia.png";
 import david from "../media/intervenants/david.jpeg";
+import aurelie from "../media/intervenants/aurelie.png";
 
 export const IntervenantsData = [
   {
@@ -66,7 +67,7 @@ export const IntervenantsData = [
   },
   {
     id: 7,
-    name: "Nadine Baudot-Trajtenbeg*",
+    name: "Nadine Baudot-Trajtenberg*",
     position:
       "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie @IDC Herzliya |",
     photo: nadine
@@ -190,7 +191,7 @@ export const IntervenantsData = [
   {
     id: 28,
     name: "David Biegeleisen",
-    position: "Innovation Advisor @Embassade de Suisse en Israël",
+    position: "Innovation Advisor @Ambassade de Suisse en Israël",
     photo: david
   }
 ];
