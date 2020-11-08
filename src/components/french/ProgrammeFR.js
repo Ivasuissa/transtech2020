@@ -60,26 +60,27 @@ const ProgrammeFR = () => {
             <div id="relations">
               <h3>IV. Les relations France / Israël</h3>
               <p>
-                Les relations politiques entre la France et Israël sont solides,
-                marquées principalement par une reconnaissance de l’Etat
-                d’Israël par la France, et son droit à la sécurité. Les deux
-                pays entretiennent des liens solides en matière de défense et de
-                renseignement et ont un vif intérêt pour une coopération
-                économique croissante. L'économie française est la deuxième en
-                Europe et cherche à exploiter le savoir faire israélien en
-                matière d’innovation, tandis que les entreprises israéliennes
-                bénéficieraient d'un accès accru au marché en France. La
-                proximité géographique et les liens culturels jouent un rôle
-                important, la France abritant la plus grande communauté juive
-                d'Europe, tandis qu'Israël, l'une des plus grandes diasporas
-                françaises.
+                Du militaire vers le civil, les occasions de transfert de savoir
+                et de technologies ne manquent pas. Les relations politiques
+                entre la France et Israël sont solides, la France restant ferme
+                sur le droit de l’Etat d’Israël à la sécurité. Les deux pays
+                coopèrent en matière de défense et de renseignement mais
+                également dans des domaines comme l’aviation civile, ou plus
+                récemment la lutte contre les pandémies. L'économie française,
+                deuxième en Europe de par sa taille, offre à l’innovation
+                israélienne un accès au marché et à ses puissantes capacités et
+                équipes de recherche. La proximité géographique et les liens
+                culturels sont un atout, la France abritant la plus grande
+                communauté juive d'Europe, tandis qu'Israël, l'une des plus
+                grandes diasporas françaises.
               </p>
             </div>
           </div>
         </div>
         <div className="infoconf">
-          <h4 >
-            La conférence, qui sera tiendra <b>en français</b> et <b>en anglais</b>, se divisera en deux parties.
+          <h4>
+            La conférence, qui sera tiendra <b>en français</b> et{" "}
+            <b>en anglais</b>, se divisera en deux parties.
             <br></br> L'ensemble sera diffusé via Zoom.
           </h4>
         </div>

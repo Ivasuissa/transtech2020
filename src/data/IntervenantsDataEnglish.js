@@ -24,7 +24,7 @@ import galit from "../media/intervenants/galit.jpeg";
 import ziv from "../media/intervenants/ziv.jpeg";
 import julie from "../media/intervenants/julie.jpeg";
 import david from "../media/intervenants/david.jpeg";
-import aurelie from "../media/intervenants/aurelie.png";
+import jonathan from "../media/intervenants/jonathan.jpeg";
 
 export const IntervenantsData = [
   {
@@ -186,6 +186,14 @@ export const IntervenantsData = [
     position: "Lawyer at the Paris Bar and Israeli Bar @Jacob Avocats",
     photo: julie
   },
+  {
+    id: 26,
+    name: "Jonathan Goldberg",
+    position:
+      "Country Director Israel @Thales",
+    photo: jonathan
+  },
+  
   {
     id: 28,
     name: "David Biegeleisen",

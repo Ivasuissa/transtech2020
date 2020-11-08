@@ -61,23 +61,26 @@ const ProgrammeENG = () => {
             <div id="relations">
               <h3>IV. Relations between Israel and France</h3>
               <p>
-                Political relations between France and Israel are solid, marked
-                mainly by recognition of the State of Israel by France. The two
-                countries have strong defense and intelligence ties and have a
-                keen interest in growing economic cooperation. The French
-                economy is the second in Europe and seeks to harness Israeli
-                innovation know-how, while Israeli companies would benefit from
-                increased market access in France. Geographical proximity and
-                cultural ties play an important role, with France home to the
-                largest Jewish community in Europe, while Israel has one of the
-                largest French diasporas.
+                From the military to the civilian, there is no lack of
+                opportunities for the transfer of knowledge and technology.
+                Political relations between France and Israel are solid, with
+                France standing firm on the State of Israel's right to security.
+                The two countries cooperate in defense and intelligence but also
+                in areas such as civil aviation, or more recently the fight
+                against pandemics. The French economy, second in Europe by size,
+                provides market access for Israeli innovation and its powerful
+                research capabilities and teams. Geographical proximity and
+                cultural links are an asset, France being home to the largest
+                Jewish community in Europe, while Israel, one of the largest
+                French diasporas.
               </p>
             </div>
           </div>
         </div>
         <div>
           <h4 className="infoconf">
-            The conference,  held <b>in French </b> and <b>in English </b>, will be divided in two parts 
+            The conference, held <b>in French </b> and <b>in English </b>, will
+            be divided in two parts
             <br></br> Will also be broadcast via Zoom.
           </h4>
         </div>
@@ -90,7 +93,8 @@ const ProgrammeENG = () => {
             <div className="time">
               <i class="fas fa-clock"></i>
               <h4>
-                <b> From 14:00 to 18:00, </b>Israeli hour ( 15:00 to 17:00 French hour)
+                <b> From 14:00 to 18:00, </b>Israeli hour ( 15:00 to 17:00
+                French hour)
               </h4>
             </div>
             <div className="presentateur">
@@ -124,7 +128,8 @@ const ProgrammeENG = () => {
               <i class="fas fa-clock"></i>
               <h4>
                 {" "}
-                <b>  From 19: 00 to 20:30, </b> Israeli hour (18 to 19:30 French hour)
+                <b> From 19: 00 to 20:30, </b> Israeli hour (18 to 19:30 French
+                hour)
               </h4>
             </div>
             <div className="presentateur">
