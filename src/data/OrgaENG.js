@@ -56,8 +56,9 @@ export const OrgaENG = [
   },
   {
     id: 8,
-    name: "Anne Baer*",
-    position: "CEO @iKare Innovation, Experte (Innovation)",
+    name: "Anne Baer",
+    position:
+      "CEO @iKare Innovation, Experte (Innovation) & President of the France Foreign Trade Advisors  - Israel",
     photo: baer
   }
 ];

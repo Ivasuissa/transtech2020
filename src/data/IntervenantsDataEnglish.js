@@ -22,7 +22,6 @@ import orenn from "../media/intervenants/oren.jpeg";
 import patricia from "../media/intervenants/patricia.png";
 import galit from "../media/intervenants/galit.jpeg";
 import ziv from "../media/intervenants/ziv.jpeg";
-import aurelie from "../media/intervenants/aurelie.jpeg";
 import julie from "../media/intervenants/julie.jpeg";
 import david from "../media/intervenants/david.jpeg";
 
@@ -187,15 +186,9 @@ export const IntervenantsData = [
     photo: julie
   },
   {
-    id: 26,
-    name: "Aurelie Guthmann*",
-    position: "Country Representative of Bpifrance in Israel",
-    photo: aurelie
-  },
-  {
     id: 28,
     name: "David Biegeleisen",
     position: "Innovation Advisor @Swiss Embassy en Israël",
     photo: david
-  },
+  }
 ];
