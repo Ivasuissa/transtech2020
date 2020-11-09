@@ -13,25 +13,31 @@ export const OrgaFR = [
     id: 1,
     name: "Daniel Rouach",
     position: "Président de la Chambre de Commerce France-Israël",
-    photo: daniel
+    photo: daniel,
+    linkedin: "https://www.linkedin.com/in/danielrouach/"
   },
   {
     id: 2,
     name: "Shiran Katz",
     position: "Client Adviser & Vice President @Rothschild & Co",
-    photo: shiran
+    photo: shiran,
+    linkedin:"https://www.linkedin.com/in/shirankatz/"
   },
   {
     id: 3,
     name: "François Petit",
     position: "Chef du Service Economique de l'Ambassade de France en Israël",
-    photo: petit
+    photo: petit,
+    linkedin:"https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/",
+   
+
   },
   {
     id: 4,
     name: "André Dan",
     position: "Speakers & Coach, Co-Fondateur @Challengy",
-    photo: andre
+    photo: andre,
+    linkedin:"https://www.linkedin.com/in/andredan/",
   },
 
   {
@@ -39,26 +45,30 @@ export const OrgaFR = [
     name: "Yossi Dan",
     position:
       "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
-    photo: yossi
+    photo: yossi,
+    linkedin:'https://www.linkedin.com/in/yossidan/'
   },
 
   {
     id: 6,
     name: "Sami Perez",
     position: "Consultant & Expert (Sécurité) ",
-    photo: sami
+    photo: sami,
+   
   },
   {
     id: 7,
     name: "Ron Waldman ",
     position: "Technology Partnerships @Haier Israel Innovation Center",
-    photo: ron
+    photo: ron,
+    linkedin:"https://www.linkedin.com/in/ronwaldman/",
   },
   {
     id: 8,
     name: "Anne Baer",
     position:
       "CEO @iKare Innovation & Experte (Innovation) & Présidente Israël des Conseillers du Commerce Extérieur de la France",
-    photo: baer
+    photo: baer,
+    linkedin:"https://www.linkedin.com/in/annebaer/",
   }
 ];

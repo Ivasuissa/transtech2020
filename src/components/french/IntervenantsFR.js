@@ -18,7 +18,10 @@ export default class OrgaFR extends Component {
             return (
               <li key={intervenant.id}>
                 <img src={intervenant.photo}></img>
-                <h3>{intervenant.name}</h3>
+                <div className="iconLinkedin">
+                  <h3>{intervenant.name}</h3>
+                 <a href={intervenant.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
+                 </div>
                 <h5>{intervenant.position}</h5>
               </li>
             );

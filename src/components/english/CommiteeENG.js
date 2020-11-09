@@ -17,8 +17,10 @@ export default class CommiteeENG extends Component {
           {orgas.map(orga => {
             return (
               <li key={orga.id}>
-                <img src={orga.photo}></img>
-                <h3>{orga.name}</h3>
+                <div className="iconLinkedin">
+                  <h3>{orga.name}</h3>
+                 <a href={orga.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
+                </div>
                 <h5>{orga.position}</h5>
               </li>
             );

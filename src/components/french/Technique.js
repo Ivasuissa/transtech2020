@@ -18,7 +18,13 @@ export default class Technique extends Component {
             return (
               <li key={equipe.id}>
                 <img src={equipe.photo}></img>
-                <h3>{equipe.name}</h3>
+                <div className="iconLinkedin">
+                  <h3>{equipe.name}</h3>
+                  <a href={equipe.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{equipe.position}</h5>
               </li>
             );

@@ -12,26 +12,30 @@ export const OrgaENG = [
     id: 1,
     name: "Daniel Rouach",
     position: "President of the France-Israel Chamber of Commerce",
-    photo: daniel
+    photo: daniel,
+    linkedin: "https://www.linkedin.com/in/danielrouach/"
   },
   {
     id: 2,
     name: "Shiran Katz",
     position: "Client Adviser & Vice President @Rothschild & Co",
-    photo: shiran
+    photo: shiran,
+    linkedin:"https://www.linkedin.com/in/shirankatz/"
   },
   {
     id: 3,
     name: "François Petit",
     position:
       "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
-    photo: petit
+    photo: petit,
+    linkedin:"https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/",
   },
   {
     id: 4,
     name: "André Dan",
     position: "Speakers & Coach, Co-Founder @Challengy",
-    photo: andre
+    photo: andre,
+    linkedin:"https://www.linkedin.com/in/andredan/",
   },
 
   {
@@ -39,7 +43,8 @@ export const OrgaENG = [
     name: "Yossi Dan",
     position:
       "Co-founder & CEO @TrekFounders, Co-founder & Chief Innovation Lab @Challengy",
-    photo: yossi
+    photo: yossi,
+    linkedin:'https://www.linkedin.com/in/yossidan/'
   },
 
   {
@@ -52,14 +57,16 @@ export const OrgaENG = [
     id: 7,
     name: "Ron Waldman",
     position: "Technology Partnerships @Haier Israel Innovation Center",
-    photo: ron
+    photo: ron,
+    linkedin:"https://www.linkedin.com/in/ronwaldman/",
   },
   {
     id: 8,
     name: "Anne Baer",
     position:
       "CEO @iKare Innovation, Experte (Innovation) & President of the France Foreign Trade Advisors  - Israel",
-    photo: baer
+    photo: baer,
+    linkedin:"https://www.linkedin.com/in/annebaer/",
   }
   
 ];

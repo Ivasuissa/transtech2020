@@ -40,7 +40,16 @@ $shadow: 0 1px 3px #333;
 #MainFrench,
 #MainEnglish {
   width: 100%;
- 
+}
+.iconLinkedin {
+  display: flex;
+  a {
+    margin-top: 8%;
+    margin-left: 2%;
+  }
+  i {
+    color: $color-1;
+  }
 }
 
 @mixin verticalCenter {
@@ -79,7 +88,7 @@ h5 {
   color: $color-13;
 }
 body {
- width:100%;
+  width: 100%;
   font-family: $font-1;
   color: $black;
 }
@@ -98,15 +107,12 @@ a:visited {
   color: $black;
 }
 
-
-  @media screen and (max-width: 850px) {
-    .home,
-    .contact {
+@media screen and (max-width: 850px) {
+  .home,
+  .contact {
     display: block !important;
-    }
- 
   }
-  
+}
 
 .homeContent,
 .knowledgesContent,
@@ -116,5 +122,6 @@ a:visited {
 
   @media screen and (max-width: 850px) {
     margin-left: 0 !important;
+  
   }
 }

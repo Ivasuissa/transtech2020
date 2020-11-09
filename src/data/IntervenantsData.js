@@ -31,174 +31,194 @@ export const IntervenantsData = [
     id: 1,
     name: " Eric Danon*",
     position: " S.E. L'Ambassadeur de France en Israël",
-    photo: danon
+    photo: danon,
+    linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
+ 
   },
   {
     id: 2,
     name: "Dan Catarivas",
     position: "Directeur des Relations internationales du Patronat israélien",
-    photo: dan
+    photo: dan,
+    linkedin:"https://www.linkedin.com/in/dan-catarivas-a68b932/"
   },
   {
     id: 3,
     name: "Muriel Touaty*",
     position:
       "Ex Directrice générale du Technion France | Partner Education & innovation @Onepoint",
-    photo: muriel
+    photo: muriel,
+    linkedin:"https://www.linkedin.com/in/murieltouaty/"
   },
   {
     id: 4,
     name: "Amir Elichai",
     position: "Fondateur, Président & CEO @Carbyne ",
-    photo: amir
+    photo: amir,
+    linkedin:"https://www.linkedin.com/in/murieltouaty/"
   },
   {
     id: 5,
     name: "Youval Rouach",
     position: "Co-Foundateur & CEO @Bit Of gold",
-    photo: youval
+    photo: youval,
+    linkedin:"https://www.linkedin.com/in/youvalrouach/"
   },
 
   {
     id: 6,
     name: "Edouard Cukierman",
     position: "Fondatateur and Partenaire Manager @Catalyst Funds",
-    photo: edouard
+    photo: edouard,
+    linkedin:"https://www.linkedin.com/in/edouard-cukierman-318733b/"
   },
   {
     id: 7,
-    name: "Nadine Baudot-Trajtenberg*",
+    name: "Nadine B. Trajtenberg*",
     position:
       "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie @IDC Herzliya |",
-    photo: nadine
+    photo: nadine,
+    linkedin:"https://www.linkedin.com/in/baudot-trajtenberg-nadine-46637625/"
   },
 
   {
     id: 8,
     name: "Daniel Sayag*",
     position: "Directeur des ventes Israël @Airbus Defence & Space",
-    photo: sayag
+    photo: sayag,
+    linkedin:"https://www.linkedin.com/in/daniel-sayag-361762/"
   },
   {
     id: 9,
     name: "Karen Beer Gabel",
     position:
       "Strategic Business Development Healthcare @Dell, Co-Founder & Managing Director @DHC - Digital Health Connection",
-    photo: karenn
+    photo: karenn,
+    linkedin:"https://www.linkedin.com/in/karen-beer-gabel-5251453/"
   },
   {
     id: 10,
     name: "Oren Kaniel ",
     position: "CEO & Co-Foundateur @The AppsFlyer Rocketship",
-    photo: orenn
+    photo: orenn,
+    linkedin:"https://www.linkedin.com/in/orenkaniel/"
   },
   {
     id: 11,
     name: "Patricia Lahy ",
     position: "Senior Director, Social R&D @Israel Innovation Authority",
-    photo: patricia
+    photo: patricia,
+    linkedin:"https://www.linkedin.com/in/patricialahy/"
   },
   {
     id: 12,
     name: "Jeremie Kletzkine*",
     position: "Vice Président @Start-up nation",
-    photo: jeremie
+    photo: jeremie,
+    linkedin:"https://www.linkedin.com/in/jerem/"
   },
   {
     id: 13,
     name: "Raphael Ouzan",
     position:
       "Fondateur et CEO @A.Team, Fondateur et Investisseur @BlockNation, Co-Fondateur @Israël Tech Challenge",
-    photo: ouzan
+    photo: ouzan,
+    linkedin:"https://www.linkedin.com/in/raphaelouzan/"
   },
   {
     id: 14,
     name: "Julien Bahloul",
     position: "Country Manager @OrCam",
-    photo: bahloul
+    photo: bahloul,
+    linkedin:"https://www.linkedin.com/in/julien-bahloul-59731625/"
   },
   {
     id: 15,
     name: "	Inbal Arieli*",
     position:
       "Author du livre Chutzpah, Global Speaker, Foundatrice @Synthesis.",
-    photo: inbal
+    photo: inbal,
+    linkedin:"https://www.linkedin.com/in/inbalarieli/"
   },
   {
     id: 16,
     name: "	Laurent Dassault*",
     position: "General Manager @Dassault",
-    photo: dassault
+    photo: dassault,
+    linkedin:"https://www.linkedin.com/in/laurent-dassault-50368650/"
   },
   {
     id: 17,
     name: "Guy Mizrachi",
     position: "Directeur Cyber @Raizone",
-    photo: guy
+    photo: guy,
+    linkedin:"https://www.linkedin.com/in/guymiz/"
   },
 
   {
     id: 18,
     name: "Roy Bachar",
     position: "Vice-Président & Géneral Manager @Upstream Security",
-    photo: roy
+    photo: roy,
+    linkedin:"https://www.linkedin.com/in/roybachar/"
   },
 
   {
     id: 19,
     name: "Alon Leibovich*",
     position: "Co-Fondateur & CEO @BrandTotal",
-    photo: alon
+    photo: alon,
+    linkedin:"https://www.linkedin.com/in/alon-leibovich-29903610/"
   },
   {
     id: 20,
     name: "Valérie Zarka",
     position: "CEO @MORE THAN DIGITAL ",
-    photo: zarka
+    photo: zarka,
+    linkedin:"https://www.linkedin.com/in/valzarka/"
   },
   {
     id: 21,
     name: "Yoan Smadja*",
     position: "CEO @Maison Kayser (Tel-Aviv) ",
-    photo: smadja
+    photo: smadja,
+    linkedin:"https://www.linkedin.com/in/yoan-smadja-a1abb935/"
   },
 
   {
     id: 22,
     name: "Didier Toubia",
     position: "Co-Foundateur & CEO @Aleph Farms",
-    photo: toubia
+    photo: toubia,
+    linkedin:"https://www.linkedin.com/in/didiertoubia/"
   },
   {
     id: 23,
     name: "Galit Zuckerman*",
     position: "Fondatrice & CEO @Medasense Biometrics Ltd",
-    photo: galit
-  },
-  {
-    id: 24,
-    name: "Ziv Turner*",
-    position: "Fondateur @Cannible",
-    photo: ziv
+    photo: galit,
+    linkedin:"https://www.linkedin.com/in/galitzuckerman/"
   },
   {
     id: 25,
     name: "Julie Jacob*",
     position:
       "Avocat au Barreau de Paris, Avocat étranger au Barreau d’Israël @Jacob Avocats",
-    photo: julie
+    photo: julie,
+    linkedin:"https://www.linkedin.com/in/julie-jacob-927999/"
   },
   {
     id: 26,
     name: "Jonathan Goldberg",
-    position:
-      "Country Director Israel @Thales",
-    photo: jonathan
+    position: "Country Director Israel @Thales",
+    photo: jonathan,
+    linkedin:"https://www.linkedin.com/in/jogoldberg75/"
   },
   {
     id: 28,
     name: "David Biegeleisen",
     position: "Innovation Advisor @Ambassade de Suisse en Israël",
-    photo: david
+    photo: david,
+    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
   }
 ];
