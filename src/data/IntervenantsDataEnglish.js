@@ -81,7 +81,7 @@ export const IntervenantsData = [
 
   {
     id: 8,
-    name: "Nadine B. Trajtenberg*",
+    name: "Nadine Trajtenberg",
     position:
       "Assistant Professor, Tiomkin School of Economics, IDC Herzliya, Outgoing Deputy Governor, Bank of Israel | Doctor | Professeur d’Economie à IDC Herzliya |",
     photo: nadine,

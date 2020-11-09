@@ -74,7 +74,7 @@ export const IntervenantsData = [
   },
   {
     id: 7,
-    name: "Nadine B. Trajtenberg*",
+    name: "Nadine Trajtenberg",
     position:
       "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie @IDC Herzliya |",
     photo: nadine,
