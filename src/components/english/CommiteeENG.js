@@ -11,12 +11,13 @@ export default class CommiteeENG extends Component {
     return (
       <div id="orga">
         <div className="orgaTitle">
-          <h1>Organizing Commitee</h1>
+          <h1>Organizing Committee</h1>
         </div>
         <ul className="orgaDisplay">
           {orgas.map(orga => {
             return (
               <li key={orga.id}>
+                <img src={orga.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{orga.name}</h3>
                  <a href={orga.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
