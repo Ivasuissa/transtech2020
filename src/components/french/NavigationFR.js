@@ -12,6 +12,7 @@ import FR from "../../media/france.png";
 import anglais from "../../media/anglais.png";
 import israelValley from "../../media/sponsors/israelvalley.png";
 import ccif from "../../media/sponsors/cciif.png";
+import ccfi from "../../media/sponsors/ccfi.png";
 
 const NavigationFR = props => {
   const handleChange = props.handleChange;
@@ -21,6 +22,7 @@ const NavigationFR = props => {
       <div className="header">
         <div className="logo">
           <img src={ccif}></img>
+          {/* <img id='ccfi'src={ccfi}></img> */}
           <h1> TRANSTECH 2020</h1>
           <img src={israelValley}></img>
         </div>

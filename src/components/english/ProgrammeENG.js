@@ -29,7 +29,7 @@ const ProgrammeENG = () => {
               </p>
             </div>
             <div id="BitCoin">
-              <h3>II. Bitcoin & Crypto-Currencies</h3>
+              <h3>II. Fintech & Blockchain</h3>
               <p>
                 Israel, one of the countries in the world with the most
                 developed crypto ecosystem, is about to take a real turn in this
@@ -93,7 +93,7 @@ const ProgrammeENG = () => {
             <div className="time">
               <i class="fas fa-clock"></i>
               <h4>
-                <b> From 14:00 to 18:00, </b>Israeli hour ( 15:00 to 17:00
+                <b> From 15:00 to 18:00, </b>Israeli hour ( 14:00 to 17:00
                 French hour)
               </h4>
             </div>

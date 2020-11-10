@@ -27,7 +27,7 @@ const ProgrammeFR = () => {
               </p>
             </div>
             <div id="BitCoin">
-              <h3>II. Bitcoin & Cryptomonnaie</h3>
+              <h3>II. Fintech & Blockchain</h3>
               <p>
                 Israël, un des États au monde où l’écosystème crypto est le plus
                 développé, s’apprête à prendre un véritable tournant dans ce
