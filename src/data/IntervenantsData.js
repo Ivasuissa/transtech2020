@@ -8,7 +8,7 @@ import amir from "../media/intervenants/intervenant13.jpeg";
 import guy from "../media/intervenants/intervenant14.jpeg";
 import danon from "../media/intervenants/intervenant15.jpeg";
 import bahloul from "../media/intervenants/intervenant16.jpeg";
-import nadine from "../media/intervenants/intervenant18.jpeg";
+import arik from "../media/intervenants/arik.jpeg";
 import alon from "../media/intervenants/intervenant19.jpeg";
 import roy from "../media/intervenants/roy.jpeg";
 import smadja from "../media/intervenants/intervenant22.jpeg";
@@ -18,7 +18,7 @@ import inbal from "../media/intervenants/inbal.jpeg";
 import dassault from "../media/intervenants/intervenant20.jpeg";
 import edouard from "../media/intervenants/edouard.jpeg";
 import galit from "../media/intervenants/galit.jpeg";
-import ziv from "../media/intervenants/ziv.jpeg";
+import Laurent from "../media/intervenants/laurent.jpeg";
 import julie from "../media/intervenants/julie.jpeg";
 import karenn from "../media/intervenants/karen.jpeg";
 import orenn from "../media/intervenants/oren.jpeg";
@@ -43,67 +43,6 @@ export const IntervenantsData = [
     linkedin:"https://www.linkedin.com/in/dan-catarivas-a68b932/"
   },
   {
-    id: 3,
-    name: "Muriel Touaty*",
-    position:
-      "Ex Directrice générale du Technion France | Partner Education & innovation @Onepoint",
-    photo: muriel,
-    linkedin:"https://www.linkedin.com/in/murieltouaty/"
-  },
-  {
-    id: 4,
-    name: "Amir Elichai",
-    position: "Fondateur, Président & CEO @Carbyne ",
-    photo: amir,
-    linkedin:"https://www.linkedin.com/in/murieltouaty/"
-  },
-  {
-    id: 5,
-    name: "Youval Rouach",
-    position: "Co-Foundateur & CEO @Bit Of gold",
-    photo: youval,
-    linkedin:"https://www.linkedin.com/in/youvalrouach/"
-  },
-
-  {
-    id: 6,
-    name: "Edouard Cukierman",
-    position: "Fondatateur and Partenaire Manager @Catalyst Funds",
-    photo: edouard,
-    linkedin:"https://www.linkedin.com/in/edouard-cukierman-318733b/"
-  },
-  {
-    id: 7,
-    name: "Nadine Trajtenberg",
-    position:
-      "Ex Vice-Gouverneur de la Banque d'Israël | Doctor | Professeur d’Economie @IDC Herzliya |",
-    photo: nadine,
-    linkedin:"https://www.linkedin.com/in/baudot-trajtenberg-nadine-46637625/"
-  },
-
-  {
-    id: 8,
-    name: "Daniel Sayag*",
-    position: "Directeur des ventes Israël @Airbus Defence & Space",
-    photo: sayag,
-    linkedin:"https://www.linkedin.com/in/daniel-sayag-361762/"
-  },
-  {
-    id: 9,
-    name: "Karen Beer Gabel",
-    position:
-      "Strategic Business Development Healthcare @Dell, Co-Founder & Managing Director @DHC - Digital Health Connection",
-    photo: karenn,
-    linkedin:"https://www.linkedin.com/in/karen-beer-gabel-5251453/"
-  },
-  {
-    id: 10,
-    name: "Oren Kaniel ",
-    position: "CEO & Co-Foundateur @The AppsFlyer Rocketship",
-    photo: orenn,
-    linkedin:"https://www.linkedin.com/in/orenkaniel/"
-  },
-  {
     id: 11,
     name: "Patricia Lahy ",
     position: "Senior Director, Social R&D @Israel Innovation Authority",
@@ -111,26 +50,12 @@ export const IntervenantsData = [
     linkedin:"https://www.linkedin.com/in/patricialahy/"
   },
   {
-    id: 12,
-    name: "Jeremie Kletzkine*",
-    position: "Vice Président @Start-up nation",
-    photo: jeremie,
-    linkedin:"https://www.linkedin.com/in/jerem/"
-  },
-  {
-    id: 13,
-    name: "Raphael Ouzan",
+    id: 3,
+    name: "Muriel Touaty*",
     position:
-      "Fondateur et CEO @A.Team, Fondateur et Investisseur @BlockNation, Co-Fondateur @Israël Tech Challenge",
-    photo: ouzan,
-    linkedin:"https://www.linkedin.com/in/raphaelouzan/"
-  },
-  {
-    id: 14,
-    name: "Julien Bahloul",
-    position: "Country Manager @OrCam",
-    photo: bahloul,
-    linkedin:"https://www.linkedin.com/in/julien-bahloul-59731625/"
+      "Ex Directrice générale du Technion France | Partner Education & innovation @Onepoint",
+    photo: muriel,
+    linkedin:"https://www.linkedin.com/in/murieltouaty/"
   },
   {
     id: 15,
@@ -148,27 +73,25 @@ export const IntervenantsData = [
     linkedin:"https://www.linkedin.com/in/laurent-dassault-50368650/"
   },
   {
-    id: 17,
-    name: "Guy Mizrachi",
-    position: "Directeur Cyber @Raizone",
-    photo: guy,
-    linkedin:"https://www.linkedin.com/in/guymiz/"
+    id: 8,
+    name: "Daniel Sayag*",
+    position: "Directeur des ventes Israël @Airbus Defence & Space",
+    photo: sayag,
+    linkedin:"https://www.linkedin.com/in/daniel-sayag-361762/"
   },
-
   {
-    id: 18,
-    name: "Roy Bachar",
-    position: "Vice-Président & Géneral Manager @Upstream Security",
-    photo: roy,
-    linkedin:"https://www.linkedin.com/in/roybachar/"
+    id: 26,
+    name: "Jonathan Goldberg",
+    position: "Country Director Israel @Thales",
+    photo: jonathan,
+    linkedin:"https://www.linkedin.com/in/jogoldberg75/"
   },
-
   {
-    id: 19,
-    name: "Alon Leibovich*",
-    position: "Co-Fondateur & CEO @BrandTotal",
-    photo: alon,
-    linkedin:"https://www.linkedin.com/in/alon-leibovich-29903610/"
+    id: 12,
+    name: "Jeremie Kletzkine*",
+    position: "Vice Président @Start-up nation",
+    photo: jeremie,
+    linkedin:"https://www.linkedin.com/in/jerem/"
   },
   {
     id: 20,
@@ -179,10 +102,40 @@ export const IntervenantsData = [
   },
   {
     id: 21,
-    name: "Yoan Smadja*",
+    name: "Yoan Smadja",
     position: "CEO @Maison Kayser (Tel-Aviv) ",
     photo: smadja,
     linkedin:"https://www.linkedin.com/in/yoan-smadja-a1abb935/"
+  },
+  {
+    id: 28,
+    name: "David Biegeleisen",
+    position: "Innovation Advisor @Ambassade de Suisse en Israël",
+    photo: david,
+    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
+  },
+
+  {
+    id: 9,
+    name: "Karen Beer Gabel",
+    position:
+      "Strategic Business Development Healthcare @Dell, Co-Founder & Managing Director @DHC - Digital Health Connection",
+    photo: karenn,
+    linkedin:"https://www.linkedin.com/in/karen-beer-gabel-5251453/"
+  },
+  {
+    id: 14,
+    name: "Julien Bahloul",
+    position: "Country Manager @OrCam",
+    photo: bahloul,
+    linkedin:"https://www.linkedin.com/in/julien-bahloul-59731625/"
+  },
+  {
+    id: 23,
+    name: "Galit Zuckerman*",
+    position: "Fondatrice & CEO @Medasense Biometrics Ltd",
+    photo: galit,
+    linkedin:"https://www.linkedin.com/in/galitzuckerman/"
   },
 
   {
@@ -192,33 +145,83 @@ export const IntervenantsData = [
     photo: toubia,
     linkedin:"https://www.linkedin.com/in/didiertoubia/"
   },
+ 
+
   {
-    id: 23,
-    name: "Galit Zuckerman*",
-    position: "Fondatrice & CEO @Medasense Biometrics Ltd",
-    photo: galit,
-    linkedin:"https://www.linkedin.com/in/galitzuckerman/"
+    id: 6,
+    name: "Edouard Cukierman",
+    position: "Fondatateur and Partenaire Manager @Catalyst Funds",
+    photo: edouard,
+    linkedin:"https://www.linkedin.com/in/edouard-cukierman-318733b/"
   },
   {
-    id: 25,
-    name: "Julie Jacob*",
+    id: 5,
+    name: "Youval Rouach",
+    position: "Co-Foundateur & CEO @Bit Of gold",
+    photo: youval,
+    linkedin:"https://www.linkedin.com/in/youvalrouach/"
+  },
+  {
+    id: 18,
+    name: "Roy Bachar",
+    position: "Vice-Président & Géneral Manager @Upstream Security",
+    photo: roy,
+    linkedin:"https://www.linkedin.com/in/roybachar/"
+  },
+  {
+    id: 7,
+    name: "Arik KleinStein ",
     position:
-      "Avocat au Barreau de Paris, Avocat étranger au Barreau d’Israël @Jacob Avocats",
-    photo: julie,
-    linkedin:"https://www.linkedin.com/in/julie-jacob-927999/"
+      "Founding Managing Partner @Glilot Capital Partners",
+    photo: arik,
+    linkedin:"https://www.linkedin.com/in/arik-kleinstein-a04147/?originalSubdomain=il"
+  },
+
+  {
+    id: 10,
+    name: "Oren Kaniel ",
+    position: "CEO & Co-Foundateur @The AppsFlyer Rocketship",
+    photo: orenn,
+    linkedin:"https://www.linkedin.com/in/orenkaniel/"
   },
   {
-    id: 26,
-    name: "Jonathan Goldberg",
-    position: "Country Director Israel @Thales",
-    photo: jonathan,
-    linkedin:"https://www.linkedin.com/in/jogoldberg75/"
+    id: 4,
+    name: "Amir Elichai",
+    position: "Fondateur, Président & CEO @Carbyne ",
+    photo: amir,
+    linkedin:"https://www.linkedin.com/in/murieltouaty/"
   },
+ 
+
+  {
+    id: 17,
+    name: "Guy Mizrachi",
+    position: "Directeur Cyber @Raizone",
+    photo: guy,
+    linkedin:"https://www.linkedin.com/in/guymiz/"
+  },
+
+  {
+    id: 19,
+    name: "Alon Leibovich*",
+    position: "Co-Fondateur & CEO @BrandTotal",
+    photo: alon,
+    linkedin:"https://www.linkedin.com/in/alon-leibovich-29903610/"
+  },
+  
   {
     id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Ambassade de Suisse en Israël",
-    photo: david,
-    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  }
+    name: "Laurent Byrs",
+    position: "President @Apex Drone",
+    photo: Laurent,
+    linkedin:"https://www.linkedin.com/in/laurens-byrs-285b78144/"
+  },
+  {
+    id: 13,
+    name: "Raphael Ouzan",
+    position:
+      "Fondateur et CEO @A.Team, Fondateur et Investisseur @BlockNation, Co-Fondateur @Israël Tech Challenge",
+    photo: ouzan,
+    linkedin:"https://www.linkedin.com/in/raphaelouzan/"
+  },
 ];

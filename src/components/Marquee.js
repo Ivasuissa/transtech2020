@@ -1,12 +1,6 @@
 import React from "react";
-import quedit from "../media/quedit.png";
 import bits from "../media/bit.png";
 import technion from "../media/technion.png";
-import escp from "../media/escp.png";
-import leumi from "../media/leumi.png";
-import israelvalley from "../media/sponsors/israelvalley.png";
-import cciif from "../media/cciiflogo.png";
-import AFI from "../media/sponsors/AFI.png";
 import bersay from "../media/sponsors/bersay.png";
 import herez from "../media/sponsors/herez.png";
 import onepoint from "../media/sponsors/onepoint.png";
@@ -15,21 +9,29 @@ import orange from "../media/sponsors/orange.png";
 import edf from "../media/sponsors/edf.png";
 import renault from "../media/sponsors/renault.png";
 import elnet from "../media/sponsors/elnet.png";
-
+import raizone from "../media/sponsors/raizone.png";
+import airbus from "../media/sponsors/airbus.png";
+import nation from "../media/sponsors/startupnation.png";
+import thales from "../media/sponsors/thales.png";
+import upstream from "../media/sponsors/upstream.png";
+import catalyst from "../media/sponsors/catalyst.png";
+import appflyer from "../media/sponsors/appflyer.png";
+import glilot from "../media/sponsors/glilot.png";
+import dell from "../media/sponsors/dell.svg";
 const Marquee = () => {
   return (
     <div className="aboutMarquee">
-      <h1> Nos Sponsors (TBC*)</h1>
       <marquee className="marquee">
-        <img className="small" src={bersay}></img>
-        <img className="tooBig" src={AFI}></img>
-        <img className="tooBig" src={herez}></img>
-        <img className="tooBig" src={onepoint}></img>
-        <img className="tooBig" src={Weizmann}></img>
-        <img className="tooBig" src={orange}></img>
-        <img className="small" src={edf}></img>
-        <img className="small" src={renault}></img>
-        <img className="small" src={elnet}></img>
+        <img className="tooBig" src={airbus}></img>
+        <img className="tooBig" src={thales}></img>
+        <img className="tooBig" src={glilot}></img>
+        <img className="tooBig" src={dell}></img>
+        <img className="tooBig" src={upstream}></img>
+        <img className="tooBig" src={appflyer}></img>
+        <img className="tooBig" src={catalyst}></img>
+        <img className="tooBig" src={bits}></img>
+        <img className="tooBig" src={nation}></img>
+        <img className="tooBig" src={raizone}></img>
       </marquee>
     </div>
   );

@@ -15,7 +15,7 @@ import Contact from "./components/Contact";
 import AboutENG from "./components/english/AboutENG";
 import ProgrammeENG from "./components/english/ProgrammeENG";
 import Footer from "./components/Footer";
-import Marquee from "./components/english/Marquee";
+import Marquee from "./components/Marquee";
 import IntervenantsENG from "./components/english/IntervenantsENG";
 import CommiteeENG from "./components/english/CommiteeENG";
 import TechniqueENG from "./components/english/TechniqueENG";
@@ -24,18 +24,17 @@ import Partners from "./components/english/Partners";
 function MainEnglish() {
   return (
     <div id="MainEnglish">
-          <HomeENG />
-          <AboutENG />
-          <ProgrammeENG />
-          <CommiteeENG/>
-          <IntervenantsENG />
-          <TechniqueENG/>
-          <Partners/>
-          <Marquee />
-          <Contact />
-          <Footer />
-      </div>
-
+      <HomeENG />
+      <AboutENG />
+      <ProgrammeENG />
+      <CommiteeENG />
+      <IntervenantsENG />
+      <TechniqueENG />
+      <Partners />
+      <Marquee />
+      <Contact />
+      <Footer />
+    </div>
   );
 }
 
