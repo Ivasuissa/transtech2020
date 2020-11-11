@@ -6,7 +6,7 @@ import petit from "../media/intervenants/intervenant5.jpeg";
 import shiran from "../media/intervenants/intervenant6.png";
 import ron from "../media/intervenants/intervenant21.jpeg";
 import sami from "../media/intervenants/intervenant23.png";
-import yossi from "../media/intervenants/intervenant24.jpeg";
+
 
 export const OrgaFR = [
   {

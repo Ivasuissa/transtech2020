@@ -25,6 +25,7 @@ import julie from "../media/intervenants/julie.jpeg";
 import david from "../media/intervenants/david.jpeg";
 import jonathan from "../media/intervenants/jonathan.jpeg";
 import arik from "../media/intervenants/arik.jpeg";
+import yossi from "../media/intervenants/intervenant24.jpeg";
 
 export const IntervenantsData = [
   {
