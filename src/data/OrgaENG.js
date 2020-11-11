@@ -38,14 +38,6 @@ export const OrgaENG = [
     linkedin:"https://www.linkedin.com/in/andredan/",
   },
 
-  {
-    id: 5,
-    name: "Yossi Dan",
-    position:
-      "Co-founder & CEO @TrekFounders, Co-founder & Chief Innovation Lab @Challengy",
-    photo: yossi,
-    linkedin:'https://www.linkedin.com/in/yossidan/'
-  },
 
   {
     id: 6,

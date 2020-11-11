@@ -217,6 +217,14 @@ export const IntervenantsData = [
     linkedin:"https://www.linkedin.com/in/laurens-byrs-285b78144/"
   },
   {
+    id: 5,
+    name: "Yossi Dan",
+    position:
+      "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
+    photo: yossi,
+    linkedin:'https://www.linkedin.com/in/yossidan/'
+  },
+  {
     id: 13,
     name: "Raphael Ouzan",
     position:
