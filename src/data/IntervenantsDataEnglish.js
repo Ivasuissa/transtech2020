@@ -21,7 +21,7 @@ import karenn from "../media/intervenants/karen.jpeg";
 import orenn from "../media/intervenants/oren.jpeg";
 import patricia from "../media/intervenants/patricia.png";
 import galit from "../media/intervenants/galit.jpeg";
-import julie from "../media/intervenants/julie.jpeg";
+import patrick from "../media/intervenants/patrick.jpeg";
 import david from "../media/intervenants/david.jpeg";
 import jonathan from "../media/intervenants/jonathan.jpeg";
 import arik from "../media/intervenants/arik.jpeg";
@@ -74,10 +74,17 @@ export const IntervenantsData = [
   },
   {
     id: 9,
-    name: "Daniel Sayag*",
+    name: "Daniel Sayag",
     position: "Head of Sales ISRAEL / Airbus Defence & Space",
     photo: sayag,
     linkedin: "https://www.linkedin.com/in/daniel-sayag-361762/"
+  },
+  {
+    id: 30,
+    name: "Patrick Amar",
+    position: "Conseiller Spécial du Directeur Général de la CAAI",
+    photo: patrick,
+    linkedin:"https://www.linkedin.com/in/https://www.linkedin.com/in/patrick-amar-01111b36/?originalSubdomain=il-sayag-361762/"
   },
   {
     id: 26,

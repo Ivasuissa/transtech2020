@@ -31,6 +31,7 @@ function MainFrench() {
       <HomeFR />
       <AboutFR />
       <ProgrammeFR />
+      <Inscription/>
       <Commitee />
       <IntervenantsFR />
       <Technique />

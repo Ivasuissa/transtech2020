@@ -9,7 +9,7 @@ const Inscription = () => {
       <div className="inscriptionContent">
         <button>
           {" "}
-          <a href="" target="_blank"></a> BUY TICKETS{" "}
+          <a href="" target="_blank"></a><span>INSCRIPTION</span> {" "}
         </button>
       </div>
     </div>

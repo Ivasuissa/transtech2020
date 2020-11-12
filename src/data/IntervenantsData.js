@@ -19,7 +19,7 @@ import dassault from "../media/intervenants/intervenant20.jpeg";
 import edouard from "../media/intervenants/edouard.jpeg";
 import galit from "../media/intervenants/galit.jpeg";
 import Laurent from "../media/intervenants/laurent.jpeg";
-import julie from "../media/intervenants/julie.jpeg";
+import patrick from "../media/intervenants/patrick.jpeg";
 import karenn from "../media/intervenants/karen.jpeg";
 import orenn from "../media/intervenants/oren.jpeg";
 import patricia from "../media/intervenants/patricia.png";
@@ -44,11 +44,11 @@ export const IntervenantsData = [
     linkedin:"https://www.linkedin.com/in/dan-catarivas-a68b932/"
   },
   {
-    id: 11,
-    name: "Patricia Lahy ",
-    position: "Senior Director, Social R&D @Israel Innovation Authority",
-    photo: patricia,
-    linkedin:"https://www.linkedin.com/in/patricialahy/"
+    id: 28,
+    name: "David Biegeleisen",
+    position: "Innovation Advisor @Ambassade de Suisse en Israël",
+    photo: david,
+    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
   },
   {
     id: 3,
@@ -75,10 +75,17 @@ export const IntervenantsData = [
   },
   {
     id: 8,
-    name: "Daniel Sayag*",
+    name: "Daniel Sayag",
     position: "Directeur des ventes Israël @Airbus Defence & Space",
     photo: sayag,
     linkedin:"https://www.linkedin.com/in/daniel-sayag-361762/"
+  },
+  {
+    id: 30,
+    name: "Patrick Amar",
+    position: "Conseiller Spécial du Directeur Général de la CAAI",
+    photo: patrick,
+    linkedin:"https://www.linkedin.com/in/patrick-amar-01111b36/?originalSubdomain=il"
   },
   {
     id: 26,
@@ -108,12 +115,13 @@ export const IntervenantsData = [
     photo: smadja,
     linkedin:"https://www.linkedin.com/in/yoan-smadja-a1abb935/"
   },
+ 
   {
-    id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Ambassade de Suisse en Israël",
-    photo: david,
-    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
+    id: 11,
+    name: "Patricia Lahy ",
+    position: "Senior Director, Social R&D @Israel Innovation Authority",
+    photo: patricia,
+    linkedin:"https://www.linkedin.com/in/patricialahy/"
   },
 
   {

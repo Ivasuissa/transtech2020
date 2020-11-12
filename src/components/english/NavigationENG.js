@@ -28,6 +28,7 @@ const NavigationENG = props => {
         <nav class="navbar navbar-expand-lg navbar-white bg-blue">
         <img  className="drapeau" src={FR}onClick={() => handleChange()}></img>
           <a
+          id='billet'
             class="navbar-brand"
             target="_blank"
             href="https://www.eventbrite.com/e/transtech-2020-11th-edition-special-start-ups-paris-tlv-tickets-127696009201"
