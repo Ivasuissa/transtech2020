@@ -20,6 +20,7 @@ import IntervenantsENG from "./components/english/IntervenantsENG";
 import CommiteeENG from "./components/english/CommiteeENG";
 import TechniqueENG from "./components/english/TechniqueENG";
 import Partners from "./components/english/Partners";
+import Inscription from "./components/Inscription";
 
 function MainEnglish() {
   return (
@@ -27,6 +28,7 @@ function MainEnglish() {
       <HomeENG />
       <AboutENG />
       <ProgrammeENG />
+      <Inscription />
       <CommiteeENG />
       <IntervenantsENG />
       <TechniqueENG />
