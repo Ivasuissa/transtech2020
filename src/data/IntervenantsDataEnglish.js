@@ -30,7 +30,7 @@ import yossi from "../media/intervenants/intervenant24.jpeg";
 export const IntervenantsData = [
   {
     id: 1,
-    name: " Eric Danon*",
+    name: " Eric Danon",
     position: " S.E. The French Ambassador of Israel",
     photo: danon,
     linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
@@ -51,16 +51,8 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/patricialahy/"
   },
   {
-    id: 3,
-    name: "Muriel Touaty*",
-    position:
-      "Partner Education & Innovation chez Onepoint | Past CEO of Technion France, Israel Institute of Technology",
-    photo: muriel,
-    linkedin: "https://www.linkedin.com/in/murieltouaty/"
-  },
-  {
     id: 15,
-    name: "	Inbal Arieli*",
+    name: "	Inbal Arieli",
     position: "Author of Chutzpah, Global Speaker, Founder - Synthesis.",
     photo: inbal,
     linkedin: "https://www.linkedin.com/in/inbalarieli/"
@@ -95,7 +87,7 @@ export const IntervenantsData = [
   },
   {
     id: 13,
-    name: "Jeremie Kletzkine*",
+    name: "Jeremie Kletzkine",
     position: "VP of Business Development at Startup Nation Central",
     photo: jeremie,
     linkedin: "https://www.linkedin.com/in/jerem/"
@@ -131,7 +123,7 @@ export const IntervenantsData = [
   },
   {
     id: 23,
-    name: "Galit Zuckerman*",
+    name: "Galit Zuckerman",
     position: "Founder & CEO @Medasense Biometrics Ltd",
     photo: galit,
     linkedin: "https://www.linkedin.com/in/galitzuckerman/"
@@ -210,7 +202,7 @@ export const IntervenantsData = [
 
   {
     id: 19,
-    name: "Alon Leibovich*",
+    name: "Alon Leibovich",
     position: "CoFounder & CEO - BrandTotal",
     photo: alon,
     linkedin: "https://www.linkedin.com/in/alon-leibovich-29903610/"

@@ -18,6 +18,7 @@ import catalyst from "../media/sponsors/catalyst.png";
 import appflyer from "../media/sponsors/appflyer.png";
 import glilot from "../media/sponsors/glilot.png";
 import dell from "../media/sponsors/dell.svg";
+import rothschild from "../media/sponsors/rothschild.png";
 const Marquee = () => {
   return (
     <div className="aboutMarquee">
@@ -26,6 +27,7 @@ const Marquee = () => {
         <img className="tooBig" src={thales}></img>
         <img className="tooBig" src={glilot}></img>
         <img className="tooBig" src={dell}></img>
+        <img className="tooBig" src={rothschild}></img>
         <img className="tooBig" src={upstream}></img>
         <img className="tooBig" src={appflyer}></img>
         <img className="tooBig" src={catalyst}></img>

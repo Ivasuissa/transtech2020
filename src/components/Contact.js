@@ -59,7 +59,6 @@ const Contact = () => {
           </ul>
         </div>
       </div>
-      <p>*TBC : To be Confirmed </p>
     </div>
   );
 };
