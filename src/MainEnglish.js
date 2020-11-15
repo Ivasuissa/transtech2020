@@ -15,11 +15,11 @@ import Contact from "./components/Contact";
 import AboutENG from "./components/english/AboutENG";
 import ProgrammeENG from "./components/english/ProgrammeENG";
 import Footer from "./components/Footer";
-import Marquee from "./components/Marquee";
+import Partenaires from "./components/Partenaires";
 import IntervenantsENG from "./components/english/IntervenantsENG";
 import CommiteeENG from "./components/english/CommiteeENG";
 import TechniqueENG from "./components/english/TechniqueENG";
-import Partners from "./components/english/Partners";
+import Marquee from "./components/Marquee";
 import Inscription from "./components/Inscription";
 
 function MainEnglish() {
@@ -32,8 +32,8 @@ function MainEnglish() {
       <CommiteeENG />
       <IntervenantsENG />
       <TechniqueENG />
-      <Partners />
       <Marquee />
+      <Partenaires />
       <Contact />
       <Footer />
     </div>

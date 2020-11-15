@@ -21,9 +21,7 @@ import IntervenantsFR from "./components/french/IntervenantsFR";
 import Commitee from "./components/french/Commitee";
 import Technique from "./components/french/Technique";
 import Inscription from "./components/Inscription";
-import Partenaires from "./components/french/Partenaires";
-import EN from "./media/EN.png";
-import FR from "./media/FR.png";
+import Partenaires from "./components/Partenaires";
 
 function MainFrench() {
   return (

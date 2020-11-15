@@ -1,6 +1,6 @@
 #contact {
   font-family: $font-7;
-  padding-top: 1.7rem;
+
   .listCo {
     padding-left: 0;
     color: red;
@@ -18,13 +18,12 @@
   h1 {
     font-size: 2, 5rem;
     text-align: center;
-    padding-bottom: 1rem;
     padding-top: 1.4rem;
   }
   .contactContent {
     display: flex;
     justify-content: center;
-    margin-top:10%;
+    margin-top:3%;
   }
   .contactBox {
     background-color: $color-6;

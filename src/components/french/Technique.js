@@ -30,6 +30,7 @@ export default class Technique extends Component {
             );
           })}
         </ul>
+        <h1> Partenaires</h1>
       </div>
     );
   }

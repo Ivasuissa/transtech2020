@@ -6,7 +6,18 @@
   margin-top: 5%;
   padding: 5% 3vw 0 3vw;
 
-
+h2{
+  color: $color-1;
+  font-size: 25px;
+  margin-bottom:0;
+  margin-top:2rem;
+}
+.PanelDisplay{
+  margin-top:0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+}
 
   h3 {
     font-size: 1.1rem;
@@ -15,6 +26,7 @@
   h5 {
     font-size: 0.9rem;
     padding-right: 0.5rem;
+    margin-bottom:0;
   }
   .intervenantsTitle {
     display: flex;

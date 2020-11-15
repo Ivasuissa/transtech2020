@@ -1,15 +1,14 @@
-.aboutMarquee {
-  padding-top:  7vh;
-  h1 {
+#marquee{
+h1{
     text-align: center;
-    padding-bottom: 7vh;
-  }
 }
-.small {
-  width: 13rem;
-  margin-right: 2rem;
+    
+   .marqueeContent{
+    padding: 2rem 0 2rem 0;
+    img{
+        width:18%;
+        margin-right:2rem;
+        
+    }
 }
-.tooBig {
-  width: 9rem;
-  margin-right: 2rem;
 }
