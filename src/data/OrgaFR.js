@@ -2,7 +2,6 @@ import dan from "../media/intervenants/intervenant1.jpeg";
 import daniel from "../media/intervenants/intervenant2.png";
 import andre from "../media/intervenants/intervenant3.png";
 import baer from "../media/intervenants/intervenant4.png";
-import petit from "../media/intervenants/intervenant5.jpeg";
 import shiran from "../media/intervenants/intervenant6.png";
 import ron from "../media/intervenants/intervenant21.jpeg";
 import sami from "../media/intervenants/intervenant23.png";
@@ -22,15 +21,6 @@ export const OrgaFR = [
     position: "Client Adviser & Vice President @Rothschild & Co",
     photo: shiran,
     linkedin:"https://www.linkedin.com/in/shirankatz/"
-  },
-  {
-    id: 3,
-    name: "François Petit",
-    position: "Chef du Service Economique de l'Ambassade de France en Israël",
-    photo: petit,
-    linkedin:"https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/",
-   
-
   },
   {
     id: 4,

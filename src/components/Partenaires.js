@@ -19,11 +19,11 @@ import aleph from "../media/sponsors/aleph.png";
 import brandtotal from "../media/sponsors/brandtotal.png";
 import orcam from "../media/sponsors/orcam.png";
 import cce from "../media/sponsors/cce.png";
+import armelle from "../media/sponsors/armelle.png";
 
 const Partenaires = () => {
   return (
     <div className="partenaires">
- 
       <div className="partenairesContent">
         <img className="tooBig" src={airbus}></img>
         <img className="tooBig" src={thales}></img>
@@ -45,6 +45,7 @@ const Partenaires = () => {
         <img className="enorme" src={brandtotal}></img>
         <img className="tooBig" src={orcam}></img>
         <img className="tooBig" src={cce}></img>
+        <img className="tooBig" src={armelle}></img>
       </div>
     </div>
   );

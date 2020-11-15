@@ -27,6 +27,8 @@ import goldberg from "../media/intervenants/goldbert.jpeg";
 import yossi from "../media/intervenants/intervenant24.jpeg";
 import byrs from "../media/intervenants/byrs.jpeg";
 import ouriel from "../media/intervenants/ouriel.jpeg";
+import petit from "../media/intervenants/intervenant5.jpeg";
+
 
 export const IntervenantsData = [
   {
@@ -37,20 +39,7 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
  
   },
-  {
-    id: 2,
-    name: "Dan Catarivas",
-    position: "Directeur des Relations internationales du Patronat israélien",
-    photo: dan,
-    linkedin:"https://www.linkedin.com/in/dan-catarivas-a68b932/"
-  },
-  {
-    id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Ambassade de Suisse en Israël",
-    photo: david,
-    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  },
+
   {
     id: 15,
     name: "	Inbal Arieli",
@@ -69,17 +58,6 @@ export const IntervenantsData = [
     linkedin:"https://www.linkedin.com/in/patricialahy/"
   },
 
- 
-
-  {
-    id: 22,
-    name: "Didier Toubia",
-    position: "Co-Foundateur & CEO @Aleph Farms",
-    photo: toubia,
-    linkedin:"https://www.linkedin.com/in/didiertoubia/"
-  },
-
-
   {
     id: 10,
     name: "Oren Kaniel ",
@@ -96,8 +74,6 @@ export const IntervenantsData = [
     photo: alon,
     linkedin:"https://www.linkedin.com/in/alon-leibovich-29903610/"
   },
-  
-  
   {
     id: 5,
     name: "Yossi Dan",
@@ -113,6 +89,13 @@ export const IntervenantsData = [
       "Fondateur et CEO @A.Team, Fondateur et Investisseur @BlockNation, Co-Fondateur @Israël Tech Challenge",
     photo: ouzan,
     linkedin:"https://www.linkedin.com/in/raphaelouzan/"
+  },
+  {
+    id: 21,
+    name: "Yoan Smadja",
+    position: "CEO @Maison Kayser (Tel-Aviv) ",
+    photo: smadja,
+    linkedin:"https://www.linkedin.com/in/yoan-smadja-a1abb935/"
   },
 ];
 export const CybersecuData = [
@@ -178,6 +161,14 @@ export const HealthTechData = [
     photo: galit,
     linkedin:"https://www.linkedin.com/in/galitzuckerman/"
   },
+  {
+    id: 22,
+    name: "Didier Toubia",
+    position: "Co-Foundateur & CEO @Aleph Farms",
+    photo: toubia,
+    linkedin:"https://www.linkedin.com/in/didiertoubia/"
+  },
+
 ];
 export const FintechData = [
   {
@@ -257,11 +248,28 @@ export const relationsData = [
     photo: zarka,
     linkedin:"https://www.linkedin.com/in/valzarka/"
   },
+ 
+];
+export const francesuisse = [
   {
-    id: 21,
-    name: "Yoan Smadja",
-    position: "CEO @Maison Kayser (Tel-Aviv) ",
-    photo: smadja,
-    linkedin:"https://www.linkedin.com/in/yoan-smadja-a1abb935/"
+    id: 2,
+    name: "Dan Catarivas",
+    position: "Directeur des Relations internationales du Patronat israélien",
+    photo: dan,
+    linkedin:"https://www.linkedin.com/in/dan-catarivas-a68b932/"
+  },
+  {
+    id: 3,
+    name: "François Petit",
+    position: "Chef du Service Economique de l'Ambassade de France en Israël",
+    photo: petit,
+    linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
+  },
+  {
+    id: 28,
+    name: "David Biegeleisen",
+    position: "Innovation Advisor @Ambassade de Suisse en Israël",
+    photo: david,
+    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
   },
 ];

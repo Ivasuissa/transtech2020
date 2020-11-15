@@ -26,6 +26,7 @@ import yossi from "../media/intervenants/intervenant24.jpeg";
 import ouriel from "../media/intervenants/ouriel.jpeg";
 import byrs from "../media/intervenants/byrs.jpeg";
 import dassault from "../media/intervenants/laurent.png";
+import petit from "../media/intervenants/intervenant5.jpeg";
 
 export const IntervenantsData = [
   {
@@ -35,14 +36,7 @@ export const IntervenantsData = [
     photo: danon,
     linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
   },
-  {
-    id: 2,
-    name: "Dan Catarivas",
-    position:
-      "Director General -Foreign Trade at Manufacturers' Association of Israel",
-    photo: dan,
-    linkedin: "https://www.linkedin.com/in/dan-catarivas-a68b932/"
-  },
+
   {
     id: 12,
     name: "Patricia Lahy ",
@@ -58,36 +52,7 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/inbalarieli/"
   },
 
-  {
-    id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Swiss Ambassy en Israël",
-    photo: david,
-    linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  },
 
-  {
-    id: 22,
-    name: "Didier Toubia",
-    position: "Co-Founder & CEO - Aleph Farms",
-    photo: toubia,
-    linkedin: "https://www.linkedin.com/in/didiertoubia/"
-  },
-  {
-    id: 6,
-    name: "Edouard Cukierman",
-    position: "Founder and Managing Partner of Catalyst Funds",
-    photo: edouard,
-    linkedin: "https://www.linkedin.com/in/edouard-cukierman-318733b/"
-  },
-
-  {
-    id: 5,
-    name: "Youval Rouach",
-    position: "Co-Founder & CEO - Bit Of gold",
-    photo: youval,
-    linkedin: "https://www.linkedin.com/in/youvalrouach/"
-  },
 
   {
     id: 11,
@@ -120,6 +85,13 @@ export const IntervenantsData = [
       "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
     photo: yossi,
     linkedin: "https://www.linkedin.com/in/yossidan/"
+  },
+  {
+    id: 20,
+    name: "Yoan Smadja",
+    position: "CEO Maison Kayser (Tel-Aviv) ",
+    photo: smadja,
+    linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
   }
 ];
 export const CybersecuData = [
@@ -143,9 +115,10 @@ export const CybersecuData = [
   {
     id: 4,
     name: "Amir Elichai",
-    position: "Founder, Chairman & CEO - Carbyne",
+    position: "Founder, Chairman & CEO - Carbyne,",
+    company: "CyberSecurity expert",
     photo: amir,
-    linkedin: "https://www.linkedin.com/in/murieltouaty/"
+    linkedin: "https://www.linkedin.com/in/amirelichai/"
   },
 
   {
@@ -162,6 +135,7 @@ export const CybersecuData = [
     photo: byrs,
     linkedin: "https://www.linkedin.com/in/laurens-byrs-285b78144/"
   }
+  
 ];
 export const HealthTechData = [
   {
@@ -186,7 +160,14 @@ export const HealthTechData = [
     position: "Country Manager - OrCam",
     photo: bahloul,
     linkedin: "https://www.linkedin.com/in/julien-bahloul-59731625/"
-  }
+  },
+  {
+    id: 22,
+    name: "Didier Toubia",
+    position: "Co-Founder & CEO - Aleph Farms",
+    photo: toubia,
+    linkedin: "https://www.linkedin.com/in/didiertoubia/"
+  },
 ];
 export const FintechData = [
   {
@@ -263,11 +244,29 @@ export const relationsData = [
     photo: zarka,
     linkedin: "https://www.linkedin.com/in/valzarka/"
   },
+  
+];
+export const francesuisse = [
   {
-    id: 20,
-    name: "Yoan Smadja",
-    position: "CEO Maison Kayser (Tel-Aviv) ",
-    photo: smadja,
-    linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
+    id: 2,
+    name: "Dan Catarivas",
+    position:
+      "Director General -Foreign Trade at Manufacturers' Association of Israel",
+    photo: dan,
+    linkedin: "https://www.linkedin.com/in/dan-catarivas-a68b932/"
+  },
+  {
+    id: 3,
+    name: "François Petit",
+    position: "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
+    photo: petit,
+    linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
+  },
+  {
+    id: 28,
+    name: "David Biegeleisen",
+    position: "Innovation Advisor @Swiss Ambassy en Israël",
+    photo: david,
+    linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
   }
 ];

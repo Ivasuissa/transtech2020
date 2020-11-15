@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData } from "../../data/IntervenantsDataEnglish";
+import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData, francesuisse} from "../../data/IntervenantsDataEnglish";
 
 export default class IntervenantENG extends Component {
   state = {
@@ -7,10 +7,11 @@ export default class IntervenantENG extends Component {
     Cybersecus : CybersecuData,
     HealthTechs : HealthTechData,
     Fintechs: FintechData,
-    Relations: relationsData
+    Relations: relationsData,
+    FranceSuisses: francesuisse
   };
   render() {
-    let {  intervenants, Cybersecus, HealthTechs, Fintechs, Relations } = this.state;
+    let {  intervenants, Cybersecus, HealthTechs, Fintechs, Relations, FranceSuisses } = this.state;
 
     return (
       <div id="intervenants">
@@ -108,6 +109,24 @@ export default class IntervenantENG extends Component {
           })}
         </ul>
     
+        <div className="intervenantsTitle">
+          <h2>France VS Switzerland: <br></br>Their technology exchanges with Israel</h2>
+        </div>
+        <ul className="intervenantsDisplay">
+          {FranceSuisses.map(FranceSuisse => {
+            return (
+              <li key={FranceSuisse.id}>
+                <img src={FranceSuisse.photo}></img>
+                <div className="iconLinkedin">
+                  <h3>{FranceSuisse.name}</h3>
+                 <a href={FranceSuisse.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
+                 </div>
+                <h5>{FranceSuisse.position}</h5>
+                <h5>{FranceSuisse.company}</h5>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     );
   }
