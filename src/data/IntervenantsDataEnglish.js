@@ -57,7 +57,7 @@ export const IntervenantsData = [
     photo: inbal,
     linkedin: "https://www.linkedin.com/in/inbalarieli/"
   },
-  
+
   {
     id: 28,
     name: "David Biegeleisen",
@@ -65,7 +65,7 @@ export const IntervenantsData = [
     photo: david,
     linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
   },
-  
+
   {
     id: 22,
     name: "Didier Toubia",
@@ -89,7 +89,6 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/youvalrouach/"
   },
 
-  
   {
     id: 11,
     name: "Oren Kaniel ",
@@ -98,7 +97,6 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/orenkaniel/"
   },
 
-
   {
     id: 19,
     name: "Alon Leibovich",
@@ -106,7 +104,7 @@ export const IntervenantsData = [
     photo: alon,
     linkedin: "https://www.linkedin.com/in/alon-leibovich-29903610/"
   },
-  
+
   {
     id: 14,
     name: "Raphael Ouzan",
@@ -163,8 +161,7 @@ export const CybersecuData = [
     position: "President @Apex Drone",
     photo: byrs,
     linkedin: "https://www.linkedin.com/in/laurens-byrs-285b78144/"
-  },
-
+  }
 ];
 export const HealthTechData = [
   {
@@ -189,7 +186,7 @@ export const HealthTechData = [
     position: "Country Manager - OrCam",
     photo: bahloul,
     linkedin: "https://www.linkedin.com/in/julien-bahloul-59731625/"
-  },
+  }
 ];
 export const FintechData = [
   {
@@ -209,14 +206,20 @@ export const FintechData = [
   },
   {
     id: 6,
+    name: "Jonathan Medved*",
+    position: "CEO @OurCrowd",
+    photo: jonathan,
+    linkedin: "https://www.linkedin.com/in/jonathanmedved/"
+  },
+  {
+    id: 6,
     name: "Ouriel Ohayon*",
     position: "CEO @ZenGo",
     photo: ouriel,
-    linkedin:"https://www.linkedin.com/in/ourielohayon/?originalSubdomain=il"
-  },
+    linkedin: "https://www.linkedin.com/in/ourielohayon/?originalSubdomain=il"
+  }
 ];
 export const relationsData = [
-
   {
     id: 9,
     name: "Daniel Sayag",
@@ -229,7 +232,8 @@ export const relationsData = [
     name: "Patrick Amar",
     position: "Conseiller Spécial du Directeur Général de la CAAI",
     photo: patrick,
-    linkedin:"https://www.linkedin.com/in/https://www.linkedin.com/in/patrick-amar-01111b36/?originalSubdomain=il-sayag-361762/"
+    linkedin:
+      "https://www.linkedin.com/in/https://www.linkedin.com/in/patrick-amar-01111b36/?originalSubdomain=il-sayag-361762/"
   },
   {
     id: 26,
@@ -265,5 +269,5 @@ export const relationsData = [
     position: "CEO Maison Kayser (Tel-Aviv) ",
     photo: smadja,
     linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
-  },
+  }
 ];

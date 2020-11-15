@@ -23,6 +23,7 @@ import orenn from "../media/intervenants/oren.jpeg";
 import patricia from "../media/intervenants/patricia.png";
 import david from "../media/intervenants/david.jpeg";
 import jonathan from "../media/intervenants/jonathan.jpeg";
+import goldberg from "../media/intervenants/goldbert.jpeg";
 import yossi from "../media/intervenants/intervenant24.jpeg";
 import byrs from "../media/intervenants/byrs.jpeg";
 import ouriel from "../media/intervenants/ouriel.jpeg";
@@ -196,6 +197,13 @@ export const FintechData = [
   },
   {
     id: 6,
+    name: "Jonathan Medved*",
+    position: "CEO @OurCrowd",
+    photo: jonathan,
+    linkedin:"https://www.linkedin.com/in/jonathanmedved/"
+  },
+  {
+    id: 6,
     name: "Ouriel Ohayon*",
     position: "CEO @ZenGo",
     photo: ouriel,
@@ -223,7 +231,7 @@ export const relationsData = [
     name: "Jonathan Goldberg",
     position: "Country Director Israel",
     company: "@Thales",
-    photo: jonathan,
+    photo: goldberg,
     linkedin:"https://www.linkedin.com/in/jogoldberg75/"
   },
   {
