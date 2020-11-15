@@ -27,6 +27,7 @@ import ouriel from "../media/intervenants/ouriel.jpeg";
 import byrs from "../media/intervenants/byrs.jpeg";
 import dassault from "../media/intervenants/laurent.png";
 import petit from "../media/intervenants/intervenant5.jpeg";
+import goldberg from "../media/intervenants/goldbert.jpeg";
 
 export const IntervenantsData = [
   {
@@ -220,7 +221,7 @@ export const relationsData = [
     id: 26,
     name: "Jonathan Goldberg",
     position: "Country Director Israel @Thales",
-    photo: jonathan,
+    photo: goldberg,
     linkedin: "https://www.linkedin.com/in/jogoldberg75/"
   },
   {
