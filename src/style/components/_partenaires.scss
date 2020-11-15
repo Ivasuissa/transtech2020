@@ -1,23 +1,30 @@
 .partenaires {
   padding: 1rem;
-  display:flex;
-  justify-content:center;
-  flex-direction:column;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
   h1 {
     text-align: center;
     padding-bottom: 7vh;
   }
+}
 
-}
-.small {
-  width: 13rem;
-  margin-right: 2rem;
-}
 .tooBig {
-  width: 9rem;
-  margin-right: 2rem;
+  width: 15%;
 }
-.enorme{
-  width: 5rem;
-  margin-right: 2rem;
+.enorme {
+  width: 5%;
+}
+
+@media screen and (max-width: 850px) {
+  .tooBig {
+    width: 2rem;
+    margin-right: 2rem;
+  }
+  .enorme {
+    width: 2rem;
+    margin-right: 2rem;
+  }
 }
