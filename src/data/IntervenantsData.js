@@ -28,6 +28,7 @@ import yossi from "../media/intervenants/intervenant24.jpeg";
 import byrs from "../media/intervenants/byrs.jpeg";
 import ouriel from "../media/intervenants/ouriel.jpeg";
 import petit from "../media/intervenants/intervenant5.jpeg";
+import henri from "../media/intervenants/henri.jpeg";
 
 
 export const IntervenantsData = [
@@ -37,6 +38,14 @@ export const IntervenantsData = [
     position: " S.E. L'Ambassadeur de France en Israël",
     photo: danon,
     linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
+ 
+  },
+  {
+    id: 1,
+    name: "Henri Cukierman",
+    position: "Président de la Chambre de Commerce France-Israël",
+    photo: henri,
+    linkedin: "https://www.linkedin.com/in/henricukierman/"
  
   },
 
@@ -86,7 +95,7 @@ export const IntervenantsData = [
     id: 13,
     name: "Raphael Ouzan",
     position:
-      "Fondateur et CEO @A.Team, Fondateur et Investisseur @BlockNation, Co-Fondateur @Israël Tech Challenge",
+      "CEO @A.Team, Fondateur @BlockNation, Co-Fondateur @Israël Tech Challenge",
     photo: ouzan,
     linkedin:"https://www.linkedin.com/in/raphaelouzan/"
   },
@@ -131,7 +140,7 @@ export const CybersecuData = [
   },
   {
     id: 28,
-    name: "Laurent Byrs",
+    name: "Laurent Byrs*",
     position: "President @Apex Drone",
     photo: byrs,
     linkedin:"https://www.linkedin.com/in/laurens-byrs-285b78144/"

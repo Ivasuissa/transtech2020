@@ -29,16 +29,6 @@ export const OrgaFR = [
     photo: andre,
     linkedin:"https://www.linkedin.com/in/andredan/",
   },
-
- 
-
-  {
-    id: 6,
-    name: "Sami Perez",
-    position: "Consultant & Expert (Sécurité) ",
-    photo: sami,
-   
-  },
   {
     id: 7,
     name: "Ron Waldman ",

@@ -23,27 +23,11 @@ export const OrgaENG = [
     linkedin:"https://www.linkedin.com/in/shirankatz/"
   },
   {
-    id: 3,
-    name: "François Petit",
-    position:
-      "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
-    photo: petit,
-    linkedin:"https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/",
-  },
-  {
     id: 4,
     name: "André Dan",
     position: "Speakers & Coach, Co-Founder @Challengy",
     photo: andre,
     linkedin:"https://www.linkedin.com/in/andredan/",
-  },
-
-
-  {
-    id: 6,
-    name: "Sami Perez",
-    position: "Consultant & Expert (Security) ",
-    photo: sami
   },
   {
     id: 7,

@@ -28,6 +28,7 @@ import byrs from "../media/intervenants/byrs.jpeg";
 import dassault from "../media/intervenants/laurent.png";
 import petit from "../media/intervenants/intervenant5.jpeg";
 import goldberg from "../media/intervenants/goldbert.jpeg";
+import henri from "../media/intervenants/henri.jpeg";
 
 export const IntervenantsData = [
   {
@@ -37,7 +38,13 @@ export const IntervenantsData = [
     photo: danon,
     linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
   },
-
+  {
+    id: 1,
+    name: "Henri Cukierman",
+    position: "@France-Israel Chamber of Commerce",
+    photo: henri,
+    linkedin: "https://www.linkedin.com/in/henricukierman/"
+  },
   {
     id: 12,
     name: "Patricia Lahy ",
@@ -52,8 +59,6 @@ export const IntervenantsData = [
     photo: inbal,
     linkedin: "https://www.linkedin.com/in/inbalarieli/"
   },
-
-
 
   {
     id: 11,
@@ -136,7 +141,6 @@ export const CybersecuData = [
     photo: byrs,
     linkedin: "https://www.linkedin.com/in/laurens-byrs-285b78144/"
   }
-  
 ];
 export const HealthTechData = [
   {
@@ -168,7 +172,7 @@ export const HealthTechData = [
     position: "Co-Founder & CEO - Aleph Farms",
     photo: toubia,
     linkedin: "https://www.linkedin.com/in/didiertoubia/"
-  },
+  }
 ];
 export const FintechData = [
   {
@@ -244,8 +248,7 @@ export const relationsData = [
     position: "CEO at MORE THAN DIGITAL ",
     photo: zarka,
     linkedin: "https://www.linkedin.com/in/valzarka/"
-  },
-  
+  }
 ];
 export const francesuisse = [
   {
@@ -259,7 +262,8 @@ export const francesuisse = [
   {
     id: 3,
     name: "François Petit",
-    position: "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
+    position:
+      "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
     photo: petit,
     linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
   },
