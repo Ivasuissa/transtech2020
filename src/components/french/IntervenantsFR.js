@@ -127,7 +127,7 @@ export default class OrgaFR extends Component {
           })}
         </ul>
        
-
+          <h1>Partenaires</h1>
       </div>
     );
   }

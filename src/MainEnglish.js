@@ -18,7 +18,6 @@ import Footer from "./components/Footer";
 import Partenaires from "./components/Partenaires";
 import IntervenantsENG from "./components/english/IntervenantsENG";
 import CommiteeENG from "./components/english/CommiteeENG";
-import TechniqueENG from "./components/english/TechniqueENG";
 import Marquee from "./components/Marquee";
 import Inscription from "./components/Inscription";
 
@@ -31,7 +30,6 @@ function MainEnglish() {
       <Inscription />
       <CommiteeENG />
       <IntervenantsENG />
-      <TechniqueENG />
       <Marquee />
       <Partenaires />
       <Contact />

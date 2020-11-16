@@ -127,6 +127,8 @@ export default class IntervenantENG extends Component {
             );
           })}
         </ul>
+
+        <h1>Partners</h1>
       </div>
     );
   }
