@@ -29,13 +29,14 @@ import byrs from "../media/intervenants/byrs.jpeg";
 import ouriel from "../media/intervenants/ouriel.jpeg";
 import petit from "../media/intervenants/intervenant5.jpeg";
 import henri from "../media/intervenants/henri.jpeg";
+import gisele from "../media/intervenants/Gisele.jpeg";
 
 
 export const IntervenantsData = [
   {
     id: 1,
     name: " Eric Danon",
-    position: " S.E. L'Ambassadeur de France en Israël",
+    position: "L'Ambassadeur de France en Israël",
     photo: danon,
     linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
  
@@ -114,6 +115,14 @@ export const IntervenantsData = [
     position: "Innovation Advisor @Ambassade de Suisse en Israël",
     photo: david,
     linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
+  },
+  {
+    id: 1,
+    name: "Gisèle Hivert-Messeca",
+    position: "Directrice Business France Israël @Business France",
+    photo: gisele,
+    linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
+ 
   },
 ];
 export const CybersecuData = [

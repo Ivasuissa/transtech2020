@@ -29,6 +29,7 @@ import dassault from "../media/intervenants/laurent.png";
 import petit from "../media/intervenants/intervenant5.jpeg";
 import goldberg from "../media/intervenants/goldbert.jpeg";
 import henri from "../media/intervenants/henri.jpeg";
+import gisele from "../media/intervenants/Gisele.jpeg";
 
 export const IntervenantsData = [
   {
@@ -106,7 +107,15 @@ export const IntervenantsData = [
     position: "Innovation Advisor @Swiss Ambassy en Israël",
     photo: david,
     linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  }
+  },
+  {
+    id: 1,
+    name: "Gisèle Hivert-Messeca",
+    position: "Director Business France Israël @Business France",
+    photo: gisele,
+    linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
+ 
+  },
 ];
 export const CybersecuData = [
   {
