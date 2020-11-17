@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData, francesuisse } from "../../data/IntervenantsData";
+import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData } from "../../data/IntervenantsData";
 
 export default class OrgaFR extends Component {
   state = {
@@ -8,10 +8,10 @@ export default class OrgaFR extends Component {
     HealthTechs : HealthTechData,
     Fintechs: FintechData,
     Relations: relationsData,
-    FranceSuisses: francesuisse
+
   };
   render() {
-    let { intervenants, Cybersecus, HealthTechs, Fintechs, Relations, FranceSuisses } = this.state;
+    let { intervenants, Cybersecus, HealthTechs, Fintechs, Relations } = this.state;
 
     return (
       <div id="intervenants">
@@ -108,24 +108,7 @@ export default class OrgaFR extends Component {
           })}
         </ul>
 
-        <div className="intervenantsTitle">
-          <h2>France VS Suisse : <br></br>Leurs échanges avec Israël en matière de technologies </h2>
-        </div>
-        <ul className="intervenantsDisplay">
-          {FranceSuisses.map(FranceSuisse => {
-            return (
-              <li key={FranceSuisse.id}>
-                <img src={FranceSuisse.photo}></img>
-                <div className="iconLinkedin">
-                  <h3>{FranceSuisse.name}</h3>
-                 <a href={FranceSuisse.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
-                <h5>{FranceSuisse.position}</h5>
-                <h5>{FranceSuisse.company}</h5>
-              </li>
-            );
-          })}
-        </ul>
+      
        
           <h1>Partenaires</h1>
       </div>

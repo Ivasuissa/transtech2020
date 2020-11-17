@@ -98,6 +98,14 @@ export const IntervenantsData = [
     position: "CEO Maison Kayser (Tel-Aviv) ",
     photo: smadja,
     linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
+  },
+
+  {
+    id: 28,
+    name: "David Biegeleisen",
+    position: "Innovation Advisor @Swiss Ambassy en Israël",
+    photo: david,
+    linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
   }
 ];
 export const CybersecuData = [
@@ -207,6 +215,14 @@ export const FintechData = [
 ];
 export const relationsData = [
   {
+    id: 2,
+    name: "Dan Catarivas",
+    position:
+      "Director General -Foreign Trade at Manufacturers' Association of Israel",
+    photo: dan,
+    linkedin: "https://www.linkedin.com/in/dan-catarivas-a68b932/"
+  },
+  {
     id: 9,
     name: "Daniel Sayag",
     position: "Head of Sales ISRAEL / Airbus Defence & Space",
@@ -250,28 +266,4 @@ export const relationsData = [
     linkedin: "https://www.linkedin.com/in/valzarka/"
   }
 ];
-export const francesuisse = [
-  {
-    id: 2,
-    name: "Dan Catarivas",
-    position:
-      "Director General -Foreign Trade at Manufacturers' Association of Israel",
-    photo: dan,
-    linkedin: "https://www.linkedin.com/in/dan-catarivas-a68b932/"
-  },
-  {
-    id: 3,
-    name: "François Petit",
-    position:
-      "Head of the Economic Affairs Department/Economic Counsellor at the French Embassy in Israel",
-    photo: petit,
-    linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
-  },
-  {
-    id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Swiss Ambassy en Israël",
-    photo: david,
-    linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  }
-];
+

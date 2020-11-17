@@ -4,7 +4,7 @@ import andre from "../media/intervenants/intervenant3.png";
 import baer from "../media/intervenants/intervenant4.png";
 import shiran from "../media/intervenants/intervenant6.png";
 import ron from "../media/intervenants/intervenant21.jpeg";
-import sami from "../media/intervenants/intervenant23.png";
+import petit from "../media/intervenants/intervenant5.jpeg";
 
 
 export const OrgaFR = [
@@ -15,6 +15,7 @@ export const OrgaFR = [
     photo: daniel,
     linkedin: "https://www.linkedin.com/in/danielrouach/"
   },
+
   {
     id: 2,
     name: "Shiran Katz",
@@ -22,6 +23,14 @@ export const OrgaFR = [
     photo: shiran,
     linkedin:"https://www.linkedin.com/in/shirankatz/"
   },
+  {
+    id: 3,
+    name: "François Petit",
+    position: "Chef du Service Economique de l'Ambassade de France en Israël",
+    photo: petit,
+    linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
+  },
+
   {
     id: 4,
     name: "André Dan",

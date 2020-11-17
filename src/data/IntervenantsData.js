@@ -106,6 +106,15 @@ export const IntervenantsData = [
     photo: smadja,
     linkedin:"https://www.linkedin.com/in/yoan-smadja-a1abb935/"
   },
+ 
+ 
+  {
+    id: 28,
+    name: "David Biegeleisen",
+    position: "Innovation Advisor @Ambassade de Suisse en Israël",
+    photo: david,
+    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
+  },
 ];
 export const CybersecuData = [
   {
@@ -212,6 +221,13 @@ export const FintechData = [
 ];
 export const relationsData = [
   {
+    id: 2,
+    name: "Dan Catarivas",
+    position: "Directeur des Relations internationales du Patronat israélien",
+    photo: dan,
+    linkedin:"https://www.linkedin.com/in/dan-catarivas-a68b932/"
+  },
+  {
     id: 8,
     name: "Daniel Sayag",
     position: "Directeur des ventes Israël",
@@ -258,27 +274,4 @@ export const relationsData = [
     linkedin:"https://www.linkedin.com/in/valzarka/"
   },
  
-];
-export const francesuisse = [
-  {
-    id: 2,
-    name: "Dan Catarivas",
-    position: "Directeur des Relations internationales du Patronat israélien",
-    photo: dan,
-    linkedin:"https://www.linkedin.com/in/dan-catarivas-a68b932/"
-  },
-  {
-    id: 3,
-    name: "François Petit",
-    position: "Chef du Service Economique de l'Ambassade de France en Israël",
-    photo: petit,
-    linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
-  },
-  {
-    id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Ambassade de Suisse en Israël",
-    photo: david,
-    linkedin:"https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  },
 ];

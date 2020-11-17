@@ -1,17 +1,28 @@
 import React, { Component } from "react";
-import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData, francesuisse} from "../../data/IntervenantsDataEnglish";
+import {
+  IntervenantsData,
+  CybersecuData,
+  HealthTechData,
+  FintechData,
+  relationsData
+} from "../../data/IntervenantsDataEnglish";
 
 export default class IntervenantENG extends Component {
   state = {
     intervenants: IntervenantsData,
-    Cybersecus : CybersecuData,
-    HealthTechs : HealthTechData,
+    Cybersecus: CybersecuData,
+    HealthTechs: HealthTechData,
     Fintechs: FintechData,
-    Relations: relationsData,
-    FranceSuisses: francesuisse
+    Relations: relationsData
   };
   render() {
-    let {  intervenants, Cybersecus, HealthTechs, Fintechs, Relations, FranceSuisses } = this.state;
+    let {
+      intervenants,
+      Cybersecus,
+      HealthTechs,
+      Fintechs,
+      Relations
+    } = this.state;
 
     return (
       <div id="intervenants">
@@ -25,8 +36,11 @@ export default class IntervenantENG extends Component {
                 <img src={intervenant.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{intervenant.name}</h3>
-                 <a href={intervenant.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={intervenant.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{intervenant.position}</h5>
               </li>
             );
@@ -43,8 +57,11 @@ export default class IntervenantENG extends Component {
                 <img src={Relation.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Relation.name}</h3>
-                 <a href={Relation.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Relation.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Relation.position}</h5>
                 <h5>{Relation.company}</h5>
               </li>
@@ -62,8 +79,11 @@ export default class IntervenantENG extends Component {
                 <img src={Cybersecu.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Cybersecu.name}</h3>
-                 <a href={Cybersecu.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Cybersecu.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Cybersecu.position}</h5>
                 <h5>{Cybersecu.company}</h5>
               </li>
@@ -75,14 +95,17 @@ export default class IntervenantENG extends Component {
           <h2>Health Tech</h2>
         </div>
         <ul className="PanelDisplay">
-          {HealthTechs .map(HealthTech => {
+          {HealthTechs.map(HealthTech => {
             return (
               <li key={HealthTech.id}>
                 <img src={HealthTech.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{HealthTech.name}</h3>
-                 <a href={HealthTech.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={HealthTech.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{HealthTech.position}</h5>
                 <h5>{HealthTech.company}</h5>
               </li>
@@ -100,29 +123,13 @@ export default class IntervenantENG extends Component {
                 <img src={Fintech.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Fintech.name}</h3>
-                 <a href={Fintech.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Fintech.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Fintech.position}</h5>
                 <h5>{Fintech.company}</h5>
-              </li>
-            );
-          })}
-        </ul>
-    
-        <div className="intervenantsTitle">
-          <h2>France VS Switzerland: <br></br>Their technology exchanges with Israel</h2>
-        </div>
-        <ul className="intervenantsDisplay">
-          {FranceSuisses.map(FranceSuisse => {
-            return (
-              <li key={FranceSuisse.id}>
-                <img src={FranceSuisse.photo}></img>
-                <div className="iconLinkedin">
-                  <h3>{FranceSuisse.name}</h3>
-                 <a href={FranceSuisse.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
-                <h5>{FranceSuisse.position}</h5>
-                <h5>{FranceSuisse.company}</h5>
               </li>
             );
           })}
