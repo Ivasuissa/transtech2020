@@ -63,16 +63,17 @@ const ProgrammeFR = () => {
                 Du militaire vers le civil, les occasions de transfert de savoir
                 et de technologies ne manquent pas. Les relations politiques
                 entre la France et Israël sont solides, la France restant ferme
-                sur le droit de l’Etat d’Israël à la sécurité. Les deux pays
-                coopèrent en matière de défense et de renseignement mais
-                également dans des domaines comme l’aviation civile, ou plus
-                récemment la lutte contre les pandémies. L'économie française,
-                deuxième en Europe de par sa taille, offre à l’innovation
-                israélienne un accès au marché et à ses puissantes capacités et
-                équipes de recherche. La proximité géographique et les liens
-                culturels sont un atout, la France abritant la plus grande
-                communauté juive d'Europe, tandis qu'Israël, l'une des plus
-                grandes diasporas françaises.
+                sur le droit de l’Etat d’Israël à la sécurité. Le Chef
+                d’Etat-major de l’armée de l’Air vient d’ailleurs juste de
+                rentrer d’une visite en Israël.Les deux pays coopèrent en
+                matière de défense et de renseignement mais également dans des
+                domaines comme l’aviation civile, ou plus récemment la lutte
+                contre les pandémies. L'économie française, deuxième en Europe
+                de par sa taille, offre à l’innovation israélienne un accès au
+                marché et à ses puissantes capacités et équipes de recherche. La
+                proximité géographique et les liens culturels sont un atout, la
+                France abritant la plus grande communauté juive d'Europe, tandis
+                qu'Israël, l'une des plus grandes diasporas françaises.
               </p>
             </div>
           </div>

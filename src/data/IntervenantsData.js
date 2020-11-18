@@ -31,6 +31,7 @@ import petit from "../media/intervenants/intervenant5.jpeg";
 import henri from "../media/intervenants/henri.jpeg";
 import gisele from "../media/intervenants/Gisele.jpeg";
 import flechter from "../media/intervenants/flechter.jpeg";
+import capitaine from "../media/intervenants/capitaine.png";
 
 export const IntervenantsData = [
   {
@@ -282,5 +283,13 @@ export const relationsData = [
     company: "@Dassault",
     photo: dassault,
     linkedin: "https://www.linkedin.com/in/laurent-dassault-50368650/"
+  },
+  {
+    id: 16,
+    name: "Pierre-Yves Grente",
+    position: "General Attaché Militaire",
+    company: "@Ambassade de France en Israël ",
+    photo: capitaine,
+    linkedin: "https://www.linkedin.com/in/pierre-yves-grente-9207aa1b8/"
   }
 ];

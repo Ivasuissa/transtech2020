@@ -30,6 +30,7 @@ import flechter from "../media/intervenants/flechter.jpeg";
 import goldberg from "../media/intervenants/goldbert.jpeg";
 import henri from "../media/intervenants/henri.jpeg";
 import gisele from "../media/intervenants/Gisele.jpeg";
+import capitaine from "../media/intervenants/capitaine.png";
 
 export const IntervenantsData = [
   {
@@ -251,7 +252,6 @@ export const FintechData = [
   }
 ];
 export const relationsData = [
-
   {
     id: 9,
     name: "Daniel Sayag",
@@ -281,5 +281,12 @@ export const relationsData = [
     photo: dassault,
     linkedin: "https://www.linkedin.com/in/laurent-dassault-50368650/"
   },
- 
+  {
+    id: 16,
+    name: "Pierre-Yves Grente",
+    position: "Defence Attaché",
+    company: "@French Embassy in Israel ",
+    photo: capitaine,
+    linkedin: "https://www.linkedin.com/in/pierre-yves-grente-9207aa1b8/"
+  }
 ];

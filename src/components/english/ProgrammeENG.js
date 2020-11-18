@@ -65,14 +65,15 @@ const ProgrammeENG = () => {
                 opportunities for the transfer of knowledge and technology.
                 Political relations between France and Israel are solid, with
                 France standing firm on the State of Israel's right to security.
-                The two countries cooperate in defense and intelligence but also
-                in areas such as civil aviation, or more recently the fight
-                against pandemics. The French economy, second in Europe by size,
-                provides market access for Israeli innovation and its powerful
-                research capabilities and teams. Geographical proximity and
-                cultural links are an asset, France being home to the largest
-                Jewish community in Europe, while Israel, one of the largest
-                French diasporas.
+                The Air Force Chief of Staff has just returned from a visit to
+                Israel. The two countries cooperate in defense and intelligence
+                but also in areas such as civil aviation, or more recently the
+                fight against pandemics. The French economy, second in Europe by
+                size, provides market access for Israeli innovation and its
+                powerful research capabilities and teams. Geographical proximity
+                and cultural links are an asset, France being home to the
+                largest Jewish community in Europe, while Israel, one of the
+                largest French diasporas.
               </p>
             </div>
           </div>
