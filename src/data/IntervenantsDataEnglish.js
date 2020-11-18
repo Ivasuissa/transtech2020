@@ -40,6 +40,14 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/eric-danon-aa891924/"
   },
   {
+    id: 2,
+    name: "Dan Catarivas",
+    position:
+      "Director General -Foreign Trade at Manufacturers' Association of Israel",
+    photo: dan,
+    linkedin: "https://www.linkedin.com/in/dan-catarivas-a68b932/"
+  },
+  {
     id: 1,
     name: "Henri Cukierman",
     position: "@France-Israel Chamber of Commerce",
@@ -114,6 +122,20 @@ export const IntervenantsData = [
     position: "Director Business France Israël @Business France",
     photo: gisele,
     linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
+  },
+  {
+    id: 13,
+    name: "Jeremie Kletzkine",
+    position: "VP of Business Development at Startup Nation Central",
+    photo: jeremie,
+    linkedin: "https://www.linkedin.com/in/jerem/"
+  },
+  {
+    id: 21,
+    name: "Valérie Zarka",
+    position: "CEO at MORE THAN DIGITAL ",
+    photo: zarka,
+    linkedin: "https://www.linkedin.com/in/valzarka/"
   }
 ];
 export const CybersecuData = [
@@ -229,14 +251,7 @@ export const FintechData = [
   }
 ];
 export const relationsData = [
-  {
-    id: 2,
-    name: "Dan Catarivas",
-    position:
-      "Director General -Foreign Trade at Manufacturers' Association of Israel",
-    photo: dan,
-    linkedin: "https://www.linkedin.com/in/dan-catarivas-a68b932/"
-  },
+
   {
     id: 9,
     name: "Daniel Sayag",
@@ -266,18 +281,5 @@ export const relationsData = [
     photo: dassault,
     linkedin: "https://www.linkedin.com/in/laurent-dassault-50368650/"
   },
-  {
-    id: 13,
-    name: "Jeremie Kletzkine",
-    position: "VP of Business Development at Startup Nation Central",
-    photo: jeremie,
-    linkedin: "https://www.linkedin.com/in/jerem/"
-  },
-  {
-    id: 21,
-    name: "Valérie Zarka",
-    position: "CEO at MORE THAN DIGITAL ",
-    photo: zarka,
-    linkedin: "https://www.linkedin.com/in/valzarka/"
-  }
+ 
 ];
