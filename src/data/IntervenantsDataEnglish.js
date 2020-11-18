@@ -26,7 +26,7 @@ import yossi from "../media/intervenants/intervenant24.jpeg";
 import ouriel from "../media/intervenants/ouriel.jpeg";
 import byrs from "../media/intervenants/byrs.jpeg";
 import dassault from "../media/intervenants/laurent.png";
-import petit from "../media/intervenants/intervenant5.jpeg";
+import flechter from "../media/intervenants/flechter.jpeg";
 import goldberg from "../media/intervenants/goldbert.jpeg";
 import henri from "../media/intervenants/henri.jpeg";
 import gisele from "../media/intervenants/Gisele.jpeg";
@@ -114,8 +114,7 @@ export const IntervenantsData = [
     position: "Director Business France Israël @Business France",
     photo: gisele,
     linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
- 
-  },
+  }
 ];
 export const CybersecuData = [
   {
@@ -157,6 +156,13 @@ export const CybersecuData = [
     position: "President @Apex Drone",
     photo: byrs,
     linkedin: "https://www.linkedin.com/in/laurens-byrs-285b78144/"
+  },
+  {
+    id: 18,
+    name: "Guy Flechter ",
+    position: "Founder @Cider Security",
+    photo: flechter,
+    linkedin: "https://www.linkedin.com/in/guy-flechter-ba475535/"
   }
 ];
 export const HealthTechData = [
@@ -275,4 +281,3 @@ export const relationsData = [
     linkedin: "https://www.linkedin.com/in/valzarka/"
   }
 ];
-
