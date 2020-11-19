@@ -40,6 +40,7 @@ import adam from "../media/intervenants/adam.jpeg";
 import naomie from "../media/intervenants/naomie.jpeg";
 import rosemblum from "../media/intervenants/rosemblum.jpeg";
 import salomon from "../media/intervenants/salomon.jpeg";
+import Liran from "../media/intervenants/Liran.jpeg";
 
 export const IntervenantsData = [
   {
@@ -158,13 +159,21 @@ export const IntervenantsData = [
   },
   {
     id: 20,
-    name: "Jean-Emile Rosemblum ",
+    name: "Jean-Emile Rosenblum ",
     position: "Entrepreneur / Investor / French Tech Tel Aviv",
     photo: rosemblum,
     linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
   },
+  {
+    id: 4,
+    name: "Amir Elichai",
+    position: "Founder, Chairman & CEO - Carbyne,",
+    company: "CyberSecurity expert",
+    photo: amir,
+    linkedin: "https://www.linkedin.com/in/amirelichai/"
+  }
 ];
-  export const startups = [
+export const startups = [
   {
     id: 1,
     name: "Jeremy Toledano ",
@@ -179,7 +188,7 @@ export const IntervenantsData = [
     photo: naomie,
     linkedin: "https://www.linkedin.com/in/naomie-nakache-935864138/"
   },
- 
+
   {
     id: 1,
     name: "Adrien Cohen",
@@ -196,14 +205,14 @@ export const IntervenantsData = [
     photo: adam,
     linkedin: "https://www.linkedin.com/in/aarie/"
   },
-  
+
   {
     id: 12,
     name: "Beatrice Chemla",
     position: "Co-fondatrice & CEO @IMMA ",
     photo: chemla,
     linkedin: "https://www.linkedin.com/in/beatricechemla/"
-  },
+  }
 ];
 export const CybersecuData = [
   {
@@ -222,32 +231,20 @@ export const CybersecuData = [
     linkedin:
       "https://www.linkedin.com/in/arik-kleinstein-a04147/?originalSubdomain=il"
   },
-  {
-    id: 4,
-    name: "Amir Elichai",
-    position: "Fondateur, Président & CEO @Carbyne ",
-    photo: amir,
-    linkedin: "https://www.linkedin.com/in/murieltouaty/"
-  },
-  {
-    id: 17,
-    name: "Guy Mizrachi",
-    position: "Directeur Cyber @Raizone",
-    photo: guy,
-    linkedin: "https://www.linkedin.com/in/guymiz/"
-  },
-  {
-    id: 28,
-    name: "Laurent Byrs*",
-    position: "President @Apex Drone",
-    photo: byrs,
-    linkedin: "https://www.linkedin.com/in/laurens-byrs-285b78144/"
-  },
+
   {
     id: 18,
     name: "Guy Flechter ",
     position: "Fondateur @Cider Security",
     photo: flechter,
+    linkedin: "https://www.linkedin.com/in/guy-flechter-ba475535/"
+  },
+
+  {
+    id: 18,
+    name: "Liran Sheinbox",
+    position: "Director of Cyber Security, CISO @Playtika",
+    photo: Liran,
     linkedin: "https://www.linkedin.com/in/guy-flechter-ba475535/"
   }
 ];
@@ -287,10 +284,10 @@ export const HealthTechData = [
     id: 20,
     name: "Aurelie Guthmann",
     position: "Country Representative of Bpifrance in Israel ",
-    company:"Head of Life Sciences",
+    company: "Head of Life Sciences",
     photo: aurelie,
     linkedin: "https://www.linkedin.com/in/aurelie-guthmann-3573b9/"
-  },
+  }
 ];
 export const FintechData = [
   {
