@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData } from "../../data/IntervenantsData";
+import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData, startups } from "../../data/IntervenantsData";
 
 export default class OrgaFR extends Component {
   state = {
@@ -8,10 +8,11 @@ export default class OrgaFR extends Component {
     HealthTechs : HealthTechData,
     Fintechs: FintechData,
     Relations: relationsData,
+    Startups : startups
 
   };
   render() {
-    let { intervenants, Cybersecus, HealthTechs, Fintechs, Relations } = this.state;
+    let { intervenants, Cybersecus, HealthTechs, Fintechs, Relations,  Startups } = this.state;
 
     return (
       <div id="intervenants">
@@ -107,7 +108,24 @@ export default class OrgaFR extends Component {
             );
           })}
         </ul>
-
+        <div className="intervenantsTitle">
+          <h2>Presentation Start-Ups</h2>
+        </div>
+        <ul className="intervenantsDisplay">
+          {Startups.map(Startup => {
+            return (
+              <li key={Startup.id}>
+                <img src={Startup.photo}></img>
+                <div className="iconLinkedin">
+                  <h3>{Startup.name}</h3>
+                 <a href={Startup.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
+                 </div>
+                <h5>{Startup.position}</h5>
+                <h5>{Startup.company}</h5>
+              </li>
+            );
+          })}
+        </ul>
       
        
           <h1>Partenaires</h1>

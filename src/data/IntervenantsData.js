@@ -154,7 +154,8 @@ export const IntervenantsData = [
     photo: zarka,
     linkedin: "https://www.linkedin.com/in/valzarka/"
   },
- 
+];
+  export const startups = [
   {
     id: 1,
     name: "Jeremy Toledano ",
@@ -162,14 +163,14 @@ export const IntervenantsData = [
     photo: toledano,
     linkedin: "https://www.linkedin.com/in/jeremytoledano/"
   },
-
   {
     id: 12,
-    name: "Beatrice Chemla",
-    position: "Co-fondatrice & CEO @IMMA ",
-    photo: chemla,
-    linkedin: "https://www.linkedin.com/in/beatricechemla/"
+    name: "Noamie Nakache ",
+    position: "CEO @GiveNReceive",
+    photo: naomie,
+    linkedin: "https://www.linkedin.com/in/naomie-nakache-935864138/"
   },
+ 
   {
     id: 1,
     name: "Adrien Cohen",
@@ -186,13 +187,14 @@ export const IntervenantsData = [
     photo: adam,
     linkedin: "https://www.linkedin.com/in/aarie/"
   },
+  
   {
     id: 12,
-    name: "Noamie Nakache ",
-    position: "CEO @GiveNReceive",
-    photo: naomie,
-    linkedin: "https://www.linkedin.com/in/naomie-nakache-935864138/"
-  }
+    name: "Beatrice Chemla",
+    position: "Co-fondatrice & CEO @IMMA ",
+    photo: chemla,
+    linkedin: "https://www.linkedin.com/in/beatricechemla/"
+  },
 ];
 export const CybersecuData = [
   {

@@ -4,7 +4,8 @@ import {
   CybersecuData,
   HealthTechData,
   FintechData,
-  relationsData
+  relationsData,
+  startups 
 } from "../../data/IntervenantsDataEnglish";
 
 export default class IntervenantENG extends Component {
@@ -13,7 +14,8 @@ export default class IntervenantENG extends Component {
     Cybersecus: CybersecuData,
     HealthTechs: HealthTechData,
     Fintechs: FintechData,
-    Relations: relationsData
+    Relations: relationsData,
+    Startups : startups 
   };
   render() {
     let {
@@ -21,7 +23,8 @@ export default class IntervenantENG extends Component {
       Cybersecus,
       HealthTechs,
       Fintechs,
-      Relations
+      Relations,
+      Startups
     } = this.state;
 
     return (
@@ -130,6 +133,28 @@ export default class IntervenantENG extends Component {
                 </div>
                 <h5>{Fintech.position}</h5>
                 <h5>{Fintech.company}</h5>
+              </li>
+            );
+          })}
+        </ul>
+
+        <div className="intervenantsTitle">
+          <h2>Start-ups Presentation</h2>
+        </div>
+        <ul className="PanelDisplay">
+          {Startups.map(Startup => {
+            return (
+              <li key={Startup.id}>
+                <img src={Startup.photo}></img>
+                <div className="iconLinkedin">
+                  <h3>{Startup.name}</h3>
+                  <a href={Startup.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
+                <h5>{Startup.position}</h5>
+                <h5>{Startup.company}</h5>
               </li>
             );
           })}
