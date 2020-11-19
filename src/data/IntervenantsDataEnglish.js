@@ -37,6 +37,8 @@ import chemla from "../media/intervenants/chemla.jpeg";
 import adrien from "../media/intervenants/adrien.jpeg";
 import adam from "../media/intervenants/adam.jpeg";
 import naomie from "../media/intervenants/naomie.jpeg";
+import rosemblum from "../media/intervenants/rosemblum.jpeg";
+import salomon from "../media/intervenants/salomon.jpeg";
 
 
 export const IntervenantsData = [
@@ -151,6 +153,13 @@ export const IntervenantsData = [
     position: "CEO at MORE THAN DIGITAL ",
     photo: zarka,
     linkedin: "https://www.linkedin.com/in/valzarka/"
+  },
+  {
+    id: 20,
+    name: "Jean-Emile Rosemblum ",
+    position: "Entrepreneur / Investor / French Tech Tel Aviv",
+    photo: rosemblum,
+    linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
   },
 ];
 export const startups = [
@@ -268,6 +277,13 @@ export const HealthTechData = [
     position: "Country Manager - OrCam",
     photo: bahloul,
     linkedin: "https://www.linkedin.com/in/julien-bahloul-59731625/"
+  },
+  {
+    id: 20,
+    name: "Gal Salomon",
+    position: "CEO @Clew Medical",
+    photo: salomon,
+    linkedin: "https://www.linkedin.com/in/gal-salomon-096391/"
   },
   {
     id: 20,

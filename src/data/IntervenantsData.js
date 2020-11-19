@@ -38,6 +38,8 @@ import chemla from "../media/intervenants/chemla.jpeg";
 import adrien from "../media/intervenants/adrien.jpeg";
 import adam from "../media/intervenants/adam.jpeg";
 import naomie from "../media/intervenants/naomie.jpeg";
+import rosemblum from "../media/intervenants/rosemblum.jpeg";
+import salomon from "../media/intervenants/salomon.jpeg";
 
 export const IntervenantsData = [
   {
@@ -154,6 +156,13 @@ export const IntervenantsData = [
     photo: zarka,
     linkedin: "https://www.linkedin.com/in/valzarka/"
   },
+  {
+    id: 20,
+    name: "Jean-Emile Rosemblum ",
+    position: "Entrepreneur / Investor / French Tech Tel Aviv",
+    photo: rosemblum,
+    linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
+  },
 ];
   export const startups = [
   {
@@ -265,6 +274,13 @@ export const HealthTechData = [
     company: "@Medasense Biometrics Ltd",
     photo: galit,
     linkedin: "https://www.linkedin.com/in/galitzuckerman/"
+  },
+  {
+    id: 20,
+    name: "Gal Salomon",
+    position: "CEO @Clew Medical",
+    photo: salomon,
+    linkedin: "https://www.linkedin.com/in/gal-salomon-096391/"
   },
 
   {
