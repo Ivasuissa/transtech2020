@@ -287,6 +287,7 @@ export const HealthTechData = [
     id: 20,
     name: "Aurelie Guthmann",
     position: "Country Representative of Bpifrance in Israel ",
+    company:"Head of Life Sciences",
     photo: aurelie,
     linkedin: "https://www.linkedin.com/in/aurelie-guthmann-3573b9/"
   },
