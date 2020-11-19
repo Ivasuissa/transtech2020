@@ -32,6 +32,12 @@ import henri from "../media/intervenants/henri.jpeg";
 import gisele from "../media/intervenants/Gisele.jpeg";
 import flechter from "../media/intervenants/flechter.jpeg";
 import capitaine from "../media/intervenants/capitaine.png";
+import aurelie from "../media/intervenants/aurelie.png";
+import toledano from "../media/intervenants/toledano.jpeg";
+import chemla from "../media/intervenants/chemla.jpeg";
+import adrien from "../media/intervenants/adrien.jpeg";
+import adam from "../media/intervenants/adam.jpeg";
+import naomie from "../media/intervenants/naomie.jpeg";
 
 export const IntervenantsData = [
   {
@@ -105,6 +111,13 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/raphaelouzan/"
   },
   {
+    id: 22,
+    name: "Didier Toubia",
+    position: "Co-Foundateur & CEO @Aleph Farms",
+    photo: toubia,
+    linkedin: "https://www.linkedin.com/in/didiertoubia/"
+  },
+  {
     id: 21,
     name: "Yoan Smadja",
     position: "CEO @Maison Kayser (Tel-Aviv) ",
@@ -140,6 +153,45 @@ export const IntervenantsData = [
     position: "CEO @MORE THAN DIGITAL ",
     photo: zarka,
     linkedin: "https://www.linkedin.com/in/valzarka/"
+  },
+ 
+  {
+    id: 1,
+    name: "Jeremy Toledano ",
+    position: "Fondateur & CEO @DeskPlan ",
+    photo: toledano,
+    linkedin: "https://www.linkedin.com/in/jeremytoledano/"
+  },
+
+  {
+    id: 12,
+    name: "Beatrice Chemla",
+    position: "Co-fondatrice & CEO @IMMA ",
+    photo: chemla,
+    linkedin: "https://www.linkedin.com/in/beatricechemla/"
+  },
+  {
+    id: 1,
+    name: "Adrien Cohen",
+    position: "CEO @Tykal.io ",
+    photo: adrien,
+    linkedin:
+      "https://www.linkedin.com/in/adriencharlescohen/?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAAL7_AYBDoB5NiTLA3WDO8bdYoCa9p0T8z4"
+  },
+
+  {
+    id: 12,
+    name: "Adam Arie ",
+    position: "CVO  @Pinsteps ",
+    photo: adam,
+    linkedin: "https://www.linkedin.com/in/aarie/"
+  },
+  {
+    id: 12,
+    name: "Noamie Nakache ",
+    position: "CEO @GiveNReceive",
+    photo: naomie,
+    linkedin: "https://www.linkedin.com/in/naomie-nakache-935864138/"
   }
 ];
 export const CybersecuData = [
@@ -212,13 +264,14 @@ export const HealthTechData = [
     photo: galit,
     linkedin: "https://www.linkedin.com/in/galitzuckerman/"
   },
+
   {
-    id: 22,
-    name: "Didier Toubia",
-    position: "Co-Foundateur & CEO @Aleph Farms",
-    photo: toubia,
-    linkedin: "https://www.linkedin.com/in/didiertoubia/"
-  }
+    id: 20,
+    name: "Aurelie Guthmann",
+    position: "Country Representative of Bpifrance in Israel ",
+    photo: aurelie,
+    linkedin: "https://www.linkedin.com/in/aurelie-guthmann-3573b9/"
+  },
 ];
 export const FintechData = [
   {
