@@ -41,6 +41,7 @@ import naomie from "../media/intervenants/naomie.jpeg";
 import rosemblum from "../media/intervenants/rosemblum.jpeg";
 import salomon from "../media/intervenants/salomon.jpeg";
 import Liran from "../media/intervenants/Liran.jpeg";
+import ofer from "../media/intervenants/ofer.jpeg";
 
 export const IntervenantsData = [
   {
@@ -245,6 +246,13 @@ export const CybersecuData = [
     name: "Liran Sheinbox",
     position: "Director of Cyber Security, CISO @Playtika",
     photo: Liran,
+    linkedin: "https://www.linkedin.com/in/guy-flechter-ba475535/"
+  },
+  {
+    id: 18,
+    name: "Ofer Wolf",
+    position: "COO @GuardiCore",
+    photo: ofer,
     linkedin: "https://www.linkedin.com/in/guy-flechter-ba475535/"
   }
 ];
