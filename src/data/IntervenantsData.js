@@ -301,14 +301,14 @@ export const FintechData = [
   {
     id: 6,
     name: "Edouard Cukierman",
-    position: "Fondatateur and Partenaire Manager @Catalyst Funds",
+    position: "Fondateur and Partenaire Manager @Catalyst Funds",
     photo: edouard,
     linkedin: "https://www.linkedin.com/in/edouard-cukierman-318733b/"
   },
   {
     id: 5,
     name: "Youval Rouach",
-    position: "Co-Foundateur & CEO",
+    position: "Co-Fondateur & CEO",
     company: "@Bit Of gold",
     photo: youval,
     linkedin: "https://www.linkedin.com/in/youvalrouach/"
