@@ -16,9 +16,9 @@ export const OrgaENG = [
   {
     id: 2,
     name: "Shiran Katz",
-    position: "Client Adviser & Vice President @Rothschild & Co",
+    position: "Vice President @Rothschild & Co",
     photo: shiran,
-    linkedin:"https://www.linkedin.com/in/shirankatz/"
+    linkedin: "https://www.linkedin.com/in/shirankatz/"
   },
   {
     id: 3,
@@ -29,20 +29,19 @@ export const OrgaENG = [
     linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
   },
 
-
   {
     id: 4,
     name: "André Dan",
     position: "Speakers & Coach, Co-Founder @Challengy",
     photo: andre,
-    linkedin:"https://www.linkedin.com/in/andredan/",
+    linkedin: "https://www.linkedin.com/in/andredan/"
   },
   {
     id: 7,
     name: "Ron Waldman",
     position: "Technology Partnerships @Haier Israel Innovation Center",
     photo: ron,
-    linkedin:"https://www.linkedin.com/in/ronwaldman/",
+    linkedin: "https://www.linkedin.com/in/ronwaldman/"
   },
   {
     id: 8,
@@ -50,7 +49,6 @@ export const OrgaENG = [
     position:
       "CEO @iKare Innovation, Experte (Innovation) & President of the France Foreign Trade Advisors  - Israel",
     photo: baer,
-    linkedin:"https://www.linkedin.com/in/annebaer/",
+    linkedin: "https://www.linkedin.com/in/annebaer/"
   }
-  
 ];

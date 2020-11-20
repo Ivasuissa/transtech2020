@@ -19,7 +19,7 @@ export const OrgaFR = [
   {
     id: 2,
     name: "Shiran Katz",
-    position: "Client Adviser & Vice President @Rothschild & Co",
+    position: "Vice President @Rothschild & Co",
     photo: shiran,
     linkedin:"https://www.linkedin.com/in/shirankatz/"
   },
