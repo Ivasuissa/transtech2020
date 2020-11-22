@@ -364,7 +364,7 @@ export const relationsData = [
   {
     id: 16,
     name: "Pierre-Yves Grente",
-    position: "General Attaché Militaire",
+    position: "Attaché Militaire",
     company: "@Ambassade de France en Israël ",
     photo: capitaine,
     linkedin: "https://www.linkedin.com/in/pierre-yves-grente-9207aa1b8/"
