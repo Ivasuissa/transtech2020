@@ -236,7 +236,7 @@ export const CybersecuData = [
   {
     id: 18,
     name: "Guy Flechter ",
-    position: "Fondateur @Cider Security",
+    position: "CISO & DPO at AppsFlyer",
     photo: flechter,
     linkedin: "https://www.linkedin.com/in/guy-flechter-ba475535/"
   },

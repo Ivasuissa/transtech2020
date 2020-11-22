@@ -42,7 +42,6 @@ import salomon from "../media/intervenants/salomon.jpeg";
 import Liran from "../media/intervenants/Liran.jpeg";
 import ofer from "../media/intervenants/ofer.jpeg";
 
-
 export const IntervenantsData = [
   {
     id: 1,
@@ -170,10 +169,9 @@ export const IntervenantsData = [
     company: "CyberSecurity expert",
     photo: amir,
     linkedin: "https://www.linkedin.com/in/amirelichai/"
-  },
+  }
 ];
 export const startups = [
-
   {
     id: 1,
     name: "Jeremy Toledano ",
@@ -189,7 +187,6 @@ export const startups = [
     linkedin: "https://www.linkedin.com/in/naomie-nakache-935864138/"
   },
 
- 
   {
     id: 1,
     name: "Adrien Cohen",
@@ -212,8 +209,7 @@ export const startups = [
     position: "Co-founder & CEO @IMMA ",
     photo: chemla,
     linkedin: "https://www.linkedin.com/in/beatricechemla/"
-  },
- 
+  }
 ];
 export const CybersecuData = [
   {
@@ -235,7 +231,7 @@ export const CybersecuData = [
   {
     id: 18,
     name: "Guy Flechter ",
-    position: "Founder @Cider Security",
+    position: "CISO & DPO at AppsFlyer",
     photo: flechter,
     linkedin: "https://www.linkedin.com/in/guy-flechter-ba475535/"
   },
@@ -289,11 +285,10 @@ export const HealthTechData = [
     id: 20,
     name: "Aurelie Guthmann",
     position: "Country Representative of Bpifrance in Israel ",
-    company:"Head of Life Sciences",
+    company: "Head of Life Sciences",
     photo: aurelie,
     linkedin: "https://www.linkedin.com/in/aurelie-guthmann-3573b9/"
-  },
-
+  }
 ];
 export const FintechData = [
   {
