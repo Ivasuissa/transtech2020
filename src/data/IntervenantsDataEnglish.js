@@ -157,7 +157,7 @@ export const IntervenantsData = [
   },
   {
     id: 20,
-    name: "Jean-Emile Rosemnlum ",
+    name: "Jean-Emile Rosenblum ",
     position: "Entrepreneur / Investor / French Tech Tel Aviv",
     photo: rosemblum,
     linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
