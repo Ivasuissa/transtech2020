@@ -225,7 +225,7 @@ export const CybersecuData = [
   },
   {
     id: 7,
-    name: "Arik KleinStein ",
+    name: "Arik Kleinstein ",
     position: "Founding Managing Partner ",
     company: "@Glilot Capital Partners",
     photo: arik,
