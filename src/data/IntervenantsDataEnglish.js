@@ -67,7 +67,6 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/henricukierman/"
   },
 
-
   {
     id: 1,
     name: "Gisèle Hivert-Messeca",
@@ -82,12 +81,9 @@ export const IntervenantsData = [
     position: "Entrepreneur / Investor / French Tech Tel Aviv",
     photo: rosemblum,
     linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
-  },
-
+  }
 ];
 export const expertsData = [
-  
-
   {
     id: 11,
     name: "Oren Kaniel ",
@@ -109,7 +105,6 @@ export const expertsData = [
     photo: patricia,
     linkedin: "https://www.linkedin.com/in/patricialahy/"
   },
-
 
   {
     id: 14,
@@ -161,9 +156,7 @@ export const expertsData = [
     company: "CyberSecurity expert",
     photo: amir,
     linkedin: "https://www.linkedin.com/in/amirelichai/"
-  },
-
-
+  }
 ];
 export const startups = [
   {
@@ -174,7 +167,7 @@ export const startups = [
     photo: yossi,
     linkedin: "https://www.linkedin.com/in/yossidan/"
   },
- 
+
   {
     id: 1,
     name: "Jeremy Toledano ",
@@ -305,7 +298,7 @@ export const FintechData = [
   {
     id: 5,
     name: "Ronen Assia",
-    position: "Founder @eToro & Managing Partner Team8 Fintech",
+    position: "Founder @eToro",
     company: "& Managing Partner Team8 Fintech",
     photo: ronen,
     linkedin: "https://www.https://www.linkedin.com/in/ronenassia/"

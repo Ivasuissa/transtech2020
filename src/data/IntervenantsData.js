@@ -303,7 +303,7 @@ export const FintechData = [
   {
     id: 5,
     name: "Ronen Assia",
-    position: "Fondateur @eToro & Managing Partner Team8 Fintech",
+    position: "Fondateur @eToro",
     company: "& Managing Partner Team8 Fintech",
     photo: ronen,
     linkedin: "https://www.https://www.linkedin.com/in/ronenassia/"
