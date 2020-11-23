@@ -54,7 +54,7 @@ export default class IntervenantENG extends Component {
         </ul>
         
         <div className="intervenantsTitle">
-          <h1>CEO & Experts</h1>
+          <h1> CEO & Experts Speakers</h1>
         </div>
         <ul className="intervenantsDisplay">
           {Experts.map(Expert => {
@@ -72,7 +72,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>Relations France / Israel</h1>
+          <h1>Relations France / Israel Speakers </h1>
         </div>
         <ul className="intervenantsDisplay">
           {Relations.map(Relation => {
@@ -94,7 +94,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>Cybersecurity</h1>
+          <h1>Cybersecurity Speakers </h1>
         </div>
         <ul className="PanelDisplay">
           {Cybersecus.map(Cybersecu => {
@@ -116,7 +116,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>Health Tech</h1>
+          <h1>Health Tech Speakers </h1>
         </div>
         <ul className="PanelDisplay">
           {HealthTechs.map(HealthTech => {
@@ -138,7 +138,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>Fintech & Blockchain</h1>
+          <h1>Fintech & Blockchain Speakers </h1>
         </div>
         <ul className="PanelDisplay">
           {Fintechs.map(Fintech => {
@@ -160,7 +160,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>Start-ups Presentation</h1>
+          <h1> Start-ups Pitching Speakers </h1>
         </div>
         <ul className="PanelDisplay">
           {Startups.map(Startup => {

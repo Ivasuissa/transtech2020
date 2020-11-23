@@ -42,6 +42,7 @@ import rosemblum from "../media/intervenants/rosemblum.jpeg";
 import salomon from "../media/intervenants/salomon.jpeg";
 import Liran from "../media/intervenants/Liran.jpeg";
 import ofer from "../media/intervenants/ofer.jpeg";
+import ronen from "../media/intervenants/ronen.jpeg";
 
 export const IntervenantsData = [
   {
@@ -66,8 +67,6 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/henricukierman/"
   },
 
-  
-
   {
     id: 11,
     name: "Patricia Lahy ",
@@ -90,8 +89,7 @@ export const IntervenantsData = [
     position: "Entrepreneur / Investor / French Tech Tel Aviv",
     photo: rosemblum,
     linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
-  },
- 
+  }
 ];
 export const expertsData = [
   {
@@ -109,7 +107,7 @@ export const expertsData = [
     photo: inbal,
     linkedin: "https://www.linkedin.com/in/inbalarieli/"
   },
- 
+
   {
     id: 13,
     name: "Raphael Ouzan",
@@ -161,10 +159,8 @@ export const expertsData = [
     company: "CyberSecurity expert",
     photo: amir,
     linkedin: "https://www.linkedin.com/in/amirelichai/"
-  },
-
-  
-]
+  }
+];
 export const startups = [
   {
     id: 5,
@@ -306,6 +302,14 @@ export const FintechData = [
   },
   {
     id: 5,
+    name: "Ronen Assia",
+    position: "Fondateur @eToro & Managing Partner Team8 Fintech",
+    company: "& Managing Partner Team8 Fintech",
+    photo: ronen,
+    linkedin: "https://www.https://www.linkedin.com/in/ronenassia/"
+  },
+  {
+    id: 5,
     name: "Youval Rouach",
     position: "Co-Fondateur & CEO",
     company: "@Bit Of gold",
@@ -369,4 +373,3 @@ export const relationsData = [
     linkedin: "https://www.linkedin.com/in/pierre-yves-grente-9207aa1b8/"
   }
 ];
-

@@ -21,7 +21,7 @@ import orcam from "../media/sponsors/orcam.png";
 import cce from "../media/sponsors/cce.png";
 import armelle from "../media/sponsors/armelle.png";
 import our from "../media/sponsors/our.png";
-
+import etoro from "../media/sponsors/etoro.png";
 const Partenaires = () => {
   return (
     <div className="partenaires">
@@ -33,6 +33,7 @@ const Partenaires = () => {
         <img className="tooBig" src={rothschild}></img>
         <img className="tooBig" src={iia}></img>
         <img className="tooBig" src={our}></img>
+        <img className="tooBig" src={etoro}></img>
         <img className="tooBig" src={upstream}></img>
         <img className="tooBig" src={appflyer}></img>
         <img className="tooBig" src={catalyst}></img>
@@ -48,7 +49,6 @@ const Partenaires = () => {
         <img className="tooBig" src={orcam}></img>
         <img className="tooBig" src={cce}></img>
         <img className="tooBig" src={armelle}></img>
-       
       </div>
     </div>
   );

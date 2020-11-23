@@ -1,24 +1,39 @@
 import React, { Component } from "react";
-import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData, startups, expertsData  } from "../../data/IntervenantsData";
+import {
+  IntervenantsData,
+  CybersecuData,
+  HealthTechData,
+  FintechData,
+  relationsData,
+  startups,
+  expertsData
+} from "../../data/IntervenantsData";
 
 export default class OrgaFR extends Component {
   state = {
     intervenants: IntervenantsData,
-    Cybersecus : CybersecuData,
-    HealthTechs : HealthTechData,
+    Cybersecus: CybersecuData,
+    HealthTechs: HealthTechData,
     Fintechs: FintechData,
     Relations: relationsData,
-    Startups : startups,
-    Experts: expertsData 
-
+    Startups: startups,
+    Experts: expertsData
   };
   render() {
-    let { intervenants, Cybersecus, HealthTechs, Fintechs, Relations,  Startups, Experts } = this.state;
+    let {
+      intervenants,
+      Cybersecus,
+      HealthTechs,
+      Fintechs,
+      Relations,
+      Startups,
+      Experts
+    } = this.state;
 
     return (
       <div id="intervenants">
         <div className="intervenantsTitle">
-          <h1>Intervenants Spéciaux</h1>
+          <h1>Speakers Spéciaux</h1>
         </div>
         <ul className="intervenantsDisplay">
           {intervenants.map(intervenant => {
@@ -27,8 +42,11 @@ export default class OrgaFR extends Component {
                 <img src={intervenant.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{intervenant.name}</h3>
-                 <a href={intervenant.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={intervenant.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{intervenant.position}</h5>
               </li>
             );
@@ -36,7 +54,7 @@ export default class OrgaFR extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>CEO & Experts</h1>
+          <h1> Speakers CEO & Experts</h1>
         </div>
         <ul className="intervenantsDisplay">
           {Experts.map(Expert => {
@@ -45,15 +63,18 @@ export default class OrgaFR extends Component {
                 <img src={Expert.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Expert.name}</h3>
-                 <a href={Expert.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Expert.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Expert.position}</h5>
               </li>
             );
           })}
         </ul>
         <div className="intervenantsTitle">
-          <h1>Relations France / Israël</h1>
+          <h1>Speakers Relations France / Israël</h1>
         </div>
         <ul className="intervenantsDisplay">
           {Relations.map(Relation => {
@@ -62,8 +83,11 @@ export default class OrgaFR extends Component {
                 <img src={Relation.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Relation.name}</h3>
-                 <a href={Relation.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Relation.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Relation.position}</h5>
                 <h5>{Relation.company}</h5>
               </li>
@@ -72,7 +96,7 @@ export default class OrgaFR extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>CyberSécurité</h1>
+          <h1>Speakers CyberSécurité</h1>
         </div>
         <ul className="PanelDisplay">
           {Cybersecus.map(Cybersecu => {
@@ -81,8 +105,11 @@ export default class OrgaFR extends Component {
                 <img src={Cybersecu.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Cybersecu.name}</h3>
-                 <a href={Cybersecu.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Cybersecu.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Cybersecu.position}</h5>
                 <h5>{Cybersecu.company}</h5>
               </li>
@@ -91,17 +118,20 @@ export default class OrgaFR extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>Health Tech</h1>
+          <h1>Speakers Health Tech</h1>
         </div>
         <ul className="PanelDisplay">
-          {HealthTechs .map(HealthTech => {
+          {HealthTechs.map(HealthTech => {
             return (
               <li key={HealthTech.id}>
                 <img src={HealthTech.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{HealthTech.name}</h3>
-                 <a href={HealthTech.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={HealthTech.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{HealthTech.position}</h5>
                 <h5>{HealthTech.company}</h5>
               </li>
@@ -110,7 +140,7 @@ export default class OrgaFR extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h1>Fintech & Blockchain</h1>
+          <h1>Speakers Fintech & Blockchain</h1>
         </div>
         <ul className="PanelDisplay">
           {Fintechs.map(Fintech => {
@@ -119,8 +149,11 @@ export default class OrgaFR extends Component {
                 <img src={Fintech.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Fintech.name}</h3>
-                 <a href={Fintech.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Fintech.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Fintech.position}</h5>
                 <h5>{Fintech.company}</h5>
               </li>
@@ -128,7 +161,7 @@ export default class OrgaFR extends Component {
           })}
         </ul>
         <div className="intervenantsTitle">
-          <h1> Presentation Start-Ups</h1>
+          <h1> Speakers Start-Ups Pitching</h1>
         </div>
         <ul className="intervenantsDisplay">
           {Startups.map(Startup => {
@@ -137,17 +170,19 @@ export default class OrgaFR extends Component {
                 <img src={Startup.photo}></img>
                 <div className="iconLinkedin">
                   <h3>{Startup.name}</h3>
-                 <a href={Startup.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
-                 </div>
+                  <a href={Startup.linkedin} target="_blank">
+                    {" "}
+                    <i className="fab fa-linkedin"></i>
+                  </a>
+                </div>
                 <h5>{Startup.position}</h5>
                 <h5>{Startup.company}</h5>
               </li>
             );
           })}
         </ul>
-      
-       
-          <h1>Partenaires</h1>
+
+        <h1>Partenaires</h1>
       </div>
     );
   }

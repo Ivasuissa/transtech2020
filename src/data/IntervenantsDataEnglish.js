@@ -41,6 +41,7 @@ import rosemblum from "../media/intervenants/rosemblum.jpeg";
 import salomon from "../media/intervenants/salomon.jpeg";
 import Liran from "../media/intervenants/Liran.jpeg";
 import ofer from "../media/intervenants/ofer.jpeg";
+import ronen from "../media/intervenants/ronen.jpeg";
 
 export const IntervenantsData = [
   {
@@ -300,6 +301,14 @@ export const FintechData = [
     position: "Founder and Managing Partner of Catalyst Funds",
     photo: edouard,
     linkedin: "https://www.linkedin.com/in/edouard-cukierman-318733b/"
+  },
+  {
+    id: 5,
+    name: "Ronen Assia",
+    position: "Founder @eToro & Managing Partner Team8 Fintech",
+    company: "& Managing Partner Team8 Fintech",
+    photo: ronen,
+    linkedin: "https://www.https://www.linkedin.com/in/ronenassia/"
   },
 
   {
