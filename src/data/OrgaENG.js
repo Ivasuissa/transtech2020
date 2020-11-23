@@ -31,8 +31,7 @@ export const OrgaENG = [
   {
     id: 8,
     name: "Anne Baer",
-    position:
-      "CEO @iKare Innovation, Experte (Innovation) & President of the France Foreign Trade Advisors  - Israel",
+    position: "CEO @iKare & President Israel @French Foreign Trade Advisors",
     photo: baer,
     linkedin: "https://www.linkedin.com/in/annebaer/"
   },
@@ -50,6 +49,5 @@ export const OrgaENG = [
     position: "Technology Partnerships @Haier Israel Innovation Center",
     photo: ron,
     linkedin: "https://www.linkedin.com/in/ronwaldman/"
-  },
-  
+  }
 ];
