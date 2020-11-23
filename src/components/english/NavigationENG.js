@@ -1,14 +1,5 @@
 import React from "react";
-import { NavLink, Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import MainEnglish from "../../MainEnglish";
-import MainFrench from "../../MainFrench";
-import AboutENG from "./AboutENG";
-import ProgrammeENG from "./ProgrammeENG";
-import Intervenants from "./IntervenantsENG";
-import HomeENG from "./HomeENG";
-import Contact from "../Contact";
-import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
+
 import FR from "../../media/france.png";
 import israelValley from "../../media/sponsors/israelvalley.png";
 import ccif from "../../media/sponsors/cciif.png";
