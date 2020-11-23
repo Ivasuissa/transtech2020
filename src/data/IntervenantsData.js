@@ -306,7 +306,7 @@ export const FintechData = [
     position: "Fondateur @eToro",
     company: "& Managing Partner Team8 Fintech",
     photo: ronen,
-    linkedin: "https://www.https://www.linkedin.com/in/ronenassia/"
+    linkedin: "https://www.linkedin.com/in/ronenassia/"
   },
   {
     id: 5,
