@@ -65,20 +65,27 @@ export const IntervenantsData = [
     photo: henri,
     linkedin: "https://www.linkedin.com/in/henricukierman/"
   },
+
+
   {
-    id: 12,
-    name: "Patricia Lahy ",
-    position: "Senior Director, Social R&D @Israel Innovation Authority",
-    photo: patricia,
-    linkedin: "https://www.linkedin.com/in/patricialahy/"
+    id: 1,
+    name: "Gisèle Hivert-Messeca",
+    position: "Director Business France Israël @Business France",
+    photo: gisele,
+    linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
   },
+
   {
-    id: 15,
-    name: "	Inbal Arieli",
-    position: "Author of Chutzpah, Global Speaker, Founder - Synthesis.",
-    photo: inbal,
-    linkedin: "https://www.linkedin.com/in/inbalarieli/"
+    id: 20,
+    name: "Jean-Emile Rosenblum ",
+    position: "Entrepreneur / Investor / French Tech Tel Aviv",
+    photo: rosemblum,
+    linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
   },
+
+];
+export const expertsData = [
+  
 
   {
     id: 11,
@@ -87,14 +94,21 @@ export const IntervenantsData = [
     photo: orenn,
     linkedin: "https://www.linkedin.com/in/orenkaniel/"
   },
-
   {
-    id: 19,
-    name: "Alon Leibovich",
-    position: "CoFounder & CEO - BrandTotal",
-    photo: alon,
-    linkedin: "https://www.linkedin.com/in/alon-leibovich-29903610/"
+    id: 15,
+    name: "	Inbal Arieli",
+    position: "Author of Chutzpah, Global Speaker, Founder - Synthesis.",
+    photo: inbal,
+    linkedin: "https://www.linkedin.com/in/inbalarieli/"
   },
+  {
+    id: 12,
+    name: "Patricia Lahy ",
+    position: "Senior Director, Social R&D @Israel Innovation Authority",
+    photo: patricia,
+    linkedin: "https://www.linkedin.com/in/patricialahy/"
+  },
+
 
   {
     id: 14,
@@ -103,43 +117,6 @@ export const IntervenantsData = [
       "Founder & CEO - A.Team | Founder and Investor - BlockNation |  CoFounderIsraël Tech Challenge",
     photo: ouzan,
     linkedin: "https://www.linkedin.com/in/raphaelouzan/"
-  },
-  {
-    id: 5,
-    name: "Yossi Dan",
-    position:
-      "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
-    photo: yossi,
-    linkedin: "https://www.linkedin.com/in/yossidan/"
-  },
-  {
-    id: 22,
-    name: "Didier Toubia",
-    position: "Co-Founder & CEO - Aleph Farms",
-    photo: toubia,
-    linkedin: "https://www.linkedin.com/in/didiertoubia/"
-  },
-  {
-    id: 20,
-    name: "Yoan Smadja",
-    position: "CEO Maison Kayser (Tel-Aviv) ",
-    photo: smadja,
-    linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
-  },
-
-  {
-    id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Swiss Ambassy en Israël",
-    photo: david,
-    linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  },
-  {
-    id: 1,
-    name: "Gisèle Hivert-Messeca",
-    position: "Director Business France Israël @Business France",
-    photo: gisele,
-    linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
   },
   {
     id: 13,
@@ -156,11 +133,25 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/valzarka/"
   },
   {
+    id: 19,
+    name: "Alon Leibovich",
+    position: "CoFounder & CEO - BrandTotal",
+    photo: alon,
+    linkedin: "https://www.linkedin.com/in/alon-leibovich-29903610/"
+  },
+  {
+    id: 22,
+    name: "Didier Toubia",
+    position: "Co-Founder & CEO - Aleph Farms",
+    photo: toubia,
+    linkedin: "https://www.linkedin.com/in/didiertoubia/"
+  },
+  {
     id: 20,
-    name: "Jean-Emile Rosenblum ",
-    position: "Entrepreneur / Investor / French Tech Tel Aviv",
-    photo: rosemblum,
-    linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
+    name: "Yoan Smadja",
+    position: "CEO Maison Kayser (Tel-Aviv) ",
+    photo: smadja,
+    linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
   },
   {
     id: 4,
@@ -169,9 +160,20 @@ export const IntervenantsData = [
     company: "CyberSecurity expert",
     photo: amir,
     linkedin: "https://www.linkedin.com/in/amirelichai/"
-  }
+  },
+
+
 ];
 export const startups = [
+  {
+    id: 5,
+    name: "Yossi Dan",
+    position:
+      "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
+    photo: yossi,
+    linkedin: "https://www.linkedin.com/in/yossidan/"
+  },
+ 
   {
     id: 1,
     name: "Jeremy Toledano ",
@@ -223,7 +225,8 @@ export const CybersecuData = [
   {
     id: 8,
     name: "Arik Kleinstein ",
-    position: "Founding Managing Partner @Glilot Capital Partners",
+    position: "Founding Managing Partner",
+    company: "@Glilot Capital Partners",
     photo: arik,
     linkedin:
       "https://www.linkedin.com/in/arik-kleinstein-a04147/?originalSubdomain=il"
@@ -270,7 +273,7 @@ export const HealthTechData = [
   {
     id: 17,
     name: "Julien Bahloul",
-    position: "Country Manager - OrCam",
+    position: "Country Manager @OrCam",
     photo: bahloul,
     linkedin: "https://www.linkedin.com/in/julien-bahloul-59731625/"
   },
@@ -284,7 +287,7 @@ export const HealthTechData = [
   {
     id: 20,
     name: "Aurelie Guthmann",
-    position: "Country Representative of Bpifrance in Israel ",
+    position: "Country Representative @Bpifrance in Israel ",
     company: "Head of Life Sciences",
     photo: aurelie,
     linkedin: "https://www.linkedin.com/in/aurelie-guthmann-3573b9/"

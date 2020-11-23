@@ -32,6 +32,7 @@ const Partenaires = () => {
         <img className="enorme" src={dell}></img>
         <img className="tooBig" src={rothschild}></img>
         <img className="tooBig" src={iia}></img>
+        <img className="tooBig" src={our}></img>
         <img className="tooBig" src={upstream}></img>
         <img className="tooBig" src={appflyer}></img>
         <img className="tooBig" src={catalyst}></img>
@@ -47,7 +48,7 @@ const Partenaires = () => {
         <img className="tooBig" src={orcam}></img>
         <img className="tooBig" src={cce}></img>
         <img className="tooBig" src={armelle}></img>
-        <img className="tooBig" src={our}></img>
+       
       </div>
     </div>
   );

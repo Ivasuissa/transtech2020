@@ -30,6 +30,14 @@ export const OrgaFR = [
     photo: petit,
     linkedin: "https://www.linkedin.com/in/fran%C3%A7ois-petit-a109201/"
   },
+  {
+    id: 8,
+    name: "Anne Baer",
+    position:
+      "CEO @iKare Innovation & Experte (Innovation) & Présidente Israël des Conseillers du Commerce Extérieur de la France",
+    photo: baer,
+    linkedin:"https://www.linkedin.com/in/annebaer/",
+  },
 
   {
     id: 4,
@@ -45,12 +53,5 @@ export const OrgaFR = [
     photo: ron,
     linkedin:"https://www.linkedin.com/in/ronwaldman/",
   },
-  {
-    id: 8,
-    name: "Anne Baer",
-    position:
-      "CEO @iKare Innovation & Experte (Innovation) & Présidente Israël des Conseillers du Commerce Extérieur de la France",
-    photo: baer,
-    linkedin:"https://www.linkedin.com/in/annebaer/",
-  }
+ 
 ];

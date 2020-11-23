@@ -66,14 +66,7 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/henricukierman/"
   },
 
-  {
-    id: 15,
-    name: "	Inbal Arieli",
-    position:
-      "Author du livre Chutzpah, Global Speaker, Foundatrice @Synthesis.",
-    photo: inbal,
-    linkedin: "https://www.linkedin.com/in/inbalarieli/"
-  },
+  
 
   {
     id: 11,
@@ -84,28 +77,39 @@ export const IntervenantsData = [
   },
 
   {
+    id: 1,
+    name: "Gisèle Hivert-Messeca",
+    position: "Directrice Business France Israël @Business France",
+    photo: gisele,
+    linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
+  },
+
+  {
+    id: 20,
+    name: "Jean-Emile Rosenblum ",
+    position: "Entrepreneur / Investor / French Tech Tel Aviv",
+    photo: rosemblum,
+    linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
+  },
+ 
+];
+export const expertsData = [
+  {
     id: 10,
     name: "Oren Kaniel ",
     position: "CEO & Co-Foundateur @The AppsFlyer Rocketship",
     photo: orenn,
     linkedin: "https://www.linkedin.com/in/orenkaniel/"
   },
-
   {
-    id: 19,
-    name: "Alon Leibovich",
-    position: "Co-Fondateur & CEO @BrandTotal",
-    photo: alon,
-    linkedin: "https://www.linkedin.com/in/alon-leibovich-29903610/"
-  },
-  {
-    id: 5,
-    name: "Yossi Dan",
+    id: 15,
+    name: "	Inbal Arieli",
     position:
-      "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
-    photo: yossi,
-    linkedin: "https://www.linkedin.com/in/yossidan/"
+      "Author du livre Chutzpah, Global Speaker, Foundatrice @Synthesis.",
+    photo: inbal,
+    linkedin: "https://www.linkedin.com/in/inbalarieli/"
   },
+ 
   {
     id: 13,
     name: "Raphael Ouzan",
@@ -113,35 +117,6 @@ export const IntervenantsData = [
       "CEO @A.Team, Fondateur @BlockNation, Co-Fondateur @Israël Tech Challenge",
     photo: ouzan,
     linkedin: "https://www.linkedin.com/in/raphaelouzan/"
-  },
-  {
-    id: 22,
-    name: "Didier Toubia",
-    position: "Co-Foundateur & CEO @Aleph Farms",
-    photo: toubia,
-    linkedin: "https://www.linkedin.com/in/didiertoubia/"
-  },
-  {
-    id: 21,
-    name: "Yoan Smadja",
-    position: "CEO @Maison Kayser (Tel-Aviv) ",
-    photo: smadja,
-    linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
-  },
-
-  {
-    id: 28,
-    name: "David Biegeleisen",
-    position: "Innovation Advisor @Ambassade de Suisse en Israël",
-    photo: david,
-    linkedin: "https://www.linkedin.com/in/david-biegeleisen-03477a4/"
-  },
-  {
-    id: 1,
-    name: "Gisèle Hivert-Messeca",
-    position: "Directrice Business France Israël @Business France",
-    photo: gisele,
-    linkedin: "https://www.linkedin.com/in/gis%C3%A8le-hivert-messeca-62128bbb/"
   },
 
   {
@@ -159,11 +134,25 @@ export const IntervenantsData = [
     linkedin: "https://www.linkedin.com/in/valzarka/"
   },
   {
-    id: 20,
-    name: "Jean-Emile Rosenblum ",
-    position: "Entrepreneur / Investor / French Tech Tel Aviv",
-    photo: rosemblum,
-    linkedin: "https://www.linkedin.com/in/jerosenblum/?originalSubdomain=fr"
+    id: 19,
+    name: "Alon Leibovich",
+    position: "Co-Fondateur & CEO @BrandTotal",
+    photo: alon,
+    linkedin: "https://www.linkedin.com/in/alon-leibovich-29903610/"
+  },
+  {
+    id: 22,
+    name: "Didier Toubia",
+    position: "Co-Foundateur & CEO @Aleph Farms",
+    photo: toubia,
+    linkedin: "https://www.linkedin.com/in/didiertoubia/"
+  },
+  {
+    id: 21,
+    name: "Yoan Smadja",
+    position: "CEO @Maison Kayser (Tel-Aviv) ",
+    photo: smadja,
+    linkedin: "https://www.linkedin.com/in/yoan-smadja-a1abb935/"
   },
   {
     id: 4,
@@ -172,9 +161,19 @@ export const IntervenantsData = [
     company: "CyberSecurity expert",
     photo: amir,
     linkedin: "https://www.linkedin.com/in/amirelichai/"
-  }
-];
+  },
+
+  
+]
 export const startups = [
+  {
+    id: 5,
+    name: "Yossi Dan",
+    position:
+      "Co-Fondateur & CEO @TrekFounders | Co-Fondateur & Chief Innovation Lab @Challengy",
+    photo: yossi,
+    linkedin: "https://www.linkedin.com/in/yossidan/"
+  },
   {
     id: 1,
     name: "Jeremy Toledano ",
@@ -370,3 +369,4 @@ export const relationsData = [
     linkedin: "https://www.linkedin.com/in/pierre-yves-grente-9207aa1b8/"
   }
 ];
+

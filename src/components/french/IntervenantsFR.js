@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData, startups } from "../../data/IntervenantsData";
+import { IntervenantsData, CybersecuData, HealthTechData, FintechData, relationsData, startups, expertsData  } from "../../data/IntervenantsData";
 
 export default class OrgaFR extends Component {
   state = {
@@ -8,16 +8,17 @@ export default class OrgaFR extends Component {
     HealthTechs : HealthTechData,
     Fintechs: FintechData,
     Relations: relationsData,
-    Startups : startups
+    Startups : startups,
+    Experts: expertsData 
 
   };
   render() {
-    let { intervenants, Cybersecus, HealthTechs, Fintechs, Relations,  Startups } = this.state;
+    let { intervenants, Cybersecus, HealthTechs, Fintechs, Relations,  Startups, Experts } = this.state;
 
     return (
       <div id="intervenants">
         <div className="intervenantsTitle">
-          <h1>Intervenants</h1>
+          <h1>Intervenants Spéciaux</h1>
         </div>
         <ul className="intervenantsDisplay">
           {intervenants.map(intervenant => {
@@ -33,8 +34,26 @@ export default class OrgaFR extends Component {
             );
           })}
         </ul>
+
         <div className="intervenantsTitle">
-          <h2>Relations France / Israël</h2>
+          <h1>CEO & Experts</h1>
+        </div>
+        <ul className="intervenantsDisplay">
+          {Experts.map(Expert => {
+            return (
+              <li key={Expert.id}>
+                <img src={Expert.photo}></img>
+                <div className="iconLinkedin">
+                  <h3>{Expert.name}</h3>
+                 <a href={Expert.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
+                 </div>
+                <h5>{Expert.position}</h5>
+              </li>
+            );
+          })}
+        </ul>
+        <div className="intervenantsTitle">
+          <h1>Relations France / Israël</h1>
         </div>
         <ul className="intervenantsDisplay">
           {Relations.map(Relation => {
@@ -53,7 +72,7 @@ export default class OrgaFR extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h2>CyberSécurité</h2>
+          <h1>CyberSécurité</h1>
         </div>
         <ul className="PanelDisplay">
           {Cybersecus.map(Cybersecu => {
@@ -72,7 +91,7 @@ export default class OrgaFR extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h2>Health Tech</h2>
+          <h1>Health Tech</h1>
         </div>
         <ul className="PanelDisplay">
           {HealthTechs .map(HealthTech => {
@@ -91,7 +110,7 @@ export default class OrgaFR extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h2>Fintech & Blockchain</h2>
+          <h1>Fintech & Blockchain</h1>
         </div>
         <ul className="PanelDisplay">
           {Fintechs.map(Fintech => {
@@ -109,7 +128,7 @@ export default class OrgaFR extends Component {
           })}
         </ul>
         <div className="intervenantsTitle">
-          <h2>Presentation Start-Ups</h2>
+          <h1> Presentation Start-Ups</h1>
         </div>
         <ul className="intervenantsDisplay">
           {Startups.map(Startup => {

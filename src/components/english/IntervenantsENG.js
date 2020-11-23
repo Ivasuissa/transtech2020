@@ -5,7 +5,8 @@ import {
   HealthTechData,
   FintechData,
   relationsData,
-  startups 
+  startups,
+  expertsData
 } from "../../data/IntervenantsDataEnglish";
 
 export default class IntervenantENG extends Component {
@@ -15,7 +16,8 @@ export default class IntervenantENG extends Component {
     HealthTechs: HealthTechData,
     Fintechs: FintechData,
     Relations: relationsData,
-    Startups : startups 
+    Startups : startups,
+    Experts : expertsData
   };
   render() {
     let {
@@ -24,13 +26,14 @@ export default class IntervenantENG extends Component {
       HealthTechs,
       Fintechs,
       Relations,
-      Startups
+      Startups,
+      Experts
     } = this.state;
 
     return (
       <div id="intervenants">
         <div className="intervenantsTitle">
-          <h1>Speakers</h1>
+          <h1>Special Speakers</h1>
         </div>
         <ul className="intervenantsDisplay">
           {intervenants.map(intervenant => {
@@ -49,9 +52,27 @@ export default class IntervenantENG extends Component {
             );
           })}
         </ul>
+        
+        <div className="intervenantsTitle">
+          <h1>CEO & Experts</h1>
+        </div>
+        <ul className="intervenantsDisplay">
+          {Experts.map(Expert => {
+            return (
+              <li key={Expert.id}>
+                <img src={Expert.photo}></img>
+                <div className="iconLinkedin">
+                  <h3>{Expert.name}</h3>
+                 <a href={Expert.linkedin} target="_blank"> <i className="fab fa-linkedin"></i></a>
+                 </div>
+                <h5>{Expert.position}</h5>
+              </li>
+            );
+          })}
+        </ul>
 
         <div className="intervenantsTitle">
-          <h2>Relations France / Israel</h2>
+          <h1>Relations France / Israel</h1>
         </div>
         <ul className="intervenantsDisplay">
           {Relations.map(Relation => {
@@ -73,7 +94,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h2>Cybersecurity</h2>
+          <h1>Cybersecurity</h1>
         </div>
         <ul className="PanelDisplay">
           {Cybersecus.map(Cybersecu => {
@@ -95,7 +116,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h2>Health Tech</h2>
+          <h1>Health Tech</h1>
         </div>
         <ul className="PanelDisplay">
           {HealthTechs.map(HealthTech => {
@@ -117,7 +138,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h2>Fintech & Blockchain</h2>
+          <h1>Fintech & Blockchain</h1>
         </div>
         <ul className="PanelDisplay">
           {Fintechs.map(Fintech => {
@@ -139,7 +160,7 @@ export default class IntervenantENG extends Component {
         </ul>
 
         <div className="intervenantsTitle">
-          <h2>Start-ups Presentation</h2>
+          <h1>Start-ups Presentation</h1>
         </div>
         <ul className="PanelDisplay">
           {Startups.map(Startup => {
