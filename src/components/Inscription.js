@@ -1,6 +1,7 @@
 import React from "react";
 import hum from "../media/hum.png";
 import rob from "../media/robot.png";
+import program from "../program.pdf";
 
 const Inscription = () => {
   return (
@@ -13,6 +14,14 @@ const Inscription = () => {
             target="_blank"
           >
             INSCRIPTION
+          </a>
+        </button>
+      </div>
+      <div className="inscriptionContent">
+        <button>
+          {" "}
+          <a href={program} target="_blank">
+            PLANNING
           </a>
         </button>
       </div>

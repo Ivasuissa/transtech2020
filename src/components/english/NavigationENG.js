@@ -12,6 +12,7 @@ import { BrowserRouter, Router, Route, Switch } from "react-router-dom";
 import FR from "../../media/france.png";
 import israelValley from "../../media/sponsors/israelvalley.png";
 import ccif from "../../media/sponsors/cciif.png";
+import program from "../../program.pdf";
 
 
 const NavigationENG = props => {
@@ -58,14 +59,15 @@ const NavigationENG = props => {
                   About
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#programme">
-                  Program
-                </a>
-              </li>
+            
               <li class="nav-item">
                 <a class="nav-link" href="#intervenants">
                   Speakers
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href={program} id="planning" target="_blank">
+                  Program
                 </a>
               </li>
               <li class="nav-item">

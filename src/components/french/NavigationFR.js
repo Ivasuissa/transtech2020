@@ -13,6 +13,7 @@ import anglais from "../../media/anglais.png";
 import israelValley from "../../media/sponsors/israelvalley.png";
 import ccif from "../../media/sponsors/cciif.png";
 import ccfi from "../../media/sponsors/ccfi.png";
+import program from "../../program.pdf";
 
 const NavigationFR = props => {
   const handleChange = props.handleChange;
@@ -64,14 +65,20 @@ const NavigationFR = props => {
                   À Propos
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#programme">
-                  Programme
-                </a>
-              </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#intervenants">
                   Intervenants
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href={program}
+                  id="planning"
+                  target="_blank"
+                >
+                  Programme
                 </a>
               </li>
               <li class="nav-item">
