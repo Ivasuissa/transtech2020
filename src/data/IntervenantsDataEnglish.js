@@ -42,6 +42,7 @@ import salomon from "../media/intervenants/salomon.jpeg";
 import Liran from "../media/intervenants/Liran.jpeg";
 import ofer from "../media/intervenants/ofer.jpeg";
 import ronen from "../media/intervenants/ronen.jpeg";
+import jon from "../media/intervenants/jon.png";
 
 export const IntervenantsData = [
   {
@@ -315,7 +316,7 @@ export const FintechData = [
     id: 6,
     name: "Jonathan Medved*",
     position: "CEO @OurCrowd",
-    photo: jonathan,
+    photo: jon,
     linkedin: "https://www.linkedin.com/in/jonathanmedved/"
   },
   {
