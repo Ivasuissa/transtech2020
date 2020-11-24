@@ -13,7 +13,8 @@ const ProgrammeFR = () => {
           <h5>4 thèmes pour cette 11ème Édition:</h5>
           <div className="blocA">
             <div id="security">
-              <h3>I. La Cybersécurité</h3>
+              <h3>I. La Cybersécurité </h3>
+              <h3>(15h-15h35 IL / 14h-14h35 FR)</h3>
               <p>
                 Israël est le deuxième pays au monde en matière d’exportation de
                 cyber-sécurité. En effet, de nombreux pays collaborent
@@ -27,7 +28,8 @@ const ProgrammeFR = () => {
               </p>
             </div>
             <div id="BitCoin">
-              <h3>II. Fintech & Blockchain</h3>
+              <h3>II. Fintech & Blockchain </h3>
+              <h3>(17h30-18h20 IL / 16h30-17h20 FR)</h3>
               <p>
                 Israël, un des États au monde où l’écosystème crypto est le plus
                 développé, s’apprête à prendre un véritable tournant dans ce
@@ -43,7 +45,8 @@ const ProgrammeFR = () => {
           </div>
           <div class="blocB">
             <div id="HealthTech">
-              <h3>III. HealthTech</h3>
+              <h3>III. HealthTech </h3>
+              <h3>(16h40-17h30 IL / 15h40-16h30 FR)</h3>
               <p>
                 Les nombreuses start-ups israéliennes dans le domaine de la
                 technologie de la santé suscitent un fort intérêt de l’étranger,
@@ -58,7 +61,8 @@ const ProgrammeFR = () => {
               </p>
             </div>
             <div id="relations">
-              <h3>IV. Les relations France / Israël</h3>
+              <h3>IV. Les relations France / Israël </h3>
+              <h3>(19-20h IL - 18h-19h FR)</h3>
               <p>
                 Du militaire vers le civil, les occasions de transfert de savoir
                 et de technologies ne manquent pas. Les relations politiques

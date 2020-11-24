@@ -17,6 +17,7 @@ const ProgrammeENG = () => {
           <div className="blocA">
             <div id="security">
               <h3>I. Cybersecurity </h3>
+              <h3>(15h-15h35 IL / 14h-14h35 FR)</h3>
               <p>
                 Israel is the second country in the world for cyber security
                 exports. Indeed, many countries are now working with Israeli
@@ -30,6 +31,7 @@ const ProgrammeENG = () => {
             </div>
             <div id="BitCoin">
               <h3>II. Fintech & Blockchain</h3>
+              <h3>(17h30-18h20 IL / 16h30-17h20 FR)</h3>
               <p>
                 Israel, one of the countries in the world with the most
                 developed crypto ecosystem, is about to take a real turn in this
@@ -46,6 +48,7 @@ const ProgrammeENG = () => {
           <div class="blocB">
             <div id="HealthTech">
               <h3>III. Health Tech</h3>
+              <h3>(16h40-17h30 IL / 15h40-16h30 FR)</h3>
               <p>
                 Israel’s many health tech start-ups are attracting unprecedented
                 interest from abroad, with multinational medical giants looking
@@ -60,6 +63,7 @@ const ProgrammeENG = () => {
             </div>
             <div id="relations">
               <h3>IV. Relations between Israel and France</h3>
+              <h3>(19-20h IL - 18h-19h FR)</h3>
               <p>
                 From the military to the civilian, there is no lack of
                 opportunities for the transfer of knowledge and technology.

@@ -294,13 +294,7 @@ export const HealthTechData = [
   }
 ];
 export const FintechData = [
-  {
-    id: 6,
-    name: "Edouard Cukierman",
-    position: "Fondateur and Partenaire Manager @Catalyst Funds",
-    photo: edouard,
-    linkedin: "https://www.linkedin.com/in/edouard-cukierman-318733b/"
-  },
+
   {
     id: 5,
     name: "Ronen Assia",
@@ -319,14 +313,14 @@ export const FintechData = [
   },
   {
     id: 6,
-    name: "Jonathan Medved*",
+    name: "Jonathan Medved",
     position: "CEO @OurCrowd",
     photo: jon,
     linkedin: "https://www.linkedin.com/in/jonathanmedved/"
   },
   {
     id: 6,
-    name: "Ouriel Ohayon*",
+    name: "Ouriel Ohayon",
     position: "CEO @ZenGo",
     photo: ouriel,
     linkedin: "https://www.linkedin.com/in/ourielohayon/?originalSubdomain=il"
